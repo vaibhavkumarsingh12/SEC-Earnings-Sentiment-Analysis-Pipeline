@@ -1508,11 +1508,19 @@
       if (!interactiveLottie) return;
 
       document.getElementById('lottie-play').addEventListener('click', () => {
-        interactiveLottie.play();
+        if (interactiveLottie.dotLottie) {
+          interactiveLottie.dotLottie.play();
+        } else if (typeof interactiveLottie.play === 'function') {
+          interactiveLottie.play();
+        }
       });
 
       document.getElementById('lottie-pause').addEventListener('click', () => {
-        interactiveLottie.pause();
+        if (interactiveLottie.dotLottie) {
+          interactiveLottie.dotLottie.pause();
+        } else if (typeof interactiveLottie.pause === 'function') {
+          interactiveLottie.pause();
+        }
       });
 
       const speedSlider = document.getElementById('lottie-speed');
@@ -1521,8 +1529,13 @@
       speedSlider.addEventListener('input', (e) => {
         const val = parseFloat(e.target.value);
         speedVal.textContent = `${val.toFixed(1)}x`;
-        // dotlottie-wc exposes speed as a property/attribute
-        interactiveLottie.speed = val;
+        
+        if (interactiveLottie.dotLottie) {
+          interactiveLottie.dotLottie.setSpeed(val);
+        } else {
+          interactiveLottie.speed = val;
+          interactiveLottie.setAttribute('speed', val);
+        }
       });
     }
 

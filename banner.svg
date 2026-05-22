@@ -1,157 +1,321 @@
 <svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" width="900" height="260">
   <defs>
+    <!-- Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&amp;family=Plus+Jakarta+Sans:wght@500;700&amp;display=swap');
+
+      /* Layout Styles */
+      .font-title {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+      .font-sub {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      /* Slow breathing background glows */
+      .ambient-glow-1 {
+        animation: breathe1 8s ease-in-out infinite;
+      }
+      .ambient-glow-2 {
+        animation: breathe2 10s ease-in-out infinite;
+      }
+      @keyframes breathe1 {
+        0%, 100% { opacity: 0.05; r: 120; }
+        50% { opacity: 0.12; r: 145; }
+      }
+      @keyframes breathe2 {
+        0%, 100% { opacity: 0.04; r: 110; }
+        50% { opacity: 0.09; r: 135; }
+      }
+
+      /* Logo pulse */
+      .logo-glow {
+        transform-origin: 65px 55px;
+        animation: logoGlowPulse 4s ease-in-out infinite;
+      }
+      @keyframes logoGlowPulse {
+        0%, 100% { opacity: 0.12; transform: scale(0.92); }
+        50% { opacity: 0.35; transform: scale(1.18); }
+      }
+
+      /* Wave flow animation - glowing dash traveling along path */
+      .glowing-wave {
+        stroke-dasharray: 120 400;
+        animation: dataFlow 6s linear infinite;
+      }
+      @keyframes dataFlow {
+        0% { stroke-dashoffset: 520; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      /* Sequential pipeline badge glowing */
+      .badge-step {
+        transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .badge-1 { animation: stepGlow1 12s infinite; }
+      .badge-2 { animation: stepGlow2 12s infinite; }
+      .badge-3 { animation: stepGlow3 12s infinite; }
+      .badge-4 { animation: stepGlow4 12s infinite; }
+      .badge-5 { animation: stepGlow5 12s infinite; }
+
+      @keyframes stepGlow1 {
+        0%, 16% { stroke: #3b82f6; fill: #1e293b; fill-opacity: 0.95; }
+        4%, 12% { stroke: #60a5fa; fill: #1e3a8a; fill-opacity: 1; filter: drop-shadow(0 0 5px rgba(59,130,246,0.6)); }
+        20%, 100% { stroke: #334155; fill: #0f172a; fill-opacity: 0.7; }
+      }
+      @keyframes stepGlow2 {
+        0%, 16%, 36%, 100% { stroke: #334155; fill: #0f172a; fill-opacity: 0.7; }
+        20%, 32% { stroke: #a78bfa; fill: #3b0764; fill-opacity: 1; filter: drop-shadow(0 0 5px rgba(139,92,246,0.6)); }
+      }
+      @keyframes stepGlow3 {
+        0%, 36%, 56%, 100% { stroke: #334155; fill: #0f172a; fill-opacity: 0.7; }
+        40%, 52% { stroke: #f472b6; fill: #500724; fill-opacity: 1; filter: drop-shadow(0 0 5px rgba(236,72,153,0.6)); }
+      }
+      @keyframes stepGlow4 {
+        0%, 56%, 76%, 100% { stroke: #334155; fill: #0f172a; fill-opacity: 0.7; }
+        60%, 72% { stroke: #34d399; fill: #022c22; fill-opacity: 1; filter: drop-shadow(0 0 5px rgba(16,185,129,0.6)); }
+      }
+      @keyframes stepGlow5 {
+        0%, 76%, 96%, 100% { stroke: #334155; fill: #0f172a; fill-opacity: 0.7; }
+        80%, 92% { stroke: #fbbf24; fill: #451a03; fill-opacity: 1; filter: drop-shadow(0 0 5px rgba(245,158,11,0.6)); }
+      }
+
+      /* Wave data dots pulsing in sync with badges */
+      .dot-glow-1 { animation: dotGlow1 12s infinite; transform-origin: 240px 120px; }
+      .dot-glow-2 { animation: dotGlow2 12s infinite; transform-origin: 420px 180px; }
+      .dot-glow-3 { animation: dotGlow3 12s infinite; transform-origin: 600px 87px; }
+      .dot-glow-4 { animation: dotGlow4 12s infinite; transform-origin: 780px 167px; }
+
+      @keyframes dotGlow1 {
+        0%, 16%, 100% { opacity: 0.15; transform: scale(1); }
+        4%, 12% { opacity: 0.7; transform: scale(1.6); }
+      }
+      @keyframes dotGlow2 {
+        0%, 16%, 36%, 100% { opacity: 0.15; transform: scale(1); }
+        20%, 32% { opacity: 0.7; transform: scale(1.6); }
+      }
+      @keyframes dotGlow3 {
+        0%, 36%, 56%, 100% { opacity: 0.15; transform: scale(1); }
+        40%, 52% { opacity: 0.7; transform: scale(1.6); }
+      }
+      @keyframes dotGlow4 {
+        0%, 56%, 76%, 100% { opacity: 0.15; transform: scale(1); }
+        60%, 72% { opacity: 0.7; transform: scale(1.6); }
+      }
+
+      /* Micro-charts & cards slow float animations */
+      .card-pulse {
+        animation: cardPulseAnim 6s ease-in-out infinite alternate;
+      }
+      @keyframes cardPulseAnim {
+        0% { stroke: #334155; transform: translateY(0); }
+        100% { stroke: #4f5e75; transform: translateY(-3px); }
+      }
+
+      .chart-pulse-1 {
+        animation: chartPulse 3s ease-in-out infinite alternate;
+      }
+      @keyframes chartPulse {
+        0% { stroke-dasharray: 100; stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 12; }
+      }
+
+      .bar-pulse-1 { animation: barAnim 0.9s infinite alternate; transform-origin: 823px 63px; }
+      .bar-pulse-2 { animation: barAnim 1.3s infinite alternate; transform-origin: 829px 63px; }
+      .bar-pulse-3 { animation: barAnim 0.7s infinite alternate; transform-origin: 835px 63px; }
+      @keyframes barAnim {
+        0% { transform: scaleY(0.5); }
+        100% { transform: scaleY(1.2); }
+      }
+    </style>
+
+    <!-- Gradients -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070a13"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="50%" stop-color="#080e22"/>
+      <stop offset="100%" stop-color="#0e172e"/>
     </linearGradient>
     <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#ec4899"/>
+      <stop offset="0%" stop-color="#3b82f6">
+        <animate attributeName="stop-color" values="#3b82f6; #8b5cf6; #ec4899; #3b82f6" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6; #ec4899; #3b82f6; #8b5cf6" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ec4899">
+        <animate attributeName="stop-color" values="#ec4899; #3b82f6; #8b5cf6; #ec4899" dur="10s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
     <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3"/>
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#10b981" stop-opacity="0.0"/>
     </linearGradient>
-    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
     </linearGradient>
     <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#6366f1"/>
       <stop offset="100%" stop-color="#8b5cf6"/>
     </linearGradient>
   </defs>
 
-  <!-- Background -->
+  <!-- Background Canvas -->
   <rect width="900" height="260" fill="url(#bgGrad)" rx="16"/>
 
-  <!-- Subtle ambient glows (static) -->
-  <circle cx="120" cy="130" r="180" fill="#3b82f6" opacity="0.05"/>
-  <circle cx="780" cy="130" r="180" fill="#ec4899" opacity="0.05"/>
-  <circle cx="450" cy="260" r="200" fill="#8b5cf6" opacity="0.04"/>
+  <!-- Subtle ambient glows -->
+  <circle cx="150" cy="80" r="120" fill="#3b82f6" opacity="0.06" class="ambient-glow-1"/>
+  <circle cx="750" cy="80" r="120" fill="#ec4899" opacity="0.05" class="ambient-glow-2"/>
 
-  <!-- Grid lines (horizontal) -->
-  <line x1="60" y1="50" x2="840" y2="50" stroke="#334155" stroke-width="0.5" opacity="0.2"/>
-  <line x1="60" y1="100" x2="840" y2="100" stroke="#334155" stroke-width="0.5" opacity="0.2"/>
-  <line x1="60" y1="150" x2="840" y2="150" stroke="#334155" stroke-width="0.5" opacity="0.2"/>
-  <line x1="60" y1="200" x2="840" y2="200" stroke="#334155" stroke-width="0.5" opacity="0.2"/>
+  <!-- Blueprint grid lines -->
+  <!-- Horizontal -->
+  <line x1="30" y1="45" x2="870" y2="45" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
+  <line x1="30" y1="90" x2="870" y2="90" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
+  <line x1="30" y1="135" x2="870" y2="135" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
+  <line x1="30" y1="180" x2="870" y2="180" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
+  <line x1="30" y1="225" x2="870" y2="225" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
+  <!-- Vertical -->
+  <line x1="100" y1="30" x2="100" y2="240" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
+  <line x1="220" y1="30" x2="220" y2="240" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
+  <line x1="340" y1="30" x2="340" y2="240" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
+  <line x1="460" y1="30" x2="460" y2="240" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
+  <line x1="580" y1="30" x2="580" y2="240" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
+  <line x1="700" y1="30" x2="700" y2="240" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
+  <line x1="820" y1="30" x2="820" y2="240" stroke="#1e293b" stroke-width="0.6" opacity="0.4"/>
 
-  <!-- Grid lines (vertical) -->
-  <line x1="150" y1="35" x2="150" y2="225" stroke="#334155" stroke-width="0.5" opacity="0.2"/>
-  <line x1="300" y1="35" x2="300" y2="225" stroke="#334155" stroke-width="0.5" opacity="0.2"/>
-  <line x1="450" y1="35" x2="450" y2="225" stroke="#334155" stroke-width="0.5" opacity="0.2"/>
-  <line x1="600" y1="35" x2="600" y2="225" stroke="#334155" stroke-width="0.5" opacity="0.2"/>
-  <line x1="750" y1="35" x2="750" y2="225" stroke="#334155" stroke-width="0.5" opacity="0.2"/>
+  <!-- Static Under-curve fill -->
+  <path d="M 40 200 C 120 180, 160 100, 240 120 C 320 140, 340 210, 420 180 C 500 150, 520 75, 600 87 C 680 99, 700 190, 780 167 C 820 155, 840 125, 860 120 L 860 225 L 40 225 Z" fill="url(#greenGrad)" opacity="0.08"/>
 
-  <!-- Financial chart wave (static) -->
-  <path d="M 60 200 C 130 175, 175 95, 240 115 C 305 135, 325 205, 390 175 C 455 145, 475 70, 540 82 C 605 94, 635 185, 700 162 C 735 150, 750 120, 840 110" fill="none" stroke="url(#primaryGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+  <!-- Muted Background chart line -->
+  <path d="M 40 200 C 120 180, 160 100, 240 120 C 320 140, 340 210, 420 180 C 500 150, 520 75, 600 87 C 680 99, 700 190, 780 167 C 820 155, 840 125, 860 120" fill="none" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" opacity="0.35"/>
 
-  <!-- Under-curve fill -->
-  <path d="M 60 200 C 130 175, 175 95, 240 115 C 305 135, 325 205, 390 175 C 455 145, 475 70, 540 82 C 605 94, 635 185, 700 162 C 735 150, 750 120, 840 110 L 840 225 L 60 225 Z" fill="url(#greenGrad)" opacity="0.12"/>
+  <!-- Dynamic Glowing Flow chart line -->
+  <path d="M 40 200 C 120 180, 160 100, 240 120 C 320 140, 340 210, 420 180 C 500 150, 520 75, 600 87 C 680 99, 700 190, 780 167 C 820 155, 840 125, 860 120" fill="none" stroke="url(#primaryGrad)" stroke-width="2.8" stroke-linecap="round" class="glowing-wave" opacity="0.95"/>
 
-  <!-- Data points on wave -->
-  <circle cx="240" cy="115" r="5" fill="#3b82f6" opacity="0.9"/>
-  <circle cx="240" cy="115" r="9" fill="#3b82f6" opacity="0.2"/>
-  <circle cx="390" cy="175" r="5" fill="#8b5cf6" opacity="0.9"/>
-  <circle cx="390" cy="175" r="9" fill="#8b5cf6" opacity="0.2"/>
-  <circle cx="540" cy="82" r="5" fill="#ec4899" opacity="0.9"/>
-  <circle cx="540" cy="82" r="9" fill="#ec4899" opacity="0.2"/>
-  <circle cx="700" cy="162" r="5" fill="#10b981" opacity="0.9"/>
-  <circle cx="700" cy="162" r="9" fill="#10b981" opacity="0.2"/>
+  <!-- Wave Data Nodes (Pulsing Glows and Core Dots) -->
+  <!-- Node 1 -->
+  <circle cx="240" cy="120" r="10" fill="#3b82f6" class="dot-glow-1" opacity="0.15"/>
+  <circle cx="240" cy="120" r="4.5" fill="#3b82f6" stroke="#ffffff" stroke-width="1"/>
+  <!-- Node 2 -->
+  <circle cx="420" cy="180" r="10" fill="#8b5cf6" class="dot-glow-2" opacity="0.15"/>
+  <circle cx="420" cy="180" r="4.5" fill="#8b5cf6" stroke="#ffffff" stroke-width="1"/>
+  <!-- Node 3 -->
+  <circle cx="600" cy="87" r="10" fill="#ec4899" class="dot-glow-3" opacity="0.15"/>
+  <circle cx="600" cy="87" r="4.5" fill="#ec4899" stroke="#ffffff" stroke-width="1"/>
+  <!-- Node 4 -->
+  <circle cx="780" cy="167" r="10" fill="#10b981" class="dot-glow-4" opacity="0.15"/>
+  <circle cx="780" cy="167" r="4.5" fill="#10b981" stroke="#ffffff" stroke-width="1"/>
 
-  <!-- FinBERT Card (top-left area) -->
-  <rect x="170" y="42" width="128" height="48" rx="8" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1" opacity="0.95"/>
-  <rect x="170" y="42" width="128" height="2" rx="1" fill="url(#primaryGrad)" opacity="0.8"/>
-  <text x="182" y="60" font-family="'Segoe UI', Arial, sans-serif" font-weight="600" font-size="9" fill="#64748b" letter-spacing="0.08em">MODEL: FINBERT</text>
-  <text x="182" y="76" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="13" fill="#60a5fa">Polarity: +0.482</text>
-  <path d="M 272 72 L 278 67 L 284 73 L 290 62" fill="none" stroke="#60a5fa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- HEADER SECTION (LEFT) -->
+  <!-- Logo ambient glow -->
+  <rect x="33" y="23" width="64" height="64" rx="16" fill="#3b82f6" opacity="0.15" class="logo-glow"/>
+  <!-- Logo container -->
+  <rect x="40" y="30" width="50" height="50" rx="13" fill="url(#logoGrad)" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.25"/>
+  <text x="65" y="66" font-family="'Outfit', sans-serif" font-weight="900" font-size="28" fill="#ffffff" text-anchor="middle">S</text>
 
-  <!-- CAR Card (top-right area) -->
-  <rect x="620" y="35" width="132" height="48" rx="8" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1" opacity="0.95"/>
-  <rect x="620" y="35" width="132" height="2" rx="1" fill="#10b981" opacity="0.6"/>
-  <text x="632" y="53" font-family="'Segoe UI', Arial, sans-serif" font-weight="600" font-size="9" fill="#64748b" letter-spacing="0.08em">MARKET CAR [-1,+3]</text>
-  <text x="632" y="69" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="13" fill="#34d399">Return: +8.42%</text>
-  <rect x="722" y="61" width="4" height="8" fill="#34d399" rx="1" opacity="0.8"/>
-  <rect x="728" y="57" width="4" height="12" fill="#34d399" rx="1" opacity="0.9"/>
-  <rect x="734" y="53" width="4" height="16" fill="#34d399" rx="1"/>
+  <!-- Titles -->
+  <text x="105" y="54" font-family="'Outfit', sans-serif" font-weight="800" font-size="22" fill="#f8fafc" letter-spacing="-0.02em" class="font-title">SEC Earnings Sentiment Analysis Pipeline</text>
+  <text x="105" y="73" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#64748b" letter-spacing="0.08em" class="font-sub">DUAL NLP (FINBERT &amp; LEXICON) / ALIGNED MARKET RETURNS &amp; EPS SURPRISES</text>
+  
+  <!-- Underline Accent -->
+  <rect x="105" y="80" width="460" height="1.5" rx="1" fill="url(#primaryGrad)"/>
 
-  <!-- Logo badge -->
-  <rect x="60" y="52" width="40" height="40" rx="10" fill="url(#logoGrad)"/>
-  <rect x="61" y="53" width="38" height="38" rx="9" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
-  <text x="80" y="79" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle">S</text>
+  <!-- METADATA CARDS (RIGHT) -->
+  <!-- Card 1: FinBERT -->
+  <g class="card-pulse">
+    <rect x="585" y="30" width="130" height="50" rx="10" fill="url(#cardGrad)" stroke="#1e293b" stroke-width="1"/>
+    <rect x="585" y="30" width="130" height="2.5" rx="1" fill="#60a5fa"/>
+    <text x="597" y="43" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="8.5" fill="#64748b" letter-spacing="0.06em" class="font-sub">MODEL: FINBERT</text>
+    <text x="597" y="62" font-family="'Outfit', sans-serif" font-weight="700" font-size="12.5" fill="#60a5fa" class="font-title">Polarity: +0.482</text>
+    <path d="M 684 59 L 690 54 L 696 60 L 702 49" fill="none" stroke="#60a5fa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="chart-pulse-1"/>
+  </g>
 
-  <!-- Main Title -->
-  <text x="112" y="74" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="24" fill="#f1f5f9" letter-spacing="-0.02em">SEC Earnings Sentiment Analysis Pipeline</text>
+  <!-- Card 2: Market CAR -->
+  <g class="card-pulse" style="animation-delay: -3s;">
+    <rect x="725" y="30" width="135" height="50" rx="10" fill="url(#cardGrad)" stroke="#1e293b" stroke-width="1"/>
+    <rect x="725" y="30" width="135" height="2.5" rx="1" fill="#10b981"/>
+    <text x="737" y="43" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="8.5" fill="#64748b" letter-spacing="0.06em" class="font-sub">MARKET CAR [-1,+3]</text>
+    <text x="737" y="62" font-family="'Outfit', sans-serif" font-weight="700" font-size="12.5" fill="#34d399" class="font-title">Return: +8.42%</text>
+    <!-- Micro Bars Icon -->
+    <rect x="821" y="55" width="3.2" height="7" fill="#34d399" rx="0.8" class="bar-pulse-1"/>
+    <rect x="827" y="51" width="3.2" height="11" fill="#34d399" rx="0.8" class="bar-pulse-2"/>
+    <rect x="833" y="47" width="3.2" height="15" fill="#34d399" rx="0.8" class="bar-pulse-3"/>
+  </g>
 
-  <!-- Subtitle -->
-  <text x="112" y="94" font-family="'Segoe UI', Arial, sans-serif" font-weight="500" font-size="11" fill="#64748b" letter-spacing="0.06em">DUAL NLP (FINBERT &amp; LEXICON) / ALIGNED MARKET RETURNS &amp; EPS SURPRISES</text>
-
-  <!-- Gradient accent line under header -->
-  <rect x="112" y="100" width="620" height="1.5" rx="1" fill="url(#primaryGrad)" opacity="0.6"/>
-
-  <!-- Pipeline step badges -->
+  <!-- PIPELINE STEPS SECTION (MIDDLE) -->
   <!-- Badge 1: SEC Download -->
-  <rect x="112" y="114" width="100" height="20" rx="5" fill="#1e293b" stroke="#3b82f6" stroke-width="0.8" opacity="0.95"/>
-  <circle cx="123" cy="124" r="3.5" fill="#3b82f6"/>
-  <text x="131" y="128" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="9.5" fill="#93c5fd">1. SEC DOWNLOAD</text>
+  <g>
+    <rect x="40" y="108" width="150" height="22" rx="6" fill="#1e293b" fill-opacity="0.95" stroke="#3b82f6" stroke-width="0.8" class="badge-step badge-1"/>
+    <circle cx="53" cy="119" r="3.5" fill="#3b82f6"/>
+    <text x="63" y="122.5" font-family="'Outfit', sans-serif" font-weight="700" font-size="9" fill="#93c5fd" class="font-title">1. SEC DOWNLOAD</text>
+  </g>
 
-  <!-- Badge 2: MDA Clean -->
-  <rect x="220" y="114" width="92" height="20" rx="5" fill="#1e293b" stroke="#8b5cf6" stroke-width="0.8" opacity="0.95"/>
-  <circle cx="231" cy="124" r="3.5" fill="#8b5cf6"/>
-  <text x="239" y="128" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="9.5" fill="#c4b5fd">2. MD&amp;A CLEAN</text>
+  <!-- Badge 2: MD&A Clean -->
+  <g>
+    <rect x="205" y="108" width="150" height="22" rx="6" fill="#1e293b" fill-opacity="0.95" stroke="#8b5cf6" stroke-width="0.8" class="badge-step badge-2"/>
+    <circle cx="218" cy="119" r="3.5" fill="#8b5cf6"/>
+    <text x="228" y="122.5" font-family="'Outfit', sans-serif" font-weight="700" font-size="9" fill="#c4b5fd" class="font-title">2. MD&amp;A CLEAN</text>
+  </g>
 
   <!-- Badge 3: Sentiment NLP -->
-  <rect x="320" y="114" width="108" height="20" rx="5" fill="#1e293b" stroke="#ec4899" stroke-width="0.8" opacity="0.95"/>
-  <circle cx="331" cy="124" r="3.5" fill="#ec4899"/>
-  <text x="339" y="128" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="9.5" fill="#f9a8d4">3. SENTIMENT NLP</text>
+  <g>
+    <rect x="370" y="108" width="150" height="22" rx="6" fill="#1e293b" fill-opacity="0.95" stroke="#ec4899" stroke-width="0.8" class="badge-step badge-3"/>
+    <circle cx="383" cy="119" r="3.5" fill="#ec4899"/>
+    <text x="393" y="122.5" font-family="'Outfit', sans-serif" font-weight="700" font-size="9" fill="#f9a8d4" class="font-title">3. SENTIMENT NLP</text>
+  </g>
 
   <!-- Badge 4: Market Align -->
-  <rect x="436" y="114" width="100" height="20" rx="5" fill="#1e293b" stroke="#10b981" stroke-width="0.8" opacity="0.95"/>
-  <circle cx="447" cy="124" r="3.5" fill="#10b981"/>
-  <text x="455" y="128" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="9.5" fill="#6ee7b7">4. MARKET ALIGN</text>
+  <g>
+    <rect x="535" y="108" width="150" height="22" rx="6" fill="#1e293b" fill-opacity="0.95" stroke="#10b981" stroke-width="0.8" class="badge-step badge-4"/>
+    <circle cx="548" cy="119" r="3.5" fill="#10b981"/>
+    <text x="558" y="122.5" font-family="'Outfit', sans-serif" font-weight="700" font-size="9" fill="#6ee7b7" class="font-title">4. MARKET ALIGN</text>
+  </g>
 
   <!-- Badge 5: Correlations -->
-  <rect x="544" y="114" width="106" height="20" rx="5" fill="#1e293b" stroke="#f59e0b" stroke-width="0.8" opacity="0.95"/>
-  <circle cx="555" cy="124" r="3.5" fill="#f59e0b"/>
-  <text x="563" y="128" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="9.5" fill="#fcd34d">5. CORRELATIONS</text>
+  <g>
+    <rect x="700" y="108" width="160" height="22" rx="6" fill="#1e293b" fill-opacity="0.95" stroke="#f59e0b" stroke-width="0.8" class="badge-step badge-5"/>
+    <circle cx="713" cy="119" r="3.5" fill="#f59e0b"/>
+    <text x="723" y="122.5" font-family="'Outfit', sans-serif" font-weight="700" font-size="9" fill="#fcd34d" class="font-title">5. CORRELATIONS</text>
+  </g>
 
-  <!-- Stats row -->
-  <rect x="112" y="148" width="620" height="56" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1" opacity="0.7"/>
+  <!-- STATS CONTAINER SECTION (BOTTOM) -->
+  <rect x="40" y="146" width="820" height="58" rx="12" fill="#0c1125" fill-opacity="0.85" stroke="#1e293b" stroke-width="1.2"/>
 
-  <!-- Stat 1: Banks -->
-  <text x="148" y="169" font-family="'Segoe UI', Arial, sans-serif" font-weight="600" font-size="9" fill="#475569" letter-spacing="0.08em" text-anchor="middle">BANKS</text>
-  <text x="148" y="188" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="19" fill="#f1f5f9" text-anchor="middle">5</text>
+  <!-- Column 1: Banks -->
+  <g>
+    <text x="122" y="166" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="8" fill="#475569" letter-spacing="0.08em" text-anchor="middle" class="font-sub">BANKS</text>
+    <text x="122" y="188" font-family="'Outfit', sans-serif" font-weight="900" font-size="22" fill="#f1f5f9" text-anchor="middle" class="font-title">5</text>
+  </g>
+  <line x1="204" y1="156" x2="204" y2="194" stroke="#1e293b" stroke-width="1" opacity="0.6"/>
 
-  <!-- Divider -->
-  <line x1="195" y1="158" x2="195" y2="196" stroke="#1e293b" stroke-width="1"/>
+  <!-- Column 2: Filings -->
+  <g>
+    <text x="286" y="166" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="8" fill="#475569" letter-spacing="0.08em" text-anchor="middle" class="font-sub">FILINGS</text>
+    <text x="286" y="188" font-family="'Outfit', sans-serif" font-weight="900" font-size="22" fill="#60a5fa" text-anchor="middle" class="font-title">25</text>
+  </g>
+  <line x1="368" y1="156" x2="368" y2="194" stroke="#1e293b" stroke-width="1" opacity="0.6"/>
 
-  <!-- Stat 2: Filings -->
-  <text x="248" y="169" font-family="'Segoe UI', Arial, sans-serif" font-weight="600" font-size="9" fill="#475569" letter-spacing="0.08em" text-anchor="middle">FILINGS</text>
-  <text x="248" y="188" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="19" fill="#60a5fa" text-anchor="middle">25</text>
+  <!-- Column 3: NLP Models -->
+  <g>
+    <text x="450" y="166" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="8" fill="#475569" letter-spacing="0.08em" text-anchor="middle" class="font-sub">NLP MODELS</text>
+    <text x="450" y="188" font-family="'Outfit', sans-serif" font-weight="900" font-size="22" fill="#c4b5fd" text-anchor="middle" class="font-title">2</text>
+  </g>
+  <line x1="532" y1="156" x2="532" y2="194" stroke="#1e293b" stroke-width="1" opacity="0.6"/>
 
-  <!-- Divider -->
-  <line x1="302" y1="158" x2="302" y2="196" stroke="#1e293b" stroke-width="1"/>
+  <!-- Column 4: Year Range -->
+  <g>
+    <text x="614" y="166" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="8" fill="#475569" letter-spacing="0.08em" text-anchor="middle" class="font-sub">YEAR RANGE</text>
+    <text x="614" y="187" font-family="'Outfit', sans-serif" font-weight="900" font-size="18" fill="#34d399" text-anchor="middle" class="font-title">2022-2026</text>
+  </g>
+  <line x1="696" y1="156" x2="696" y2="194" stroke="#1e293b" stroke-width="1" opacity="0.6"/>
 
-  <!-- Stat 3: NLP Models -->
-  <text x="370" y="169" font-family="'Segoe UI', Arial, sans-serif" font-weight="600" font-size="9" fill="#475569" letter-spacing="0.08em" text-anchor="middle">NLP MODELS</text>
-  <text x="370" y="188" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="19" fill="#c4b5fd" text-anchor="middle">2</text>
+  <!-- Column 5: Method -->
+  <g>
+    <text x="778" y="166" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="8" fill="#475569" letter-spacing="0.08em" text-anchor="middle" class="font-sub">CORRELATION METHOD</text>
+    <text x="778" y="187" font-family="'Outfit', sans-serif" font-weight="800" font-size="12" fill="#fcd34d" text-anchor="middle" class="font-title">Pearson + Spearman</text>
+  </g>
 
-  <!-- Divider -->
-  <line x1="440" y1="158" x2="440" y2="196" stroke="#1e293b" stroke-width="1"/>
-
-  <!-- Stat 4: Years -->
-  <text x="499" y="169" font-family="'Segoe UI', Arial, sans-serif" font-weight="600" font-size="9" fill="#475569" letter-spacing="0.08em" text-anchor="middle">YEAR RANGE</text>
-  <text x="499" y="188" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="16" fill="#34d399" text-anchor="middle">2022-2026</text>
-
-  <!-- Divider -->
-  <line x1="564" y1="158" x2="564" y2="196" stroke="#1e293b" stroke-width="1"/>
-
-  <!-- Stat 5: Method -->
-  <text x="646" y="169" font-family="'Segoe UI', Arial, sans-serif" font-weight="600" font-size="9" fill="#475569" letter-spacing="0.08em" text-anchor="middle">CORRELATION METHOD</text>
-  <text x="646" y="188" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="13" fill="#fcd34d" text-anchor="middle">Pearson + Spearman</text>
-
-  <!-- Bottom border accent -->
-  <rect x="0" y="252" width="900" height="8" rx="0" fill="url(#primaryGrad)" opacity="0.6"/>
-  <rect x="0" y="244" width="900" height="16" rx="0" fill="url(#bgGrad)" opacity="0.0"/>
+  <!-- Bottom Glowing Bar -->
+  <rect x="0" y="253" width="900" height="7" rx="0" fill="url(#primaryGrad)"/>
 </svg>
