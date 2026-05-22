@@ -200,30 +200,30 @@ def phase_5_analyze() -> None:
 
 def _print_summary(df, correlations: dict) -> None:
     """Print a formatted summary of the analysis results."""
-    print("\n" + "═" * 72)
-    print("  SEC EARNINGS SENTIMENT ANALYSIS — RESULTS SUMMARY")
-    print("═" * 72)
+    print("\n" + "=" * 72)
+    print("  SEC EARNINGS SENTIMENT ANALYSIS - RESULTS SUMMARY")
+    print("=" * 72)
 
     print(f"\n  Companies analyzed : {df['Ticker'].nunique()}")
     print(f"  Total filings      : {len(df)}")
-    print(f"  Year range         : {df['Year'].min()} – {df['Year'].max()}")
+    print(f"  Year range         : {df['Year'].min()} - {df['Year'].max()}")
 
-    print("\n  ── Sentiment Score Statistics ──")
+    print("\n  -- Sentiment Score Statistics --")
     for col in ["FinBERT_Score", "LM_Score"]:
         if col in df.columns and df[col].notna().any():
             print(f"  {col:20s}  mean={df[col].mean():+.4f}  std={df[col].std():.4f}  "
                   f"min={df[col].min():+.4f}  max={df[col].max():+.4f}")
 
-    print("\n  ── Key Correlations ──")
+    print("\n  -- Key Correlations --")
     for pair, vals in correlations.items():
-        sig = "✓" if vals.get("significant") else "✗"
+        sig = "SIG" if vals.get("significant") else "NS"
         print(f"  {pair:40s}  r={vals.get('pearson_r', 0):+.3f}  "
-              f"ρ={vals.get('spearman_rho', 0):+.3f}  "
+              f"rho={vals.get('spearman_rho', 0):+.3f}  "
               f"p={vals.get('pearson_p', 1):.4f}  [{sig}]")
 
-    print("\n" + "═" * 72)
+    print("\n" + "=" * 72)
     print(f"  Outputs saved to: {config.OUTPUT_DIR}")
-    print("═" * 72 + "\n")
+    print("=" * 72 + "\n")
 
 
 # ─────────────────────────────────────────────────────────────────────
