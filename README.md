@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" alt="SEC Earnings Sentiment Analysis Pipeline Hero Banner" width="100%"/>
+  <img src="https://raw.githubusercontent.com/vaibhavkumarsingh12/SEC-Earnings-Sentiment-Analysis-Pipeline/main/banner.svg" alt="SEC Earnings Sentiment Analysis Pipeline Hero Banner" width="100%"/>
   
   # SEC Earnings Sentiment Analysis Pipeline
   ### 10-K & 20-F Narrative Tracker — Deep Learning (FinBERT) vs. Lexicon Heuristics
