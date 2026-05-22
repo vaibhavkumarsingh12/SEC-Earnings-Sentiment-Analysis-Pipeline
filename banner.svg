@@ -96,7 +96,7 @@
   <circle cx="123" cy="124" r="3.5" fill="#3b82f6"/>
   <text x="131" y="128" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="9.5" fill="#93c5fd">1. SEC DOWNLOAD</text>
 
-  <!-- Badge 2: MD&A Clean -->
+  <!-- Badge 2: MDA Clean -->
   <rect x="220" y="114" width="92" height="20" rx="5" fill="#1e293b" stroke="#8b5cf6" stroke-width="0.8" opacity="0.95"/>
   <circle cx="231" cy="124" r="3.5" fill="#8b5cf6"/>
   <text x="239" y="128" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="9.5" fill="#c4b5fd">2. MD&amp;A CLEAN</text>
