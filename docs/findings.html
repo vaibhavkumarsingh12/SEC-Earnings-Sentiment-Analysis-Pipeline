@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storytelling Findings & Insights | SEC Sentiment Pipeline</title>
+  
+  <meta name="description" content="Discover the key findings from our SEC Earnings Sentiment Analysis. We map FinBERT deep learning NLP scores against market CAR and fundamental EPS surprises.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    /* DESIGN SYSTEM (Vanilla CSS with Tailored HSL Colors) */
+    :root {
+      --bg-base: hsl(222, 47%, 6%);
+      --bg-surface: hsla(217, 33%, 12%, 0.7);
+      --bg-surface-hover: hsla(217, 33%, 18%, 0.85);
+      --border-color: hsla(217, 20%, 25%, 0.4);
+      --border-color-focus: hsla(217, 80%, 60%, 0.6);
+      
+      --color-text-primary: hsl(210, 40%, 98%);
+      --color-text-secondary: hsl(215, 20%, 75%);
+      --color-text-muted: hsl(215, 12%, 55%);
+      
+      --color-brand: hsl(217, 91%, 60%);
+      --color-brand-glow: hsla(217, 91%, 60%, 0.15);
+      --color-brand-gradient: linear-gradient(135deg, hsl(217, 91%, 60%) 0%, hsl(263, 90%, 51%) 100%);
+      
+      --color-positive: hsl(142, 70%, 45%);
+      --color-negative: hsl(0, 72%, 50%);
+      --color-neutral: hsl(215, 20%, 65%);
+      
+      --shadow-md: 0 8px 24px -4px rgba(0, 0, 0, 0.6), 0 0 1px 1px rgba(255, 255, 255, 0.05) inset;
+      --shadow-lg: 0 16px 40px -8px rgba(0, 0, 0, 0.8), 0 0 1px 1px rgba(255, 255, 255, 0.08) inset;
+      
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      
+      --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--color-text-primary);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      padding: 0;
+      min-height: 100vh;
+      background-image: 
+        radial-gradient(circle at 15% 15%, hsla(217, 90%, 50%, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, hsla(263, 90%, 50%, 0.08) 0%, transparent 45%);
+      background-attachment: fixed;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    /* Header Design */
+    header {
+      text-align: center;
+      margin-bottom: 4rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 2rem;
+    }
+
+    .header-logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .logo-badge {
+      background: var(--color-brand-gradient);
+      width: 56px;
+      height: 56px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px hsla(217, 90%, 50%, 0.3);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      background: linear-gradient(to right, #fff, var(--color-text-secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: var(--color-text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Navigation */
+    .nav-bar {
+      margin-top: 1.5rem;
+    }
+    
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--color-brand);
+      text-decoration: none;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border-radius: 50px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      transition: var(--transition-smooth);
+    }
+    
+    .nav-link:hover {
+      background: var(--color-brand-glow);
+      border-color: var(--color-brand);
+      color: #fff;
+    }
+
+    /* Story Sections */
+    .story-section {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-md);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      padding: 2.5rem;
+      margin-bottom: 3rem;
+      transition: var(--transition-smooth);
+    }
+
+    .story-section:hover {
+      box-shadow: var(--shadow-lg);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .story-section h2 {
+      font-size: 1.8rem;
+      color: #fff;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .story-section h2 .badge {
+      font-size: 0.8rem;
+      font-family: 'Inter', sans-serif;
+      background: var(--color-brand-glow);
+      color: var(--color-brand);
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      border: 1px solid var(--border-color-focus);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .story-section h2 .badge.highlight {
+      background: hsla(38, 92%, 50%, 0.15);
+      color: hsl(38, 92%, 60%);
+      border-color: hsla(38, 92%, 50%, 0.4);
+    }
+
+    .story-section p {
+      color: var(--color-text-secondary);
+      margin-bottom: 1.5rem;
+      font-size: 1.05rem;
+    }
+
+    .story-section .key-insight {
+      background: rgba(0,0,0,0.3);
+      border-left: 4px solid var(--color-brand);
+      padding: 1rem 1.5rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin-bottom: 2rem;
+      font-style: italic;
+      color: var(--color-text-primary);
+    }
+
+    .story-section .key-insight strong {
+      color: var(--color-brand);
+      font-style: normal;
+    }
+
+    .plot-container {
+      width: 100%;
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      background: #fff; /* Plots have white background */
+      margin-bottom: 1.5rem;
+    }
+
+    .plot-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .plot-caption {
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+      margin-top: 0.5rem;
+    }
+
+    /* Grid for multiple plots */
+    .plot-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    
+    @media (max-width: 768px) {
+      .plot-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Call To Action Footer */
+    .cta-footer {
+      text-align: center;
+      padding: 4rem 0 2rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--color-brand-gradient);
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+      padding: 1rem 2.5rem;
+      border-radius: 50px;
+      box-shadow: 0 8px 24px hsla(217, 90%, 50%, 0.4);
+      transition: var(--transition-smooth);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px hsla(217, 90%, 50%, 0.6);
+    }
+    
+    /* Import dotlottie component for the logo */
+    dotlottie-wc {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <script type="module" src="https://unpkg.com/@lottiefiles/dotlottie-wc@latest/dist/dotlottie-wc.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- HEADER -->
+    <header>
+      <div class="header-logo">
+        <div class="logo-badge">
+          <dotlottie-wc id="lottie-logo-canvas" src="./animation.json" autoplay loop style="width: 40px; height: 40px; display: block;"></dotlottie-wc>
+        </div>
+      </div>
+      <h1>Pipeline Findings & Insights</h1>
+      <p>We analyzed SEC 10-K and 20-F filings from major banks (2022-2026) using deep learning and legacy lexicons to decode the true correlation between corporate narratives and market reality.</p>
+      
+      <div class="nav-bar">
+        <a href="index.html" class="nav-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          Back to Interactive Dashboard
+        </a>
+      </div>
+    </header>
+
+    <!-- SECTION 1 -->
+    <section class="story-section">
+      <h2>The Market Reaction <span class="badge">FinBERT vs CAR</span></h2>
+      <p>Our first investigation sought to determine if the complex, dense narratives within SEC filings immediately move the needle on stock prices. We mapped the deep-learning generated <strong>FinBERT Net Sentiment</strong> against <strong>Cumulative Abnormal Returns (CAR)</strong>, tracked over a [-1, +3] day trading window relative to the XLF sector benchmark.</p>
+      
+      <div class="key-insight">
+        <strong>Financial Insight:</strong> Short-term stock returns do not show a significant linear correlation with dense MD&A narrative sentiments. The market digests deep regulatory risk disclosures over a wider horizon rather than in immediate trading windows.
+        <br><br>
+        <span style="font-size: 0.9rem; color: var(--color-text-muted);">Statistics: Pearson r = -0.092 (p = 0.6621) | Spearman rho = +0.049 (p = 0.8152)</span>
+      </div>
+
+      <div class="plot-container">
+        <img src="plots/FinBERT_Score_vs_CAR.png" alt="FinBERT Score vs Cumulative Abnormal Returns">
+      </div>
+      <div class="plot-caption">Scatter plot with linear regression and confidence bands illustrating the flat relationship between immediate market returns and text sentiment.</div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="story-section">
+      <h2>The Fundamental Truth <span class="badge highlight">Key Discovery</span></h2>
+      <p>If immediate stock prices don't reflect the sentiment in the text, what does? We aligned the FinBERT narrative sentiment scores with the quarterly <strong>Earnings Per Share (EPS) Surprise %</strong>. The results were astounding.</p>
+      
+      <div class="key-insight">
+        <strong>Financial Insight:</strong> We discovered a strong, statistically significant rank-order monotonic correlation between context-aware FinBERT sentiment and core fundamental EPS surprises! Firms displaying positive sentiment momentum in narrative discussions are highly correlated with stronger corporate outperformance on earnings surprises.
+        <br><br>
+        <span style="font-size: 0.9rem; color: var(--color-text-muted);">Statistics: Pearson r = -0.009 (p = 0.9716) | <strong style="color: hsl(38, 92%, 60%);">Spearman rho = +0.524 (p = 0.0307)</strong></span>
+      </div>
+
+      <div class="plot-container">
+        <img src="plots/FinBERT_Score_vs_EPS.png" alt="FinBERT Score vs EPS Surprise %">
+      </div>
+      <div class="plot-caption">Plot mapping deep learning sentiment directly to fundamental EPS surprises. Notice the monotonic upward trend captured by the Spearman rank correlation.</div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="story-section">
+      <h2>Deep Learning vs Legacy Lexicons <span class="badge">Model Comparison</span></h2>
+      <p>To prove the value of our Transformer architecture (FinBERT), we benchmarked it against the traditional <strong>Loughran-McDonald (LM) financial lexicon</strong>—a classic "bag-of-words" counting method used in quantitative finance for over a decade.</p>
+      
+      <div class="key-insight">
+        <strong>Financial Insight:</strong> The traditional lexicon counting shows a directional positive correlation with fundamental surprises but <em>fails to cross the 95% statistical significance threshold</em>. This highlights the superior analytical power of transformer-based deep learning over static word-counting engines when interpreting complex disclosures.
+        <br><br>
+        <span style="font-size: 0.9rem; color: var(--color-text-muted);">Statistics (LM vs EPS): Pearson r = +0.023 (p = 0.9300) | Spearman rho = +0.400 (p = 0.1121)</span>
+      </div>
+
+      <div class="plot-grid">
+        <div>
+          <div class="plot-container">
+            <img src="plots/LM_Score_vs_EPS.png" alt="Loughran-McDonald Score vs EPS Surprise">
+          </div>
+          <div class="plot-caption">LM Lexicon vs EPS Surprise</div>
+        </div>
+        <div>
+          <div class="plot-container">
+            <img src="plots/LM_Score_vs_CAR.png" alt="Loughran-McDonald Score vs CAR">
+          </div>
+          <div class="plot-caption">LM Lexicon vs CAR</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4 -->
+    <section class="story-section">
+      <h2>Macro Trends & Heatmap <span class="badge">Visual Analytics</span></h2>
+      <p>Finally, we visualized the longitudinal trajectory of sentiment across the banking sector from 2022 to 2026, alongside a comprehensive correlation matrix of all our extracted metrics.</p>
+      
+      <div class="plot-container">
+        <img src="plots/comparative_sentiment_scores.png" alt="Comparative Timeline of Sentiment Dynamics">
+      </div>
+      <div class="plot-caption" style="margin-bottom: 2rem;">Comparative timeline showing sentiment dynamics for JPM, GS, WFC, C, and HSBC.</div>
+
+      <div class="plot-container" style="max-width: 600px; margin: 0 auto;">
+        <img src="plots/correlation_heatmap.png" alt="Correlation Heatmap">
+      </div>
+      <div class="plot-caption">Comprehensive Pearson and Spearman correlation heat matrix.</div>
+    </section>
+
+    <!-- CTA -->
+    <footer class="cta-footer">
+      <h3 style="margin-bottom: 1.5rem; font-size: 1.8rem;">Ready to explore the data?</h3>
+      <a href="index.html" class="cta-button">
+        Launch Interactive Dashboard
+      </a>
+    </footer>
+
+  </div>
+
+</body>
+</html>
