@@ -1,0 +1,5 @@
+Pair,Pearson_r,Pearson_p,Spearman_rho,Spearman_p,Significant,N
+FinBERT_Score vs Market_CAR,-0.0919,0.6621,0.0492,0.8152,False,25
+LM_Score vs Market_CAR,-0.1136,0.5888,0.0,1.0,False,25
+FinBERT_Score vs EPS_Surprise_Pct,-0.0093,0.9716,0.5245,0.0307,True,17
+LM_Score vs EPS_Surprise_Pct,0.023,0.93,0.3995,0.1121,False,17

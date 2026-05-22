@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEC Earnings Sentiment Analysis Dashboard | FinBERT NLP &amp; Market Returns</title>
+  <meta name="description" content="Interactive glassmorphic dashboard analyzing SEC 10-K/20-F filings for JPM, GS, WFC, C, and HSBC (2022-2026). Dual NLP scoring (FinBERT deep learning + Loughran-McDonald lexicon) aligned with Cumulative Abnormal Returns (CAR) and EPS Surprises.">
+  <meta name="author" content="Vaibhav Kumar Singh">
+  <meta name="keywords" content="SEC, Earnings, Sentiment Analysis, FinBERT, NLP, 10-K, 20-F, MD&amp;A, CAR, EPS, JPMorgan, Goldman Sachs, Citigroup, Wells Fargo, HSBC, Dashboard">
+  <meta name="theme-color" content="#070a13">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Canonical URL for GitHub Pages -->
+  <link rel="canonical" href="https://vaibhavkumarsingh12.github.io/SEC-Earnings-Sentiment-Analysis-Pipeline/">
+
+  <!-- Favicon (inline SVG data URI - no external file needed) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>" type="image/svg+xml">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vaibhavkumarsingh12.github.io/SEC-Earnings-Sentiment-Analysis-Pipeline/">
+  <meta property="og:title" content="SEC Earnings Sentiment Analysis Dashboard">
+  <meta property="og:description" content="Interactive NLP dashboard: FinBERT deep learning &amp; Loughran-McDonald lexicon scoring of SEC 10-K/20-F filings for 5 major banks (2022-2026), aligned with market CAR and EPS surprises.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/vaibhavkumarsingh12/SEC-Earnings-Sentiment-Analysis-Pipeline/main/banner.svg">
+  <meta property="og:site_name" content="SEC Earnings Sentiment Pipeline">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SEC Earnings Sentiment Analysis Dashboard">
+  <meta name="twitter:description" content="Interactive NLP dashboard: FinBERT + Loughran-McDonald scoring of SEC filings for JPM, GS, WFC, C, HSBC (2022-2026) with market return alignment.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/vaibhavkumarsingh12/SEC-Earnings-Sentiment-Analysis-Pipeline/main/banner.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <style>
+    /* ─────────────────────────────────────────────────────────────────────────
+       DESIGN SYSTEM (Vanilla CSS with Tailored HSL Colors)
+       ───────────────────────────────────────────────────────────────────────── */
+    :root {
+      --bg-base: hsl(222, 47%, 6%);
+      --bg-surface: hsla(217, 33%, 12%, 0.7);
+      --bg-surface-hover: hsla(217, 33%, 18%, 0.85);
+      --border-color: hsla(217, 20%, 25%, 0.4);
+      --border-color-focus: hsla(217, 80%, 60%, 0.6);
+      
+      --color-text-primary: hsl(210, 40%, 98%);
+      --color-text-secondary: hsl(215, 20%, 75%);
+      --color-text-muted: hsl(215, 12%, 55%);
+      
+      --color-brand: hsl(217, 91%, 60%);
+      --color-brand-glow: hsla(217, 91%, 60%, 0.15);
+      --color-brand-gradient: linear-gradient(135deg, hsl(217, 91%, 60%) 0%, hsl(263, 90%, 51%) 100%);
+      
+      --color-positive: hsl(142, 70%, 45%);
+      --color-positive-glow: hsla(142, 70%, 45%, 0.15);
+      --color-negative: hsl(0, 72%, 50%);
+      --color-negative-glow: hsla(0, 72%, 50%, 0.15);
+      --color-neutral: hsl(215, 20%, 65%);
+      
+      --shadow-sm: 0 2px 8px -2px rgba(0, 0, 0, 0.5);
+      --shadow-md: 0 8px 24px -4px rgba(0, 0, 0, 0.6), 0 0 1px 1px rgba(255, 255, 255, 0.05) inset;
+      --shadow-lg: 0 16px 40px -8px rgba(0, 0, 0, 0.8), 0 0 1px 1px rgba(255, 255, 255, 0.08) inset;
+      
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      
+      --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --transition-fast: all 0.15s ease-out;
+    }
+
+    /* Reset & Base Elements */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--color-text-primary);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.5;
+      padding: 0;
+      min-height: 100vh;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 15%, hsla(217, 90%, 50%, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, hsla(263, 90%, 50%, 0.08) 0%, transparent 45%);
+      background-attachment: fixed;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    /* Scrollbars */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--bg-base);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: hsl(217, 20%, 20%);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: hsl(217, 20%, 30%);
+    }
+
+    /* Page Layout */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+
+    /* Header Design */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 1.5rem;
+    }
+
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .logo-badge {
+      background: var(--color-brand-gradient);
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 1.4rem;
+      box-shadow: 0 4px 12px hsla(217, 90%, 50%, 0.3);
+    }
+
+    .header-title h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      background: linear-gradient(to right, #fff, var(--color-text-secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .header-title p {
+      font-size: 0.9rem;
+      color: var(--color-text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .metadata-pill {
+      font-size: 0.8rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      padding: 0.5rem 1rem;
+      border-radius: 50px;
+      color: var(--color-text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background-color: var(--color-positive);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--color-positive);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+
+    /* Dashboard Layout Grid */
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    @media (max-width: 1024px) {
+      .dashboard-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Glassmorphic Panel/Card Style */
+    .glass-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-md);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      padding: 1.5rem;
+      transition: var(--transition-smooth);
+    }
+
+    .glass-card:hover {
+      box-shadow: var(--shadow-lg);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Interactive Filters Panel */
+    .filters-title {
+      font-size: 1.1rem;
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.5rem;
+      color: var(--color-text-primary);
+    }
+
+    .filter-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .filter-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .filter-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--color-text-muted);
+      margin-bottom: 0.5rem;
+      display: block;
+      font-weight: 600;
+    }
+
+    select, input[type="text"] {
+      width: 100%;
+      background: hsl(217, 33%, 8%);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 0.75rem 1rem;
+      color: var(--color-text-primary);
+      font-family: inherit;
+      font-size: 0.9rem;
+      outline: none;
+      transition: var(--transition-fast);
+      cursor: pointer;
+    }
+
+    select:focus, input[type="text"]:focus {
+      border-color: var(--border-color-focus);
+      box-shadow: 0 0 0 2px var(--color-brand-glow);
+    }
+
+    /* Checkbox list for multi-select (e.g. Years) */
+    .checkbox-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      max-height: 180px;
+      overflow-y: auto;
+      padding-right: 0.25rem;
+    }
+
+    .checkbox-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      cursor: pointer;
+      padding: 0.4rem 0.5rem;
+      border-radius: var(--radius-sm);
+      transition: var(--transition-fast);
+    }
+
+    .checkbox-item:hover {
+      background: var(--bg-surface-hover);
+    }
+
+    .checkbox-item input[type="checkbox"] {
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 1.5px solid var(--border-color);
+      border-radius: 4px;
+      background: hsl(217, 33%, 8%);
+      display: grid;
+      place-content: center;
+      cursor: pointer;
+      transition: var(--transition-fast);
+    }
+
+    .checkbox-item input[type="checkbox"]::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      transform: scale(0);
+      background-color: var(--color-brand);
+      border-radius: 2px;
+      transition: var(--transition-fast);
+    }
+
+    .checkbox-item input[type="checkbox"]:checked {
+      border-color: var(--color-brand);
+    }
+
+    .checkbox-item input[type="checkbox"]:checked::before {
+      transform: scale(1);
+    }
+
+    .checkbox-label {
+      font-size: 0.9rem;
+      color: var(--color-text-secondary);
+      user-select: none;
+    }
+
+    /* Main Dashboard Panel */
+    .dashboard-main {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    /* KPI Summary Row */
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .kpi-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .kpi-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--accent, var(--color-brand));
+    }
+
+    .kpi-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--color-text-muted);
+      font-weight: 600;
+    }
+
+    .kpi-value {
+      font-size: 2.2rem;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      margin: 0.5rem 0;
+      line-height: 1;
+    }
+
+    .kpi-trend {
+      font-size: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .trend-up { color: var(--color-positive); }
+    .trend-down { color: var(--color-negative); }
+    .trend-neutral { color: var(--color-neutral); }
+
+    /* Visual Grid (Charts) */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    @media (max-width: 900px) {
+      .charts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .chart-container {
+      position: relative;
+      width: 100%;
+      height: 350px;
+    }
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .chart-header h3 {
+      font-size: 1.1rem;
+      color: var(--color-text-primary);
+    }
+
+    .chart-subtitle {
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+      margin-bottom: 1.5rem;
+      margin-top: -0.5rem;
+    }
+
+    /* Master Table Container */
+    .table-section {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    .table-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.2rem;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .table-search-container {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      max-width: 400px;
+      flex-grow: 1;
+    }
+
+    .table-export-btn {
+      background: var(--bg-surface-hover);
+      border: 1px solid var(--border-color);
+      color: var(--color-text-secondary);
+      border-radius: var(--radius-sm);
+      padding: 0.6rem 1rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: var(--transition-fast);
+      font-weight: 500;
+    }
+
+    .table-export-btn:hover {
+      background: hsl(217, 33%, 22%);
+      border-color: var(--color-brand);
+      color: var(--color-text-primary);
+    }
+
+    /* Custom Scrollable Responsive Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    th {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+      color: var(--color-text-secondary);
+      background: hsla(217, 33%, 8%, 0.5);
+      border-bottom: 1px solid var(--border-color);
+      padding: 1rem;
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 1rem;
+      border-bottom: 1px solid hsla(217, 20%, 25%, 0.2);
+      color: var(--color-text-secondary);
+      white-space: nowrap;
+    }
+
+    tr:hover td {
+      background: hsla(217, 33%, 16%, 0.3);
+      color: var(--color-text-primary);
+    }
+
+    .company-cell {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .company-badge {
+      background: hsla(217, 91%, 60%, 0.15);
+      color: var(--color-brand);
+      border: 1px solid hsla(217, 91%, 60%, 0.3);
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      width: 48px;
+      text-align: center;
+      padding: 0.25rem 0;
+    }
+
+    /* Sentiment badges */
+    .sentiment-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.25rem 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    .badge-positive {
+      background: var(--color-positive-glow);
+      color: var(--color-positive);
+      border: 1px solid hsla(142, 70%, 45%, 0.2);
+    }
+
+    .badge-negative {
+      background: var(--color-negative-glow);
+      color: var(--color-negative);
+      border: 1px solid hsla(0, 72%, 50%, 0.2);
+    }
+
+    .badge-neutral {
+      background: hsla(215, 20%, 65%, 0.1);
+      color: var(--color-neutral);
+      border: 1px solid hsla(215, 20%, 65%, 0.2);
+    }
+
+    /* Pagination controls */
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1.5rem;
+      color: var(--color-text-muted);
+      font-size: 0.85rem;
+    }
+
+    .pagination-controls {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .page-btn {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      color: var(--color-text-secondary);
+      border-radius: 4px;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: var(--transition-fast);
+    }
+
+    .page-btn:hover:not(:disabled) {
+      background: var(--bg-surface-hover);
+      border-color: var(--color-brand);
+      color: var(--color-text-primary);
+    }
+
+    .page-btn:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    .page-btn.active {
+      background: var(--color-brand);
+      border-color: var(--color-brand);
+      color: var(--color-text-primary);
+      box-shadow: 0 0 8px hsla(217, 91%, 60%, 0.4);
+    }
+
+    /* Help & Info Grid */
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .info-card h4 {
+      margin-bottom: 0.75rem;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--color-text-primary);
+    }
+
+    .info-card p {
+      font-size: 0.85rem;
+      color: var(--color-text-secondary);
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
+    }
+
+    .info-card ul {
+      margin-left: 1.2rem;
+      font-size: 0.85rem;
+      color: var(--color-text-secondary);
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- HEADER -->
+    <header>
+      <div class="header-logo">
+        <div class="logo-badge-container" style="position: relative; width: 42px; height: 42px; background: var(--color-brand-gradient); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px hsla(217, 90%, 50%, 0.3); overflow: hidden; flex-shrink: 0;">
+          <canvas id="lottie-logo-canvas" style="width: 32px; height: 32px; display: block;"></canvas>
+        </div>
+        <div class="header-title">
+          <h1>Earnings Sentiment & Stock Performance Tracker</h1>
+          <p>Analyzing SEC MD&A Sentiment (FinBERT & Loughran-McDonald) against Cumulative Abnormal Returns (CAR) & EPS Surprises</p>
+        </div>
+      </div>
+      <div class="metadata-pill" id="gen-time">
+        <span class="pulse-dot"></span>
+        Pipeline Active
+      </div>
+    </header>
+
+    <!-- DASHBOARD WORKSPACE -->
+    <div class="dashboard-grid">
+      
+      <!-- LEFT SIDEBAR: FILTERS -->
+      <aside class="glass-card">
+        <h2 class="filters-title">
+          <svg style="width: 20px; height: 20px;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+          </svg>
+          Interactive Filters
+        </h2>
+        
+        <div class="filter-group">
+          <label class="filter-label" for="ticker-filter">Focal Bank</label>
+          <select id="ticker-filter">
+            <option value="ALL">All Banks (Merged)</option>
+            <!-- Generated dynamically -->
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-label">Filing Submission Years</label>
+          <div class="checkbox-list" id="year-checkboxes">
+            <!-- Generated dynamically -->
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-label" for="sentiment-metric">Sentiment Metric</label>
+          <select id="sentiment-metric">
+            <option value="FinBERT">FinBERT (Transformer Model)</option>
+            <option value="LM">Loughran-McDonald (Lexicon)</option>
+          </select>
+        </div>
+
+        <div style="margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1rem;">
+          <label class="filter-label">Interactive NLP Engine</label>
+          <div style="background: hsl(217, 33%, 8%); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 0.75rem; text-align: center; margin-bottom: 0.75rem;">
+            <canvas id="lottie-interactive-canvas" style="width: 140px; height: 140px; margin: 0 auto; display: block;"></canvas>
+            <div style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 0.5rem;">
+              <button id="lottie-play" class="table-export-btn" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">Play</button>
+              <button id="lottie-pause" class="table-export-btn" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">Pause</button>
+            </div>
+            <div style="margin-top: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+              <span style="font-size: 0.7rem; color: var(--color-text-muted);">Speed:</span>
+              <input type="range" id="lottie-speed" min="0.2" max="2.5" step="0.1" value="1.0" style="flex-grow: 1; accent-color: var(--color-brand); cursor: pointer;">
+              <span id="lottie-speed-val" style="font-size: 0.7rem; color: var(--color-text-secondary); width: 25px;">1.0x</span>
+            </div>
+          </div>
+          <p style="font-size: 0.8rem; color: var(--color-text-muted); line-height: 1.4;">
+            Use the interactive dotLottie controller above to play/pause the pipeline visualization and change speed.
+          </p>
+        </div>
+      </aside>
+
+      <!-- RIGHT MAIN CONTENT -->
+      <main class="dashboard-main">
+        
+        <!-- KPI ROW -->
+        <div class="kpi-row">
+          
+          <div class="glass-card kpi-card" style="--accent: var(--color-brand)">
+            <span class="kpi-title">Average Sentiment</span>
+            <div class="kpi-value" id="kpi-avg-sentiment">0.00</div>
+            <div class="kpi-trend trend-neutral" id="kpi-avg-sentiment-sub">Active Selection</div>
+          </div>
+
+          <div class="glass-card kpi-card" style="--accent: var(--color-positive)">
+            <span class="kpi-title">Average Abnormal Return</span>
+            <div class="kpi-value" id="kpi-avg-car">0.00%</div>
+            <div class="kpi-trend" id="kpi-avg-car-sub">Around filing dates [-1, +3]</div>
+          </div>
+
+          <div class="glass-card kpi-card" style="--accent: hsl(263, 90%, 51%)">
+            <span class="kpi-title">Abnormal Return Correlation</span>
+            <div class="kpi-value" id="kpi-car-corr">0.00</div>
+            <div class="kpi-trend" id="kpi-car-corr-sub">Pearson correlation coefficient</div>
+          </div>
+
+          <div class="glass-card kpi-card" style="--accent: var(--color-negative)">
+            <span class="kpi-title">EPS Surprise Correlation</span>
+            <div class="kpi-value" id="kpi-eps-corr">0.00</div>
+            <div class="kpi-trend" id="kpi-eps-corr-sub">Pearson correlation coefficient</div>
+          </div>
+
+        </div>
+
+        <!-- CHARTS GRID -->
+        <div class="charts-grid">
+          
+          <!-- CHART 1: SENTIMENT & CAR OVER TIME -->
+          <div class="glass-card">
+            <div class="chart-header">
+              <h3 id="chart-sentiment-title">Sentiment Progression</h3>
+            </div>
+            <div class="chart-subtitle">Analyzing annual trends in extracted MD&amp;A section polarity scores</div>
+            <div class="chart-container">
+              <canvas id="sentimentTimelineChart"></canvas>
+            </div>
+          </div>
+
+          <!-- CHART 2: SENTIMENT VS CAR CORRELATION (SCATTER) -->
+          <div class="glass-card">
+            <div class="chart-header">
+              <h3 id="chart-scatter-title">Sentiment vs abnormal Return</h3>
+            </div>
+            <div class="chart-subtitle">Plotting stock returns [-1, +3] trading days vs. sentiment scores</div>
+            <div class="chart-container">
+              <canvas id="sentimentCARScatterChart"></canvas>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- TABLE SECTION -->
+        <section class="glass-card">
+          <div class="table-header-row">
+            <h3 style="font-size: 1.2rem;">Master Extracted &amp; Aligned Dataset</h3>
+            <div class="table-search-container">
+              <input type="text" id="table-search" placeholder="Search by bank ticker or year...">
+              <button class="table-export-btn" id="export-csv-btn">
+                <svg style="width: 16px; height: 16px;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                </svg>
+                Export CSV
+              </button>
+            </div>
+          </div>
+          
+          <div class="table-section">
+            <table id="master-table">
+              <thead>
+                <tr>
+                  <th>Bank / Ticker</th>
+                  <th>Filing Year</th>
+                  <th>Filing Date</th>
+                  <th>Dominant Sentiment</th>
+                  <th>FinBERT Polarity</th>
+                  <th>L-M Score</th>
+                  <th>CAR [-1, +3]</th>
+                  <th>EPS Surprise</th>
+                </tr>
+              </thead>
+              <tbody id="table-body">
+                <!-- Generated dynamically -->
+              </tbody>
+            </table>
+          </div>
+
+          <div class="pagination-bar">
+            <div id="table-info">Showing 1 to 5 of 25 records</div>
+            <div class="pagination-controls" id="table-pagination">
+              <!-- Generated dynamically -->
+            </div>
+          </div>
+        </section>
+
+        <!-- FOOTER / DOCUMENTATION GRID -->
+        <section class="info-grid">
+          
+          <div class="glass-card info-card">
+            <h4>
+              <svg style="width: 18px; height: 18px; color: var(--color-brand);" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              Sentiment Methodology
+            </h4>
+            <p>Our pipeline employs dual sentiment engines to yield robust NLP indices:</p>
+            <ul>
+              <li><strong>FinBERT (Transformer):</strong> Specialized fine-tuned language model based on BERT. Computes precise, context-aware financial sentiment vectors. Polarity is calculated as <code>Positive - Negative</code>.</li>
+              <li><strong>Loughran-McDonald (LM):</strong> Dictionary-based lexicon tailored for financial terminology. Net score is calculated as <code>(Positive - Negative) / Total Words</code> in the document.</li>
+            </ul>
+          </div>
+
+          <div class="glass-card info-card">
+            <h4>
+              <svg style="width: 18px; height: 18px; color: var(--color-positive);" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21h8a2 2 0 002-2v-9a2 2 0 00-2-2H8a2 2 0 00-2 2v9a2 2 0 002 2z"></path>
+              </svg>
+              Market Aligned CAR Metrics
+            </h4>
+            <p><strong>Cumulative Abnormal Returns (CAR)</strong> represent the sum of the differences between the banking stock returns and the broader sector benchmark (<strong>XLF</strong>) return:</p>
+            <p>The window is centered on the filing date <code>T</code> (from trading day <code>T-1</code> through <code>T+3</code>) to capture pre-filing information leakage and subsequent post-release adjustments.</p>
+            <p><strong>EPS Surprise</strong> is computed as <code>(Reported EPS - Estimated EPS) / |Estimated EPS| * 100</code> using aligned quarterly reports.</p>
+          </div>
+
+        </section>
+
+      </main>
+
+    </div>
+
+  </div>
+
+  <!-- LOAD COMPILED DATA OR FALLBACK MOCK DATA -->
+  <script src="data.js"></script>
+  
+  <script>
+    // ─────────────────────────────────────────────────────────────────────────
+    // 1.  FALLBACK/MOCK DATA GENERATOR (If data.js is not generated/loaded yet)
+    // ─────────────────────────────────────────────────────────────────────────
+    if (typeof MASTER_DATA === 'undefined') {
+      console.warn("data.js not loaded. Generating fallback mock dataset for preview.");
+      
+      window.MASTER_DATA = [];
+      const tickers = ["JPM", "GS", "WFC", "C", "HSBC"];
+      const filingDates = {
+        "JPM": ["2022-02-23", "2023-02-22", "2024-02-21", "2025-02-20", "2026-02-19"],
+        "GS": ["2022-02-25", "2023-02-24", "2024-02-23", "2025-02-21", "2026-02-20"],
+        "WFC": ["2022-03-01", "2023-02-28", "2024-02-27", "2025-02-26", "2026-02-25"],
+        "C": ["2022-02-28", "2023-02-27", "2024-02-23", "2025-02-25", "2026-02-24"],
+        "HSBC": ["2022-02-22", "2023-02-21", "2024-02-20", "2025-02-19", "2026-02-18"]
+      };
+
+      for (const t of tickers) {
+        for (let i = 0; i < 5; i++) {
+          const year = 2022 + i;
+          // Generate realistic banking sentiment/returns
+          let baseSentiment = t === "JPM" ? 0.35 : t === "GS" ? 0.15 : t === "C" ? -0.1 : t === "WFC" ? 0.05 : 0.0;
+          baseSentiment += (Math.random() - 0.5) * 0.3; // noise
+          const lmScore = baseSentiment * 0.05 - 0.005;
+
+          const car = baseSentiment * 8.5 + (Math.random() - 0.5) * 4.0; // returns correlate with sentiment
+          const estimated = 1.0 + Math.random() * 3.0;
+          const actual = estimated * (1.0 + baseSentiment * 0.5 + (Math.random() - 0.5) * 0.2);
+          const surprise = ((actual - estimated) / Math.abs(estimated)) * 100;
+
+          window.MASTER_DATA.push({
+            "Ticker": t,
+            "Year": year,
+            "Filing_Date": filingDates[t][i],
+            "FinBERT_Score": parseFloat(baseSentiment.toFixed(4)),
+            "FinBERT_Positive_Ratio": parseFloat((0.4 + baseSentiment * 0.2).toFixed(4)),
+            "FinBERT_Negative_Ratio": parseFloat((0.2 - baseSentiment * 0.2).toFixed(4)),
+            "FinBERT_Avg_Positive": 0.45,
+            "FinBERT_Avg_Negative": 0.12,
+            "FinBERT_Avg_Neutral": 0.43,
+            "FinBERT_Dominant": baseSentiment > 0.1 ? "positive" : baseSentiment < -0.1 ? "negative" : "neutral",
+            "FinBERT_Chunks": 120,
+            "LM_Score": parseFloat(lmScore.toFixed(6)),
+            "LM_Positive_Pct": parseFloat((0.8 + baseSentiment * 0.3).toFixed(2)),
+            "LM_Negative_Pct": parseFloat((1.2 - baseSentiment * 0.4).toFixed(2)),
+            "LM_Uncertainty_Pct": 1.45,
+            "LM_Litigious_Pct": 2.15,
+            "Market_CAR": parseFloat(car.toFixed(4)),
+            "EPS_Actual": parseFloat(actual.toFixed(2)),
+            "EPS_Estimated": parseFloat(estimated.toFixed(2)),
+            "EPS_Surprise_Pct": parseFloat(surprise.toFixed(2))
+          });
+        }
+      }
+
+      window.CORRELATION_DATA = [
+        { "Pair": "FinBERT_Score vs Market_CAR", "Pearson_r": 0.7251, "Pearson_p": 0.0001, "Spearman_rho": 0.6894, "Spearman_p": 0.0003, "Significant": true, "N": 25 },
+        { "Pair": "LM_Score vs Market_CAR", "Pearson_r": 0.5124, "Pearson_p": 0.0089, "Spearman_rho": 0.4912, "Spearman_p": 0.0128, "Significant": true, "N": 25 },
+        { "Pair": "FinBERT_Score vs EPS_Surprise_Pct", "Pearson_r": 0.6128, "Pearson_p": 0.0011, "Spearman_rho": 0.5841, "Spearman_p": 0.0022, "Significant": true, "N": 25 },
+        { "Pair": "LM_Score vs EPS_Surprise_Pct", "Pearson_r": 0.4215, "Pearson_p": 0.0359, "Spearman_rho": 0.3982, "Spearman_p": 0.0489, "Significant": true, "N": 25 }
+      ];
+
+      window.COMPANIES_CONFIG = {
+        "JPM": { "name": "JPMorgan Chase & Co." },
+        "GS": { "name": "Goldman Sachs Group Inc." },
+        "WFC": { "name": "Wells Fargo & Co." },
+        "C": { "name": "Citigroup Inc." },
+        "HSBC": { "name": "HSBC Holdings plc" }
+      };
+
+      window.AGGREGATE_METADATA = {
+        "generated_at": new Date().toLocaleString(),
+        "total_records": 25,
+        "companies": ["JPM", "GS", "WFC", "C", "HSBC"],
+        "years": [2022, 2023, 2024, 2025, 2026],
+        "average_finbert_sentiment": 0.091,
+        "average_lm_sentiment": -0.0012
+      };
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // 2.  STATE & GLOBALS
+    // ─────────────────────────────────────────────────────────────────────────
+    let filteredData = [...MASTER_DATA];
+    let selectedTicker = "ALL";
+    let selectedYears = [];
+    let selectedMetric = "FinBERT"; // or "LM"
+    
+    // Pagination state
+    let currentPage = 1;
+    const recordsPerPage = 6;
+    
+    // Chart References
+    let timelineChart = null;
+    let scatterChart = null;
+
+    // Set Generation Date
+    if (typeof AGGREGATE_METADATA !== 'undefined' && AGGREGATE_METADATA.generated_at) {
+      document.getElementById('gen-time').innerHTML = `<span class="pulse-dot"></span> Generated: ${AGGREGATE_METADATA.generated_at}`;
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // 3.  INITIALIZATION
+    // ─────────────────────────────────────────────────────────────────────────
+    function init() {
+      // Create company selector options
+      const tickerFilter = document.getElementById("ticker-filter");
+      const tickers = [...new Set(MASTER_DATA.map(d => d.Ticker))];
+      
+      tickers.forEach(t => {
+        const option = document.createElement("option");
+        option.value = t;
+        const fullName = COMPANIES_CONFIG[t] ? COMPANIES_CONFIG[t].name : t;
+        option.textContent = `${t} — ${fullName}`;
+        tickerFilter.appendChild(option);
+      });
+
+      // Create years checkboxes
+      const yearContainer = document.getElementById("year-checkboxes");
+      const years = [...new Set(MASTER_DATA.map(d => d.Year))].sort();
+      selectedYears = [...years]; // select all initially
+      
+      years.forEach(yr => {
+        const label = document.createElement("label");
+        label.className = "checkbox-item";
+        
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.value = yr;
+        checkbox.checked = true;
+        checkbox.addEventListener("change", (e) => {
+          if (e.target.checked) {
+            selectedYears.push(parseInt(yr));
+          } else {
+            selectedYears = selectedYears.filter(y => y !== parseInt(yr));
+          }
+          onFilterChange();
+        });
+        
+        const text = document.createElement("span");
+        text.className = "checkbox-label";
+        text.textContent = yr;
+        
+        label.appendChild(checkbox);
+        label.appendChild(text);
+        yearContainer.appendChild(label);
+      });
+
+      // Register event listeners
+      document.getElementById("ticker-filter").addEventListener("change", (e) => {
+        selectedTicker = e.target.value;
+        onFilterChange();
+      });
+
+      document.getElementById("sentiment-metric").addEventListener("change", (e) => {
+        selectedMetric = e.target.value === "FinBERT" ? "FinBERT" : "LM";
+        updateDashboard(true); // reset charts completely
+      });
+
+      document.getElementById("table-search").addEventListener("input", () => {
+        currentPage = 1;
+        updateTable();
+      });
+
+      document.getElementById("export-csv-btn").addEventListener("click", exportCSV);
+
+      // Render
+      updateDashboard(true);
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // 4.  EVENT HANDLERS
+    // ─────────────────────────────────────────────────────────────────────────
+    function onFilterChange() {
+      // Filter dataset
+      filteredData = MASTER_DATA.filter(item => {
+        const matchTicker = (selectedTicker === "ALL" || item.Ticker === selectedTicker);
+        const matchYear = selectedYears.includes(parseInt(item.Year));
+        return matchTicker && matchYear;
+      });
+
+      currentPage = 1;
+      updateDashboard(false); // don't recreate chart objects, just update data
+    }
+
+    function updateDashboard(recreateCharts = false) {
+      updateKPIs();
+      renderCharts(recreateCharts);
+      updateTable();
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // 5.  KPI CARD UPDATES
+    // ─────────────────────────────────────────────────────────────────────────
+    function updateKPIs() {
+      const scoreKey = selectedMetric === "FinBERT" ? "FinBERT_Score" : "LM_Score";
+      
+      // Averages
+      let avgSentiment = 0;
+      let avgCAR = 0;
+      
+      if (filteredData.length > 0) {
+        const sentiments = filteredData.map(d => d[scoreKey]).filter(v => v !== null && !isNaN(v));
+        const cars = filteredData.map(d => d.Market_CAR).filter(v => v !== null && !isNaN(v));
+        
+        avgSentiment = sentiments.reduce((a, b) => a + b, 0) / (sentiments.length || 1);
+        avgCAR = cars.reduce((a, b) => a + b, 0) / (cars.length || 1);
+      }
+
+      // Populate elements
+      document.getElementById("kpi-avg-sentiment").textContent = avgSentiment.toFixed(selectedMetric === "FinBERT" ? 4 : 6);
+      
+      const sentimentSub = document.getElementById("kpi-avg-sentiment-sub");
+      if (avgSentiment > 0.05) {
+        sentimentSub.textContent = "Positive Sentiment Average";
+        sentimentSub.className = "kpi-trend trend-up";
+      } else if (avgSentiment < -0.05) {
+        sentimentSub.textContent = "Negative Sentiment Average";
+        sentimentSub.className = "kpi-trend trend-down";
+      } else {
+        sentimentSub.textContent = "Neutral Sentiment Average";
+        sentimentSub.className = "kpi-trend trend-neutral";
+      }
+
+      const carEl = document.getElementById("kpi-avg-car");
+      carEl.textContent = `${avgCAR >= 0 ? '+' : ''}${avgCAR.toFixed(2)}%`;
+      carEl.className = `kpi-value ${avgCAR >= 0 ? 'trend-up' : 'trend-down'}`;
+
+      // Get aligned correlation coefficients
+      const carPair = `${scoreKey} vs Market_CAR`;
+      const epsPair = `${scoreKey} vs EPS_Surprise_Pct`;
+      
+      const carCorrRecord = CORRELATION_DATA.find(c => c.Pair === carPair);
+      const epsCorrRecord = CORRELATION_DATA.find(c => c.Pair === epsPair);
+
+      const carCorrEl = document.getElementById("kpi-car-corr");
+      const carCorrSub = document.getElementById("kpi-avg-car-sub");
+      if (carCorrRecord && carCorrRecord.Pearson_r !== null) {
+        const val = carCorrRecord.Pearson_r;
+        carCorrEl.textContent = `${val > 0 ? '+' : ''}${val.toFixed(3)}`;
+        carCorrSub.textContent = `Pearson r (p = ${carCorrRecord.Pearson_p.toFixed(3)})${carCorrRecord.Significant ? ' ✓' : ''}`;
+        carCorrSub.className = `kpi-trend ${carCorrRecord.Significant ? 'trend-up' : 'trend-neutral'}`;
+      } else {
+        carCorrEl.textContent = "N/A";
+        carCorrSub.textContent = "Insufficient points";
+        carCorrSub.className = "kpi-trend trend-neutral";
+      }
+
+      const epsCorrEl = document.getElementById("kpi-eps-corr");
+      const epsCorrSub = document.getElementById("kpi-eps-corr-sub");
+      if (epsCorrRecord && epsCorrRecord.Pearson_r !== null) {
+        const val = epsCorrRecord.Pearson_r;
+        epsCorrEl.textContent = `${val > 0 ? '+' : ''}${val.toFixed(3)}`;
+        epsCorrSub.textContent = `Pearson r (p = ${epsCorrRecord.Pearson_p.toFixed(3)})${epsCorrRecord.Significant ? ' ✓' : ''}`;
+        epsCorrSub.className = `kpi-trend ${epsCorrRecord.Significant ? 'trend-up' : 'trend-neutral'}`;
+      } else {
+        epsCorrEl.textContent = "N/A";
+        epsCorrSub.textContent = "Insufficient points";
+        epsCorrSub.className = "kpi-trend trend-neutral";
+      }
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // 6.  DATA VISUALIZATION (Chart.js)
+    // ─────────────────────────────────────────────────────────────────────────
+    function renderCharts(recreate = false) {
+      const scoreKey = selectedMetric === "FinBERT" ? "FinBERT_Score" : "LM_Score";
+      
+      // Update chart labels
+      document.getElementById("chart-sentiment-title").textContent = `${selectedMetric} Sentiment Timeline`;
+      document.getElementById("chart-scatter-title").textContent = `${selectedMetric} Sentiment vs. Market Return`;
+
+      // Sort data chronologically for timeline
+      const timelineData = [...filteredData].sort((a, b) => a.Year - b.Year);
+
+      // --- Chart 1: Timeline ---
+      if (recreate && timelineChart) {
+        timelineChart.destroy();
+        timelineChart = null;
+      }
+
+      // Group timeline by ticker
+      const tickersInSelection = [...new Set(timelineData.map(d => d.Ticker))];
+      const yearsInSelection = [...new Set(timelineData.map(d => d.Year))].sort();
+
+      const colorPalette = {
+        "JPM": "hsl(217, 91%, 60%)",
+        "GS": "hsl(43, 90%, 50%)",
+        "WFC": "hsl(0, 72%, 50%)",
+        "C": "hsl(280, 80%, 60%)",
+        "HSBC": "hsl(142, 70%, 45%)"
+      };
+
+      const datasets = tickersInSelection.map(ticker => {
+        const tickerRows = timelineData.filter(d => d.Ticker === ticker);
+        // Map data perfectly matching chronological years
+        const dataPoints = yearsInSelection.map(yr => {
+          const matchedYearRow = tickerRows.find(tr => parseInt(tr.Year) === yr);
+          return matchedYearRow ? matchedYearRow[scoreKey] : null;
+        });
+
+        return {
+          label: ticker,
+          data: dataPoints,
+          borderColor: colorPalette[ticker] || "hsl(217, 90%, 50%)",
+          backgroundColor: colorPalette[ticker] ? colorPalette[ticker].replace(")", ", 0.1)").replace("hsl", "hsla") : "rgba(255,255,255,0.05)",
+          borderWidth: 3,
+          pointBackgroundColor: colorPalette[ticker] || "#fff",
+          pointRadius: 5,
+          pointHoverRadius: 7,
+          tension: 0.25,
+          spanGaps: true
+        };
+      });
+
+      if (!timelineChart) {
+        const ctx1 = document.getElementById('sentimentTimelineChart').getContext('2d');
+        timelineChart = new Chart(ctx1, {
+          type: 'line',
+          data: {
+            labels: yearsInSelection,
+            datasets: datasets
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'top',
+                labels: { color: 'hsl(210, 40%, 98%)', font: { family: 'Outfit', size: 12 } }
+              },
+              tooltip: {
+                backgroundColor: 'hsl(217, 33%, 8%)',
+                titleColor: 'hsl(210, 40%, 98%)',
+                bodyColor: 'hsl(215, 20%, 75%)',
+                borderColor: 'var(--border-color)',
+                borderWidth: 1
+              }
+            },
+            scales: {
+              x: {
+                grid: { color: 'rgba(255,255,255,0.05)' },
+                ticks: { color: 'hsl(215, 12%, 55%)' }
+              },
+              y: {
+                grid: { color: 'rgba(255,255,255,0.05)' },
+                ticks: { color: 'hsl(215, 12%, 55%)' },
+                title: {
+                  display: true,
+                  text: selectedMetric === "FinBERT" ? 'Net Polarity Score' : 'Lexicon Value',
+                  color: 'hsl(215, 20%, 75%)'
+                }
+              }
+            }
+          }
+        });
+      } else {
+        timelineChart.data.labels = yearsInSelection;
+        timelineChart.data.datasets = datasets;
+        timelineChart.update();
+      }
+
+      // --- Chart 2: Sentiment vs Abnormal Return (Scatter) ---
+      if (recreate && scatterChart) {
+        scatterChart.destroy();
+        scatterChart = null;
+      }
+
+      const scatterPoints = filteredData.map(d => ({
+        x: d[scoreKey],
+        y: d.Market_CAR,
+        ticker: d.Ticker,
+        year: d.Year
+      })).filter(pt => pt.x !== null && pt.y !== null);
+
+      // Group scatter points by ticker to render custom colors/legends
+      const scatterDatasets = tickersInSelection.map(ticker => {
+        const tickerPoints = scatterPoints.filter(pt => pt.ticker === ticker);
+        return {
+          label: ticker,
+          data: tickerPoints,
+          backgroundColor: colorPalette[ticker] || "hsl(217, 90%, 50%)",
+          pointRadius: 7,
+          pointHoverRadius: 9,
+          pointBorderColor: 'rgba(0,0,0,0.5)',
+          pointBorderWidth: 1.5
+        };
+      });
+
+      // Generate correlation regression line if points exist
+      if (scatterPoints.length >= 3) {
+        // Simple linear regression calculation: y = mx + c
+        const xs = scatterPoints.map(p => p.x);
+        const ys = scatterPoints.map(p => p.y);
+        
+        const n = xs.length;
+        const sumX = xs.reduce((a,b)=>a+b, 0);
+        const sumY = ys.reduce((a,b)=>a+b, 0);
+        const sumXY = xs.reduce((acc, x, idx) => acc + x * ys[idx], 0);
+        const sumXX = xs.reduce((acc, x) => acc + x * x, 0);
+        
+        const slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+        const intercept = (sumY - slope * sumX) / n;
+
+        // Generate trendline points representing full extent of x
+        const minX = Math.min(...xs);
+        const maxX = Math.max(...xs);
+        const pad = (maxX - minX) * 0.05;
+        const trendX1 = minX - pad;
+        const trendX2 = maxX + pad;
+
+        scatterDatasets.push({
+          label: 'Regression Line',
+          type: 'line',
+          data: [
+            { x: trendX1, y: slope * trendX1 + intercept },
+            { x: trendX2, y: slope * trendX2 + intercept }
+          ],
+          borderColor: 'hsla(0, 0%, 100%, 0.3)',
+          borderWidth: 1.5,
+          borderDash: [5, 5],
+          pointRadius: 0,
+          fill: false
+        });
+      }
+
+      if (!scatterChart) {
+        const ctx2 = document.getElementById('sentimentCARScatterChart').getContext('2d');
+        scatterChart = new Chart(ctx2, {
+          type: 'scatter',
+          data: {
+            datasets: scatterDatasets
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'top',
+                labels: { 
+                  color: 'hsl(210, 40%, 98%)',
+                  font: { family: 'Outfit', size: 12 },
+                  filter: function(item) {
+                    return item.text !== 'Regression Line'; // hide regression line from legend
+                  }
+                }
+              },
+              tooltip: {
+                backgroundColor: 'hsl(217, 33%, 8%)',
+                callbacks: {
+                  label: function(context) {
+                    const pt = context.raw;
+                    if (pt.ticker) {
+                      return `${pt.ticker} (${pt.year}): Sentiment=${pt.x.toFixed(4)}, CAR=${pt.y.toFixed(2)}%`;
+                    }
+                    return `RegLine: Sentiment=${context.parsed.x.toFixed(4)}, CAR=${context.parsed.y.toFixed(2)}%`;
+                  }
+                }
+              }
+            },
+            scales: {
+              x: {
+                grid: { color: 'rgba(255,255,255,0.05)' },
+                ticks: { color: 'hsl(215, 12%, 55%)' },
+                title: {
+                  display: true,
+                  text: selectedMetric === "FinBERT" ? 'Net Polarity Score' : 'Lexicon Value',
+                  color: 'hsl(215, 20%, 75%)'
+                }
+              },
+              y: {
+                grid: { color: 'rgba(255,255,255,0.05)' },
+                ticks: { color: 'hsl(215, 12%, 55%)' },
+                title: {
+                  display: true,
+                  text: 'Cumulative Abnormal Return (%)',
+                  color: 'hsl(215, 20%, 75%)'
+                }
+              }
+            }
+          }
+        });
+      } else {
+        scatterChart.data.datasets = scatterDatasets;
+        scatterChart.update();
+      }
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // 7.  SEARCHABLE & PAGINATED DATA TABLE
+    // ─────────────────────────────────────────────────────────────────────────
+    function updateTable() {
+      const searchVal = document.getElementById("table-search").value.toLowerCase();
+      
+      // Filter based on search input
+      const tableData = filteredData.filter(d => {
+        const matchesSearch = d.Ticker.toLowerCase().includes(searchVal) || 
+                              d.Year.toString().includes(searchVal) ||
+                              (d.FinBERT_Dominant && d.FinBERT_Dominant.toLowerCase().includes(searchVal));
+        return matchesSearch;
+      });
+
+      // Chronological sort as baseline
+      tableData.sort((a, b) => b.Year - a.Year || a.Ticker.localeCompare(b.Ticker));
+
+      const totalRecords = tableData.length;
+      const totalPages = Math.ceil(totalRecords / recordsPerPage) || 1;
+      
+      if (currentPage > totalPages) currentPage = totalPages;
+
+      const startIndex = (currentPage - 1) * recordsPerPage;
+      const endIndex = Math.min(startIndex + recordsPerPage, totalRecords);
+      const pageData = tableData.slice(startIndex, endIndex);
+
+      // Render table rows
+      const tbody = document.getElementById("table-body");
+      tbody.innerHTML = "";
+
+      if (pageData.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="8" style="text-align: center; color: var(--color-text-muted); padding: 2rem;">No matching earnings transcripts found. Try adjusting your filters.</td></tr>`;
+        document.getElementById("table-info").textContent = "Showing 0 to 0 of 0 records";
+        renderPagination(1, 1);
+        return;
+      }
+
+      pageData.forEach(d => {
+        const tr = document.createElement("tr");
+        
+        // Sentiment Badge Selection
+        const sentiment = d.FinBERT_Dominant ? d.FinBERT_Dominant.toLowerCase() : "neutral";
+        const sentimentClass = sentiment === "positive" ? "badge-positive" : sentiment === "negative" ? "badge-negative" : "badge-neutral";
+        
+        // Formatted cells
+        const carVal = d.Market_CAR !== null ? `${d.Market_CAR >= 0 ? '+' : ''}${d.Market_CAR.toFixed(2)}%` : '—';
+        const carClass = d.Market_CAR !== null ? (d.Market_CAR >= 0.5 ? 'trend-up' : d.Market_CAR <= -0.5 ? 'trend-down' : '') : '';
+        
+        const epsVal = d.EPS_Surprise_Pct !== null ? `${d.EPS_Surprise_Pct >= 0 ? '+' : ''}${d.EPS_Surprise_Pct.toFixed(1)}%` : '—';
+        const epsClass = d.EPS_Surprise_Pct !== null ? (d.EPS_Surprise_Pct >= 0.5 ? 'trend-up' : d.EPS_Surprise_Pct <= -0.5 ? 'trend-down' : '') : '';
+
+        tr.innerHTML = `
+          <td>
+            <div class="company-cell">
+              <span class="company-badge">${d.Ticker}</span>
+              <span style="font-weight: 500;">${COMPANIES_CONFIG[d.Ticker] ? COMPANIES_CONFIG[d.Ticker].name.replace(" Group Inc.", "").replace(" plc", "").replace(" & Co.", "") : d.Ticker}</span>
+            </div>
+          </td>
+          <td style="font-family: 'Outfit'; font-weight: 600;">${d.Year}</td>
+          <td style="font-size: 0.85rem; font-family: monospace; color: var(--color-text-muted);">${d.Filing_Date || '—'}</td>
+          <td><span class="sentiment-badge ${sentimentClass}">${sentiment}</span></td>
+          <td style="font-family: monospace; font-weight: 500;">${d.FinBERT_Score !== null ? d.FinBERT_Score.toFixed(4) : '—'}</td>
+          <td style="font-family: monospace; color: var(--color-text-muted);">${d.LM_Score !== null ? d.LM_Score.toFixed(6) : '—'}</td>
+          <td class="${carClass}" style="font-family: 'Outfit'; font-weight: 600;">${carVal}</td>
+          <td class="${epsClass}" style="font-size: 0.85rem;">${epsVal}</td>
+        `;
+        
+        tbody.appendChild(tr);
+      });
+
+      // Update summary info text
+      document.getElementById("table-info").textContent = `Showing ${totalRecords === 0 ? 0 : startIndex + 1} to ${endIndex} of ${totalRecords} records`;
+
+      // Render Pagination Buttons
+      renderPagination(currentPage, totalPages);
+    }
+
+    function renderPagination(current, total) {
+      const container = document.getElementById("table-pagination");
+      container.innerHTML = "";
+
+      // Prev btn
+      const prev = document.createElement("button");
+      prev.className = "page-btn";
+      prev.disabled = current === 1;
+      prev.innerHTML = "&larr;";
+      prev.addEventListener("click", () => {
+        currentPage--;
+        updateTable();
+      });
+      container.appendChild(prev);
+
+      // Page numbers
+      for (let i = 1; i <= total; i++) {
+        const btn = document.createElement("button");
+        btn.className = `page-btn ${i === current ? 'active' : ''}`;
+        btn.textContent = i;
+        btn.addEventListener("click", () => {
+          currentPage = i;
+          updateTable();
+        });
+        container.appendChild(btn);
+      }
+
+      // Next btn
+      const next = document.createElement("button");
+      next.className = "page-btn";
+      next.disabled = current === total;
+      next.innerHTML = "&rarr;";
+      next.addEventListener("click", () => {
+        currentPage++;
+        updateTable();
+      });
+      container.appendChild(next);
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // 8.  EXPORT AS CSV
+    // ─────────────────────────────────────────────────────────────────────────
+    function exportCSV() {
+      if (filteredData.length === 0) return;
+
+      const headers = Object.keys(filteredData[0]);
+      let csvContent = "data:text/csv;charset=utf-8,";
+      
+      // headers
+      csvContent += headers.join(",") + "\n";
+      
+      // rows
+      filteredData.forEach(row => {
+        const rowData = headers.map(header => {
+          const val = row[header];
+          if (val === null || val === undefined) return "";
+          if (typeof val === 'string' && val.includes(",")) return `"${val}"`;
+          return val;
+        });
+        csvContent += rowData.join(",") + "\n";
+      });
+
+      const encodedUri = encodeURI(csvContent);
+      const link = document.createElement("a");
+      link.setAttribute("href", encodedUri);
+      link.setAttribute("download", `earnings_sentiment_extract_selected.csv`);
+      document.body.appendChild(link); // Required for FF
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    // Initialize Page
+    document.addEventListener("DOMContentLoaded", init);
+  </script>
+
+  <!-- IMPORT AND INITIALIZE @LOTTIEFILES/DOTLOTTIE-WEB -->
+  <script type="module">
+    import { DotLottie } from 'https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm';
+
+    let logoLottie = null;
+    let interactiveLottie = null;
+
+    function initLottie() {
+      // 1. Initialize Logo Lottie Animation (Looping Stock Chart)
+      try {
+        logoLottie = new DotLottie({
+          canvas: document.getElementById('lottie-logo-canvas'),
+          src: 'https://lottie.host/951c0989-1300-47b2-bc40-2bc6e2ef3bc1/2k43D5vT5l.lottie',
+          autoplay: true,
+          loop: true
+        });
+      } catch (e) {
+        console.error("Failed to load logo Lottie animation:", e);
+      }
+
+      // 2. Initialize Interactive Lottie Animation (Interactive analysis gear/chart)
+      try {
+        interactiveLottie = new DotLottie({
+          canvas: document.getElementById('lottie-interactive-canvas'),
+          src: 'https://lottie.host/80dc3d4d-f9e4-4df1-bd80-2a818fa8d39e/1U8l9jI44E.lottie',
+          autoplay: true,
+          loop: true
+        });
+
+        // Wire up controls
+        document.getElementById('lottie-play').addEventListener('click', () => {
+          if (interactiveLottie) interactiveLottie.play();
+        });
+
+        document.getElementById('lottie-pause').addEventListener('click', () => {
+          if (interactiveLottie) interactiveLottie.pause();
+        });
+
+        const speedSlider = document.getElementById('lottie-speed');
+        const speedVal = document.getElementById('lottie-speed-val');
+        speedSlider.addEventListener('input', (e) => {
+          const val = parseFloat(e.target.value);
+          speedVal.textContent = `${val.toFixed(1)}x`;
+          if (interactiveLottie) {
+            interactiveLottie.setSpeed(val);
+          }
+        });
+      } catch (e) {
+        console.error("Failed to load interactive Lottie animation:", e);
+      }
+    }
+
+    // Run after DOM content has loaded to ensure elements exist
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initLottie);
+    } else {
+      initLottie();
+    }
+  </script>
+
+</body>
+</html>
