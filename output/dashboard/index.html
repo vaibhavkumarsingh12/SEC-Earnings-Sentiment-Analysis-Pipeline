@@ -3,7 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SEC Earnings Sentiment Tracker — Dashboard</title>
+  <title>SEC Earnings Sentiment Analysis Dashboard | FinBERT NLP &amp; Market Returns</title>
+  <meta name="description" content="Interactive glassmorphic dashboard analyzing SEC 10-K/20-F filings for JPM, GS, WFC, C, and HSBC (2022-2026). Dual NLP scoring (FinBERT deep learning + Loughran-McDonald lexicon) aligned with Cumulative Abnormal Returns (CAR) and EPS Surprises.">
+  <meta name="author" content="Vaibhav Kumar Singh">
+  <meta name="keywords" content="SEC, Earnings, Sentiment Analysis, FinBERT, NLP, 10-K, 20-F, MD&amp;A, CAR, EPS, JPMorgan, Goldman Sachs, Citigroup, Wells Fargo, HSBC, Dashboard">
+  <meta name="theme-color" content="#070a13">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Canonical URL for GitHub Pages -->
+  <link rel="canonical" href="https://vaibhavkumarsingh12.github.io/SEC-Earnings-Sentiment-Analysis-Pipeline/">
+
+  <!-- Favicon (inline SVG data URI - no external file needed) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>" type="image/svg+xml">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vaibhavkumarsingh12.github.io/SEC-Earnings-Sentiment-Analysis-Pipeline/">
+  <meta property="og:title" content="SEC Earnings Sentiment Analysis Dashboard">
+  <meta property="og:description" content="Interactive NLP dashboard: FinBERT deep learning &amp; Loughran-McDonald lexicon scoring of SEC 10-K/20-F filings for 5 major banks (2022-2026), aligned with market CAR and EPS surprises.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/vaibhavkumarsingh12/SEC-Earnings-Sentiment-Analysis-Pipeline/main/banner.svg">
+  <meta property="og:site_name" content="SEC Earnings Sentiment Pipeline">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SEC Earnings Sentiment Analysis Dashboard">
+  <meta name="twitter:description" content="Interactive NLP dashboard: FinBERT + Loughran-McDonald scoring of SEC filings for JPM, GS, WFC, C, HSBC (2022-2026) with market return alignment.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/vaibhavkumarsingh12/SEC-Earnings-Sentiment-Analysis-Pipeline/main/banner.svg">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -616,7 +642,7 @@
     <header>
       <div class="header-logo">
         <div class="logo-badge-container" style="position: relative; width: 42px; height: 42px; background: var(--color-brand-gradient); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px hsla(217, 90%, 50%, 0.3); overflow: hidden; flex-shrink: 0;">
-          <canvas id="lottie-logo-canvas" style="width: 32px; height: 32px; display: block;"></canvas>
+          <dotlottie-wc id="lottie-logo-canvas" src="https://lottie.host/951c0989-1300-47b2-bc40-2bc6e2ef3bc1/2k43D5vT5l.lottie" autoplay loop style="width: 32px; height: 32px; display: block;"></dotlottie-wc>
         </div>
         <div class="header-title">
           <h1>Earnings Sentiment & Stock Performance Tracker</h1>
@@ -667,7 +693,7 @@
         <div style="margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1rem;">
           <label class="filter-label">Interactive NLP Engine</label>
           <div style="background: hsl(217, 33%, 8%); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 0.75rem; text-align: center; margin-bottom: 0.75rem;">
-            <canvas id="lottie-interactive-canvas" style="width: 140px; height: 140px; margin: 0 auto; display: block;"></canvas>
+            <dotlottie-wc id="lottie-interactive-canvas" src="https://lottie.host/80dc3d4d-f9e4-4df1-bd80-2a818fa8d39e/1U8l9jI44E.lottie" autoplay loop style="width: 140px; height: 140px; margin: 0 auto; display: block;"></dotlottie-wc>
             <div style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 0.5rem;">
               <button id="lottie-play" class="table-export-btn" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">Play</button>
               <button id="lottie-pause" class="table-export-btn" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">Pause</button>
@@ -1466,63 +1492,38 @@
     document.addEventListener("DOMContentLoaded", init);
   </script>
 
-  <!-- IMPORT AND INITIALIZE @LOTTIEFILES/DOTLOTTIE-WEB -->
-  <script type="module">
-    import { DotLottie } from 'https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm';
+  <!-- IMPORT AND INITIALIZE @LOTTIEFILES/DOTLOTTIE-WEB COMPONENT -->
+  <script type="module" src="https://unpkg.com/@lottiefiles/dotlottie-wc@latest/dist/dotlottie-wc.js"></script>
+  
+  <script>
+    function initLottieControls() {
+      const interactiveLottie = document.getElementById('lottie-interactive-canvas');
+      
+      if (!interactiveLottie) return;
 
-    let logoLottie = null;
-    let interactiveLottie = null;
+      document.getElementById('lottie-play').addEventListener('click', () => {
+        interactiveLottie.play();
+      });
 
-    function initLottie() {
-      // 1. Initialize Logo Lottie Animation (Looping Stock Chart)
-      try {
-        logoLottie = new DotLottie({
-          canvas: document.getElementById('lottie-logo-canvas'),
-          src: 'https://lottie.host/951c0989-1300-47b2-bc40-2bc6e2ef3bc1/2k43D5vT5l.lottie',
-          autoplay: true,
-          loop: true
-        });
-      } catch (e) {
-        console.error("Failed to load logo Lottie animation:", e);
-      }
+      document.getElementById('lottie-pause').addEventListener('click', () => {
+        interactiveLottie.pause();
+      });
 
-      // 2. Initialize Interactive Lottie Animation (Interactive analysis gear/chart)
-      try {
-        interactiveLottie = new DotLottie({
-          canvas: document.getElementById('lottie-interactive-canvas'),
-          src: 'https://lottie.host/80dc3d4d-f9e4-4df1-bd80-2a818fa8d39e/1U8l9jI44E.lottie',
-          autoplay: true,
-          loop: true
-        });
-
-        // Wire up controls
-        document.getElementById('lottie-play').addEventListener('click', () => {
-          if (interactiveLottie) interactiveLottie.play();
-        });
-
-        document.getElementById('lottie-pause').addEventListener('click', () => {
-          if (interactiveLottie) interactiveLottie.pause();
-        });
-
-        const speedSlider = document.getElementById('lottie-speed');
-        const speedVal = document.getElementById('lottie-speed-val');
-        speedSlider.addEventListener('input', (e) => {
-          const val = parseFloat(e.target.value);
-          speedVal.textContent = `${val.toFixed(1)}x`;
-          if (interactiveLottie) {
-            interactiveLottie.setSpeed(val);
-          }
-        });
-      } catch (e) {
-        console.error("Failed to load interactive Lottie animation:", e);
-      }
+      const speedSlider = document.getElementById('lottie-speed');
+      const speedVal = document.getElementById('lottie-speed-val');
+      
+      speedSlider.addEventListener('input', (e) => {
+        const val = parseFloat(e.target.value);
+        speedVal.textContent = `${val.toFixed(1)}x`;
+        // dotlottie-wc exposes speed as a property/attribute
+        interactiveLottie.speed = val;
+      });
     }
 
-    // Run after DOM content has loaded to ensure elements exist
     if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", initLottie);
+      document.addEventListener("DOMContentLoaded", initLottieControls);
     } else {
-      initLottie();
+      initLottieControls();
     }
   </script>
 
