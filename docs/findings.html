@@ -311,7 +311,22 @@
       <div class="plot-caption">Scatter plot with linear regression and confidence bands illustrating the flat relationship between immediate market returns and text sentiment.</div>
     </section>
 
-    <!-- SECTION 2 -->
+    <!-- SECTION 2: PEAD Expansion -->
+    <section class="story-section">
+      <h2>Post-Earnings Announcement Drift <span class="badge highlight">Academic Expansion</span></h2>
+      <p>Given the flat relationship at the 3-day horizon, we expanded our event study window to test for Post-Earnings Announcement Drift (PEAD). By computing the Cumulative Abnormal Return across expanding horizons (up to 60 trading days), we investigated whether the market requires time to fully digest complex regulatory language.</p>
+      
+      <div class="key-insight">
+        <strong>Financial Insight:</strong> Although we observe a slight increase in predictability at the 5-day horizon (Spearman ρ climbs to +0.122), the correlation strictly degrades over longer windows, dipping into negative territory by day 30. This suggests that while MD&A sentiment contains powerful fundamental signals (as shown below), the market does <em>not</em> price it efficiently via long-term drift.
+      </div>
+
+      <div class="plot-container">
+        <img src="plots/FinBERT_CAR_Window_Expansion.png" alt="FinBERT PEAD Window Expansion">
+      </div>
+      <div class="plot-caption">Line plot tracing the Spearman correlation coefficient across expanding event windows (3, 5, 10, 30, and 60 days).</div>
+    </section>
+
+    <!-- SECTION 3 -->
     <section class="story-section">
       <h2>The Fundamental Truth <span class="badge highlight">Key Discovery</span></h2>
       <p>If immediate stock prices don't reflect the sentiment in the text, what does? We aligned the FinBERT narrative sentiment scores with the quarterly <strong>Earnings Per Share (EPS) Surprise %</strong>. The results were astounding.</p>

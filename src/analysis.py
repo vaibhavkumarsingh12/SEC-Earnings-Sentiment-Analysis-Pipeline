@@ -19,7 +19,7 @@ from scipy.stats import pearsonr, spearmanr
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import config  # noqa: E402
 
-from config import RESULTS_DIR, SENTIMENT_DIR, MARKET_DATA_DIR
+from config import RESULTS_DIR, SENTIMENT_DIR, MARKET_DATA_DIR, CAR_WINDOWS
 
 # ---------------------------------------------------------------------------
 # Logging
@@ -35,11 +35,15 @@ logging.basicConfig(
 # ──────────────────────────────────────────────────────────────────────────────
 
 CORRELATION_PAIRS: List[Tuple[str, str]] = [
-    ("FinBERT_Score", "Market_CAR"),
-    ("LM_Score", "Market_CAR"),
     ("FinBERT_Score", "EPS_Surprise_Pct"),
     ("LM_Score", "EPS_Surprise_Pct"),
 ]
+
+# Add all CAR windows dynamically
+for wb, wa in CAR_WINDOWS:
+    car_col = f"Market_CAR_[{wb},+{wa}]"
+    CORRELATION_PAIRS.append(("FinBERT_Score", car_col))
+    CORRELATION_PAIRS.append(("LM_Score", car_col))
 
 SIGNIFICANCE_THRESHOLD = 0.05
 

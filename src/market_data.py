@@ -23,8 +23,7 @@ import config  # noqa: E402
 from config import (
     COMPANIES,
     MARKET_DATA_DIR,
-    CAR_WINDOW_BEFORE,
-    CAR_WINDOW_AFTER,
+    CAR_WINDOWS,
     SECTOR_BENCHMARK,
     FILING_START_YEAR,
     FILING_END_YEAR,
@@ -127,13 +126,15 @@ def get_stock_prices(
 def compute_car(
     ticker: str,
     filing_date: str,
+    window_before: int,
+    window_after: int,
     benchmark: Optional[str] = None,
 ) -> Optional[float]:
     """Compute the Cumulative Abnormal Return around a filing date.
 
     CAR = R_stock − R_benchmark
 
-    where R = (close[t+3] − close[t−1]) / close[t−1].
+    where R = (close[t+window_after] − close[t−window_before]) / close[t−window_before].
 
     Parameters
     ----------
@@ -141,6 +142,10 @@ def compute_car(
         Company ticker symbol.
     filing_date : str | datetime
         Date the filing was made (``'YYYY-MM-DD'`` or ``datetime``).
+    window_before : int
+        Trading days before the filing date.
+    window_after : int
+        Trading days after the filing date.
     benchmark : str, optional
         Benchmark ticker (defaults to ``SECTOR_BENCHMARK`` from config).
 
@@ -157,9 +162,10 @@ def compute_car(
     else:
         filing_dt = pd.Timestamp(filing_date)
 
-    # Buffer: 30 calendar days each side to be safe
-    buf_start = (filing_dt - timedelta(days=30)).strftime("%Y-%m-%d")
-    buf_end = (filing_dt + timedelta(days=30)).strftime("%Y-%m-%d")
+    # Buffer: Provide plenty of days based on window size
+    buffer_days = max(30, window_after + 30)
+    buf_start = (filing_dt - timedelta(days=buffer_days)).strftime("%Y-%m-%d")
+    buf_end = (filing_dt + timedelta(days=buffer_days)).strftime("%Y-%m-%d")
 
     stock_prices = get_stock_prices(ticker, buf_start, buf_end)
     bench_prices = get_stock_prices(benchmark, buf_start, buf_end)
@@ -183,17 +189,22 @@ def compute_car(
         t0 = t0_candidates[0]
         t0_idx = stock_dates.get_loc(t0)
 
-        # ── t_minus_1 and t_plus_3 ────────────────────────────────────────
-        t_minus_idx = t0_idx - CAR_WINDOW_BEFORE
-        t_plus_idx = t0_idx + CAR_WINDOW_AFTER
+        # ── t_minus and t_plus ────────────────────────────────────────
+        # Window parameters are passed as e.g. (-1, 3) which means 1 day before, 3 days after.
+        # But wait, config says (-1, 3). If window_before is -1, it means 1 day before. 
+        # Or if window_before is 0, it means 0 days before.
+        # Let's interpret negative as days *before* t0. So index = t0_idx + window_before.
+        t_minus_idx = t0_idx + window_before
+        t_plus_idx = t0_idx + window_after
 
         if t_minus_idx < 0 or t_plus_idx >= len(stock_dates):
             logger.warning(
-                "Insufficient trading days around %s for %s (need %d before, %d after)",
+                "Insufficient trading days around %s for %s (need indices [%d, %d] but bounds are [0, %d])",
                 filing_date,
                 ticker,
-                CAR_WINDOW_BEFORE,
-                CAR_WINDOW_AFTER,
+                t_minus_idx,
+                t_plus_idx,
+                len(stock_dates) - 1,
             )
             return None
 
@@ -441,23 +452,26 @@ def fetch_all_market_data(tickers: list[str] | None = None) -> pd.DataFrame:
 
             filing_date = _resolve_filing_date(ticker, year)
 
-            # CAR
-            car = compute_car(ticker, filing_date, benchmark=meta.get("benchmark"))
+            # Compute CAR for all windows
+            car_results = {}
+            for wb, wa in CAR_WINDOWS:
+                car = compute_car(ticker, filing_date, window_before=wb, window_after=wa, benchmark=meta.get("benchmark"))
+                col_name = f"Market_CAR_[{wb},+{wa}]"
+                car_results[col_name] = car
 
             # EPS
             eps = get_eps_surprise(ticker, year)
 
-            records.append(
-                {
-                    "Ticker": ticker,
-                    "Year": year,
-                    "Filing_Date": filing_date,
-                    "Market_CAR": car,
-                    "EPS_Actual": eps["actual_eps"] if eps else None,
-                    "EPS_Estimated": eps["estimated_eps"] if eps else None,
-                    "EPS_Surprise_Pct": eps["surprise_pct"] if eps else None,
-                }
-            )
+            record = {
+                "Ticker": ticker,
+                "Year": year,
+                "Filing_Date": filing_date,
+                "EPS_Actual": eps["actual_eps"] if eps else None,
+                "EPS_Estimated": eps["estimated_eps"] if eps else None,
+                "EPS_Surprise_Pct": eps["surprise_pct"] if eps else None,
+            }
+            record.update(car_results)
+            records.append(record)
 
     df = pd.DataFrame(records)
 

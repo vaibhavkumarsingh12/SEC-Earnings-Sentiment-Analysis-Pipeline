@@ -23,7 +23,7 @@ from scipy.stats import pearsonr
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import config  # noqa: E402
 
-from config import PLOTS_DIR, PLOT_DPI, PLOT_STYLE, PLOT_PALETTE, FIGURE_SIZE, RESULTS_DIR
+from config import PLOTS_DIR, PLOT_DPI, PLOT_STYLE, PLOT_PALETTE, FIGURE_SIZE, RESULTS_DIR, CAR_WINDOWS
 
 # ---------------------------------------------------------------------------
 # Logging
@@ -64,6 +64,7 @@ matplotlib.rcParams.update(
 def plot_sentiment_vs_car(
     df: pd.DataFrame,
     score_column: str = "FinBERT_Score",
+    car_column: str = "Market_CAR_[-1,+3]",
     title: Optional[str] = None,
 ) -> matplotlib.figure.Figure:
     """Scatter plot of sentiment score vs Cumulative Abnormal Return with a
@@ -72,9 +73,11 @@ def plot_sentiment_vs_car(
     Parameters
     ----------
     df : pd.DataFrame
-        Master dataset with *score_column* and ``Market_CAR``.
+        Master dataset with *score_column* and *car_column*.
     score_column : str
         Column to plot on the x-axis (default ``'FinBERT_Score'``).
+    car_column : str
+        Column to plot on the y-axis (default ``'Market_CAR_[-1,+3]'``).
     title : str, optional
         Custom plot title.
 
@@ -82,7 +85,7 @@ def plot_sentiment_vs_car(
     -------
     matplotlib.figure.Figure
     """
-    plot_df = df[[score_column, "Market_CAR", "Ticker"]].dropna()
+    plot_df = df[[score_column, car_column, "Ticker"]].dropna()
 
     fig, ax = plt.subplots(figsize=FIGURE_SIZE)
 
@@ -90,7 +93,7 @@ def plot_sentiment_vs_car(
     sns.regplot(
         data=plot_df,
         x=score_column,
-        y="Market_CAR",
+        y=car_column,
         scatter=False,
         ci=95,
         line_kws={"color": "#2c3e50", "linewidth": 2},
@@ -101,7 +104,7 @@ def plot_sentiment_vs_car(
     sns.scatterplot(
         data=plot_df,
         x=score_column,
-        y="Market_CAR",
+        y=car_column,
         hue="Ticker",
         style="Ticker",
         s=100,
@@ -112,7 +115,7 @@ def plot_sentiment_vs_car(
 
     # Annotate with Pearson r
     if len(plot_df) >= 3:
-        r, p = pearsonr(plot_df[score_column], plot_df["Market_CAR"])
+        r, p = pearsonr(plot_df[score_column], plot_df[car_column])
         annotation = f"Pearson r = {r:.3f}\np = {p:.3f}"
         ax.annotate(
             annotation,
@@ -124,8 +127,8 @@ def plot_sentiment_vs_car(
         )
 
     ax.set_xlabel("Net Polarity Score")
-    ax.set_ylabel("Cumulative Abnormal Return (%)")
-    ax.set_title(title or f"{score_column} vs Cumulative Abnormal Return")
+    ax.set_ylabel(f"Cumulative Abnormal Return {car_column.split('_')[-1]} (%)")
+    ax.set_title(title or f"{score_column} vs {car_column}")
     ax.legend(title="Ticker", loc="lower right")
 
     out_path = PLOTS_DIR / f"{score_column}_vs_CAR.png"
@@ -309,7 +312,74 @@ def plot_correlation_heatmap(df: pd.DataFrame) -> matplotlib.figure.Figure:
 
 
 # ──────────────────────────────────────────────────────────────────────────────
-# 5.  Generate All Plots
+# 5.  CAR Window Expansion PEAD Plot
+# ──────────────────────────────────────────────────────────────────────────────
+
+from scipy.stats import spearmanr
+
+def plot_car_window_expansion(df: pd.DataFrame) -> matplotlib.figure.Figure:
+    """Line plot showing how the Spearman rho correlation between FinBERT_Score 
+    and CAR evolves as the event window expands (PEAD effect).
+    """
+    windows = []
+    rhos = []
+    labels = []
+
+    for wb, wa in CAR_WINDOWS:
+        car_col = f"Market_CAR_[{wb},+{wa}]"
+        if car_col in df.columns:
+            plot_df = df[["FinBERT_Score", car_col]].dropna()
+            if len(plot_df) >= 3:
+                rho, p = spearmanr(plot_df["FinBERT_Score"], plot_df[car_col])
+                rhos.append(rho)
+                windows.append(wa)
+                labels.append(f"[{wb}, +{wa}]")
+
+    if not rhos:
+        logger.warning("No CAR window data available for PEAD plot.")
+        return plt.figure()
+
+    fig, ax = plt.subplots(figsize=FIGURE_SIZE)
+    
+    # Plot line
+    ax.plot(windows, rhos, marker='o', linestyle='-', linewidth=2.5, markersize=8, color="#2980b9")
+    
+    # Highlight points above zero
+    for i, rho in enumerate(rhos):
+        color = "green" if rho > 0 else "red"
+        ax.plot(windows[i], rhos[i], marker='o', markersize=10, color=color)
+        
+        # Annotate
+        ax.annotate(
+            f"ρ = {rho:.3f}",
+            (windows[i], rhos[i]),
+            xytext=(0, 10),
+            textcoords="offset points",
+            ha="center",
+            fontsize=10,
+            fontweight="bold"
+        )
+
+    # Set x-ticks to the exact window sizes
+    ax.set_xticks(windows)
+    ax.set_xticklabels(labels)
+
+    ax.set_xlabel("Event Window Horizon (Days)")
+    ax.set_ylabel("Spearman Correlation (ρ)")
+    ax.set_title("Post-Earnings Announcement Drift: Sentiment Predictability over Time")
+    
+    # Add a zero-line for reference
+    ax.axhline(0, color="gray", linestyle="--", alpha=0.7)
+
+    out_path = PLOTS_DIR / "FinBERT_CAR_Window_Expansion.png"
+    fig.savefig(out_path, dpi=PLOT_DPI)
+    logger.info("Saved → %s", out_path)
+    plt.close(fig)
+    return fig
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 6.  Generate All Plots
 # ──────────────────────────────────────────────────────────────────────────────
 
 def generate_all_plots(df: pd.DataFrame) -> List[str]:
@@ -327,12 +397,12 @@ def generate_all_plots(df: pd.DataFrame) -> List[str]:
     """
     saved: List[str] = []
 
-    # FinBERT vs CAR
-    plot_sentiment_vs_car(df, score_column="FinBERT_Score")
+    # FinBERT vs CAR (baseline window)
+    plot_sentiment_vs_car(df, score_column="FinBERT_Score", car_column="Market_CAR_[-1,+3]")
     saved.append(str(PLOTS_DIR / "FinBERT_Score_vs_CAR.png"))
 
-    # LM vs CAR
-    plot_sentiment_vs_car(df, score_column="LM_Score")
+    # LM vs CAR (baseline window)
+    plot_sentiment_vs_car(df, score_column="LM_Score", car_column="Market_CAR_[-1,+3]")
     saved.append(str(PLOTS_DIR / "LM_Score_vs_CAR.png"))
 
     # FinBERT vs EPS
@@ -350,6 +420,10 @@ def generate_all_plots(df: pd.DataFrame) -> List[str]:
     # Correlation heatmap
     plot_correlation_heatmap(df)
     saved.append(str(PLOTS_DIR / "correlation_heatmap.png"))
+    
+    # CAR Window Expansion
+    plot_car_window_expansion(df)
+    saved.append(str(PLOTS_DIR / "FinBERT_CAR_Window_Expansion.png"))
 
     logger.info("Generated %d plots:", len(saved))
     for p in saved:

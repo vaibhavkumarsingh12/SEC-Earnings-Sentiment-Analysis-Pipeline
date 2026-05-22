@@ -101,8 +101,7 @@ LM_DICTIONARY_PATH = DATA_DIR / "LoughranMcDonald_MasterDictionary_2020.csv"
 # ─────────────────────────────────────────────────────────────────────
 # Market Data Parameters
 # ─────────────────────────────────────────────────────────────────────
-CAR_WINDOW_BEFORE = 1   # Trading days before filing date
-CAR_WINDOW_AFTER = 3    # Trading days after filing date
+CAR_WINDOWS = [(-1, 3), (-1, 5), (-1, 10), (-1, 30), (0, 60)]
 SECTOR_BENCHMARK = "XLF"  # Financial Select Sector SPDR Fund
 
 # ─────────────────────────────────────────────────────────────────────
