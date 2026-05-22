@@ -1,0 +1,438 @@
+MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION
+AND RESULTS OF OPERATIONS
+EXECUTIVE SUMMARY
+As described further throughout this Executive Summary, Citi demonstrated continued progress across the franchise during 2021:
+•
+Citi’s earnings increased significantly versus the prior year, largely reflecting an allowance for credit loss (ACL) release of approximately $8.8 billion as a result of continued improvement in both the macroeconomic environment and portfolio credit quality.
+•
+Asia Global Consumer Banking (GCB)
+(see “Citigroup” below), Citi’s revenues declined 4%, as strength in investment banking, equity markets, the private bank and securities services in
+Institutional Clients Group (ICG)
+was more than offset by normalization in market activity in fixed income markets within
+ICG
+,
+as well as the impact of lower deposit spreads and card loans across
+GCB
+.
+•
+Citi’s expenses included pretax costs of approximately $1.2 billion ($1.1 billion after-tax) primarily related to charges incurred from the voluntary early retirement program (VERP) in connection with the wind-down of the Korea consumer banking business (for additional information, see “
+Asia GCB
+” below).
+•
+Citi continued to invest in its transformation, including infrastructure supporting its risk and control environment, and make business-led investments.
+•
+Citi had broad-based deposit growth across
+ICG
+and
+GCB
+(up 3% and 5%, respectively), reflecting continued engagement across both corporate and consumer clients.
+•
+•
+In addition to the sale announcements related to
+Asia GCB
+, Citi also announced it intends to exit the consumer, small business and middle-market banking operations of Citibanamex in Mexico. Citi’s planned divestitures of its consumer businesses across Mexico,
+Asia
+and
+EMEA
+are aligned with the repositioning of its consumer operations to focus on global wealth centers, as well as payments and lending and a targeted retail presence in the U.S. (For additional information on the exit markets and Citi’s revised reporting structure effective for the first quarter of 2022, see “Strategic Refresh—Market Exits and Revised Reporting Strategy” above and “
+Latin America GCB
+” and “
+Asia GCB
+” below.)
+Although economic growth and employment rates have continued to recover from pandemic-related lows, particularly in the U.S., various macroeconomic and other challenges and uncertainties related to, among other things, the duration and
+severity of the pandemic-related public health crisis, disruptions of global supply chains, inflationary pressures, increasing interest rates and geopolitical tensions involving Eastern Europe, will continue to create uncertainty around Citi’s businesses and results.
+For a discussion of trends, uncertainties and risks that will or could impact Citi’s businesses, results of operations and financial condition during 2022, see “2021 Results Summary,” “Risk Factors,” each respective business’s results of operations and “Managing Global Risk” below.
+2021 Results Summary
+Citigroup
+ICG
+and
+GCB
+, partially offset by higher revenues in
+Corporate/Other
+.
+As discussed above, Citi’s 2021 results include the impacts of divestitures of Citi’s consumer banking businesses in
+Asia
+. Reported revenues include the Australia loss on sale (approximately $0.7 billion pretax, $0.6 billion after-tax), primarily reflecting the impact of a currency translation adjustment (CTA) loss (net of hedges) already reflected in the
+Accumulated other comprehensive income (AOCI)
+component of equity. Upon closing, the CTA balance will be removed from the
+AOCI
+component of equity, resulting in a neutral impact to Citi’s Common Equity Tier 1 Capital.
+Reported expenses include the impact of the Korea VERP of approximately $1.1 billion (approximately $0.8 billion after-tax) and contract modification costs related to the
+Asia
+divestitures of approximately $119 million (approximately $98 million after-tax). (As used throughout this Form 10-K, Citi’s results of operations and financial condition excluding the impact of the Australia loss on sale, Korea VERP and other
+Asia
+divestiture-related costs are non-GAAP financial measures. Citi believes the presentation of its results of operations and financial condition excluding the divestiture-related impacts described above provides a meaningful depiction of the underlying fundamentals of its broader results and
+Asia GCB
+businesses’ results for investors, industry analysts and others.)
+Citigroup’s end-of-period loans decreased 1% from the prior year to $668 billion. Excluding the impact of foreign currency translation into U.S. dollars for reporting purposes (FX translation), Citigroup’s end-of-period loans were largely unchanged, as growth in
+ICG
+was offset by lower loans in
+GCB
+and
+Corporate/Other
+. Citigroup’s end-of-period deposits
+GCB
+and
+ICG
+. (As used throughout this Form 10-K, Citi’s results of operations excluding the impact of FX translation are non-GAAP financial measures. Citi believes the presentation of its results of operations and financial condition excluding the impact of FX translation provides a meaningful depiction of the underlying fundamentals of its businesses for investors, industry analysts and others.)
+Expenses
+Citigroup operating expenses of $48.2 billion increased 9% versus the prior year. Excluding the impact of the
+Asia
+divestitures, expenses of $47.0 billion increased 6%, primarily reflecting investments in Citi’s transformation, including infrastructure supporting its risk and control environment, business-led investments and revenue- and transaction-related expenses, partially offset by productivity savings. Citi expects expenses in 2022 to continue to be impacted by its transformation-related and business-led investments.
+Cost of Credit
+For further information on the drivers of Citi’s ACL, see “Significant Accounting Policies and Significant Estimates—Citi’s Allowance for Credit Losses (ACL)” below.
+North America
+cards portfolios. Corporate net credit losses of $395 million decreased 60%, primarily reflecting improvements in portfolio credit quality.
+For additional information on Citi’s consumer and corporate credit costs and ACL, see each respective business’s results of operations and “Credit Risk” below.
+Capital
+Citigroup’s Common Equity Tier 1 Capital ratio was 12.2% as of December 31, 2021, based on the Basel III Standardized Approach framework for determining risk-weighted assets, compared to 11.5% as of December 31, 2020, based on the Basel III Advanced Approaches for determining risk-weighted assets. The increase in the ratio primarily reflected actions to reduce risk-weighted assets (RWA) and a temporary pause in common share repurchases in the fourth quarter of 2021, in preparation for the implementation of the Standardized Approach for Counterparty Credit Risk (SA-CCR) on January 1, 2022. Citi resumed common share repurchases in January 2022.
+Citigroup’s Supplementary Leverage ratio was 5.7% as of December 31, 2021, compared to 7.0% as of December 31, 2020. The decrease was primarily driven by the expiration of temporary relief granted by the Federal Reserve Board (FRB) as of the end of the first quarter of 2021. For additional information on SA-CCR and Citi’s capital ratios, see “Capital Resources” below.
+Institutional Clients Group
+ICG
+net income of $15.7 billion
+increased 36%, reflecting lower cost of credit, partially offset by higher expenses and lower revenues.
+ICG
+operating expenses increased 8% to $26.5 billion, reflecting continued investments in Citi’s transformation, business-led investments and revenue- and transaction-related expenses, partially offset by productivity savings.
+ICG
+Banking
+revenues was more than offset by an 11% decline in
+Markets and securities services
+revenues. The increase in
+Banking
+revenues included the impact of $144 million of losses on loan hedges related to corporate lending and the private bank, compared to losses of $51 million in the prior year.
+Banking
+Markets and securities services
+revenues of $20.8 billion decreased 11%.
+ICG
+in 2021, see “
+Institutional Clients Group
+” below.
+Global Consumer Banking
+GCB
+net income was $6.1 billion, compared to net income of $667 million in the prior year, reflecting lower cost of credit, partially offset by lower revenues and higher expenses.
+GCB
+operating expenses of $20.0 billion increased 12%. Excluding the impact of FX translation and the
+Asia
+divestitures, expenses increased 5%, reflecting continued investments in Citi’s transformation, as well as business-led investments and volume-related expenses, partially offset by productivity savings.
+GCB
+GCB
+’s results of operations, including the impact of FX translation, see “
+Global Consumer Banking
+” below.
+North America GCB
+North America GCB
+North America GCB
+in 2021, see “
+Global Consumer Banking—North America GCB
+” below.
+International
+GCB
+revenues (consisting of
+Latin America GCB
+and
+Asia GCB
+(which includes the results of operations in certain
+EMEA
+countries)) of $9.8 billion declined 11% versus the prior year. Excluding the impact of FX translation and the Australia loss on sale, international
+GCB
+revenues declined 7%. Excluding the impact of FX translation,
+Latin America GCB
+revenues decreased 9%, driven by lower average loans and lower deposit spreads. Excluding the impact of FX translation and the Australia loss on sale,
+Asia GCB
+revenues decreased 6%, reflecting lower spreads, partially offset by higher investment revenues. For additional information on the results of operations of
+Latin America GCB
+and
+Asia GCB
+in 2021, including the impacts of FX translation,
+see “
+Global Consumer Banking—Latin America GCB
+” and “
+Global Consumer Banking—Asia GCB
+” below. For additional information on Citi’s consumer banking business in Australia, see “
+Global Consumer Banking—Asia GCB
+” below.
+Year-over-year, excluding the impact of FX translation, international
+GCB
+GCB
+Corporate/Other
+Corporate/Other
+Corporate/Other
+revenues of $667 million compared to $71 million in the prior year, primarily driven by higher net revenue from the investment portfolio. For additional information on the results of operations of
+Corporate/Other
+in 2021, see “
+Corporate/Other
+” below.
+CITI’S CONSENT ORDER COMPLIANCE
+Citi has embarked on a multiyear transformation, with the target outcome to change Citi’s business and operating models such that they simultaneously strengthen risk and controls and improve Citi’s value to customers, clients and shareholders.
+This includes efforts to effectively implement the October 2020 FRB and Office of the Comptroller of the Currency (OCC) consent orders issued to Citigroup and Citibank, respectively. In the second quarter of 2021, Citi made an initial submission to the OCC, and submitted its plans to address the consent orders to both regulators during the third quarter of 2021. Citi continues to work constructively with the regulators, and will continue to reflect their feedback in its project plans and execution efforts.
+As discussed above, Citi’s efforts include continued investments in its transformation, including the remediation of its consent orders. Citi's CEO has made the strengthening of Citi's risk and control environment a strategic priority and has
+established a Chief Administrative Officer organization to centralize program management. In addition, the Citigroup and Citibank Boards of Directors each formed a Transformation Oversight Committee, an ad hoc committee of each Board, to provide oversight of management’s remediation efforts under the consent orders.
+For additional information about the consent orders, see “Risk Factors—Compliance Risks” below and Citi’s Current Report on Form 8-K filed with the SEC on October 7, 2020.
+RESULTS OF OPERATIONS
+SUMMARY OF SELECTED FINANCIAL DATA
+Citigroup Inc. and Consolidated Subsidiaries
+In millions of dollars, except per share amounts
+2021
+2020
+2019
+2018
+2017
+Net interest income
+(1)
+$
+$
+$
+$
+$
+Non-interest revenue
+Revenues, net of interest expense
+$
+$
+$
+$
+$
+Operating expenses
+(1)
+Provisions for credit losses and for benefits and claims
+8,383
+7,568
+7,451
+Income from continuing operations before income taxes
+$
+$
+$
+$
+$
+Income taxes
+(2)
+5,451
+2,525
+4,430
+5,357
+Income (loss) from continuing operations
+$
+$
+$
+$
+$
+Income (loss) from discontinued operations, net of taxes
+(20)
+(4)
+(8)
+(111)
+Net income (loss) before attribution of noncontrolling interests
+$
+$
+$
+$
+$
+Net income
+attributable to noncontrolling interests
+Citigroup’s net income (loss)
+(2)
+$
+$
+$
+$
+$
+Earnings per share
+Basic
+Income (loss) from continuing operations
+$
+10.21
+$
+4.75
+$
+8.08
+$
+6.69
+$
+Net income (loss)
+10.21
+4.74
+8.08
+6.69
+Diluted
+Income (loss) from continuing operations
+$
+10.14
+$
+4.73
+$
+8.04
+$
+6.69
+$
+Net income
+(loss)
+10.14
+4.72
+8.04
+6.68
+Dividends declared per common share
+2.04
+2.04
+1.92
+1.54
+0.96
+Common dividends
+$
+4,196
+$
+4,299
+$
+4,403
+$
+3,865
+$
+2,595
+Preferred dividends
+1,040
+1,095
+1,109
+1,174
+1,213
+Common share repurchases
+7,600
+2,925
+Table continues on the next page, including footnotes.
+SUMMARY OF SELECTED FINANCIAL DATA
+(Continued)
+Citigroup Inc. and Consolidated Subsidiaries
+In millions of dollars, except per share amounts, ratios and direct staff
+2021
+2020
+2019
+2018
+2017
+At December 31:
+Total assets
+$
+$
+$
+$
+$
+Total deposits
+Long-term debt
+Citigroup common stockholders’ equity
+(2)
+Total Citigroup stockholders’ equity
+(2)
+Average assets
+Direct staff
+(in thousands)
+Performance metrics
+Return on average assets
+0.94
+%
+0.50
+%
+0.98
+%
+0.94
+%
+%
+Return on average common stockholders’ equity
+11.5
+5.7
+10.3
+9.4
+(3.9)
+Return on average total stockholders’ equity
+10.9
+5.7
+9.9
+9.1
+(3.0)
+Return on tangible common equity (RoTCE)
+13.4
+6.6
+12.1
+11.0
+8.1
+Efficiency ratio (total operating expenses/total revenues, net)
+67.0
+58.8
+57.0
+58.1
+59.0
+Basel III ratios
+Common Equity Tier 1 Capital
+(6)
+12.25
+%
+11.51
+%
+11.79
+%
+11.86
+%
+12.36
+%
+Tier 1 Capital
+(6)
+13.91
+13.06
+13.33
+13.43
+14.06
+Total Capital
+(6)
+16.04
+15.33
+15.87
+16.14
+16.30
+Supplementary Leverage ratio
+5.73
+6.99
+6.20
+6.40
+6.68
+Citigroup common stockholders’ equity to assets
+(2)
+7.99
+%
+7.96
+%
+8.98
+%
+9.27
+%
+9.85
+%
+Total Citigroup stockholders’ equity to assets
+(2)
+8.81
+8.82
+9.90
+10.23
+10.90
+Dividend payout ratio
+(7)
+NM
+Total payout ratio
+(8)
+NM
+Book value per common share
+(2)
+$
+92.21
+$
+86.43
+$
+82.90
+$
+75.05
+$
+70.62
+Tangible book value (TBV) per share
+79.16
+73.67
+70.39
+63.79
+60.16
+(1)    Revenue previously referred to as net interest revenue is now referred to as net interest income. During the fourth quarter of 2021, Citi reclassified deposit insurance expenses from
+Interest expense
+to
+Other operating expenses

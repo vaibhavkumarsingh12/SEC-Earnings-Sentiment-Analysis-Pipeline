@@ -1,0 +1,898 @@
+Financial review
+Financial summary
+Business segments and legal
+entities
+Alternative
+performance measures
+Other information
+Risk review
+Our approach to risk
+Top and emerging risks
+Risk factors
+Our material banking risks
+Corporate governance report
+Biographies of Directors and
+senior management
+Board committees
+Directors’ remuneration report
+Financial statements
+Report of Independent Registered
+Public Accounting Firm to the
+Board of Directors and Shareholders
+of HSBC Holdings plc
+(PCAOB ID
+)
+Financial statements
+Notes on the financial statements
+Additional information
+Shareholder information
+Abbreviations
+This Strategic Report was approved by the
+Board on 25 February 2026.
+Brendan Nelson
+Group Chairman
+A reminder
+The currency we report in is US dollars.
+Our approach to ESG reporting
+We embed our ESG reporting and Task Force on
+Climate-related Financial Disclosures (‘TCFD’) within
+our Annual Report and Accounts. Our TCFD
+disclosures are highlighted with the following
+TCFD
+symbol:
+Use of alternative performance
+measures
+We supplement our IFRS Accounting Standards
+figures with non-IFRS Accounting Standards
+measures used by management internally that
+constitute alternative performance measures under
+European Securities and Markets Authority guidance
+and non-GAAP financial measures defined in and
+presented in accordance with US Securities and
+Exchange Commission rules and regulations.
+These measures are highlighted with the following
+symbol:
+ø
+Ñ
+Further explanation may be found on page
+.
+Financial targets
+For our financial targets, medium-term is defined as
+between three to five years, and long term as five to
+six years, from 1 January 2026.
+Ñ
+See page
+for details on our forward guidance
+and outlook.
+None of the websites referred to in this Form 20-F for
+the year ended 31 December 2025 (the ‘Form 20-F’)
+(including where a link is provided), and none of the
+information contained on such websites, are
+incorporated by reference in this report.
+HSBC Holdings plc
+Annual Report on Form 20-F
+Strategic report
+ESG review
+Financial review
+Risk review
+Corporate
+Governance Report
+Financial
+statements
+Additional
+information
+Cautionary statement regarding forward-looking statements
+This Form 20-F contains certain forward-looking statements with
+respect to HSBC’s financial condition; results of operations and
+business, including the strategic priorities; financial, investment and
+capital targets; and ESG ambitions, targets and commitments
+described herein.
+Statements that are not historical facts, including statements about
+HSBC’s beliefs and expectations, are forward-looking statements.
+Words such as ‘may’, ‘will’, ‘should’, ‘expects’, ‘targets’,
+‘anticipates’, ‘intends’, ‘plans’, ‘believes’, ‘seeks’, ‘estimates’,
+‘potential’ and ‘reasonably possible’, or the negative thereof, other
+variations thereon or similar expressions are intended to identify
+forward-looking statements. These statements are based on current
+plans, information, data, estimates and projections, and therefore
+undue reliance should not be placed on them. Forward-looking
+statements speak only as of the date they are made. HSBC makes
+no commitment to revise or update any forward-looking statements
+to reflect events or circumstances occurring or existing after the
+date of any forward-looking statements. Written and/or oral forward-
+looking statements may also be made in the periodic reports to the
+US Securities and Exchange Commission, summary financial
+statements to shareholders, offering circulars and prospectuses,
+press releases and other written materials, and in oral statements
+made by HSBC’s directors, officers or employees to third parties,
+including financial analysts. Forward-looking statements involve
+inherent risks and uncertainties. Readers are cautioned that a
+number of factors could cause actual results to differ, in some
+instances materially, from those anticipated or implied in any
+forward-looking statement. These include, but are not limited to:
+–
+changes in general economic conditions in the markets in which
+we operate, such as new, continuing or deepening recessions,
+prolonged inflationary pressures and fluctuations in employment
+levels and the creditworthiness of customers beyond those
+factored into consensus forecasts; the Russia-Ukraine war, further
+conflict or military action in the Middle East or elsewhere and their
+impact on global economies and the markets where HSBC
+operates, which could have a material adverse effect on (among
+other things) our financial condition, results of operations,
+prospects, liquidity, capital position and credit ratings; deviations
+from the market and economic assumptions that form the basis
+for our ECL measurements (including, without limitation, as a
+result of the Russia-Ukraine war, further conflict or military action
+in the Middle East or elsewhere, inflationary pressures,
+commodity price changes, and ongoing developments in the
+commercial real estate sector in mainland China and Hong Kong);
+potential changes in HSBC’s dividend policy; changes and volatility
+in foreign exchange rates and interest rates levels, including
+fluctuations in HIBOR and the accounting impact resulting from
+financial reporting in respect of hyperinflationary economies;
+volatility in equity markets and the risk of disruptive correction
+stemming from high company valuations; lack of liquidity in
+wholesale funding or capital markets, which may affect our ability
+to meet our obligations under financing facilities or to fund new
+loans, investments and businesses; geopolitical tensions or
+diplomatic developments producing social instability or legal
+uncertainty, such as the Russia-Ukraine war, conflict in the Middle
+East, the US military operation in Venezuela and any potential
+military action or conflict elsewhere, and the related imposition of
+sanctions, export-control, trade and investment restrictions,
+supply chain restrictions and disruptions, sustained increases in
+energy prices and key commodity prices, claims of human rights
+violations, diplomatic tensions between China and the US, which
+may extend to and involve other countries and territories, and
+developments in Hong Kong and Taiwan and the surrounding
+maritime region, alongside other potential areas of tension, which
+may adversely affect HSBC by creating regulatory, reputational
+and market risks; the efficacy of government, customer, and
+HSBC’s actions in managing and mitigating ESG-related risks, in
+particular climate risk, nature-related risks and human rights risks,
+and in supporting the global transition to net zero carbon
+emissions, each of which can impact HSBC both directly and
+indirectly through our customers and which may result in potential
+financial and non-financial impacts; illiquidity and downward price
+pressure in national real estate markets; adverse changes in
+central banks’ policies with respect to the provision of liquidity
+support to financial markets; heightened market concerns over
+sovereign creditworthiness in over-indebted countries; adverse
+changes in the funding status of public or private defined benefit
+pensions; the significant depreciation of the US dollar through
+2025, with volatility expected to persist; societal shifts in
+customer financing and investment needs, including consumer
+perception as to the continuing availability of credit; exposure to
+counterparty risk, including third parties using us as a  conduit for
+illegal activities without our knowledge; and price competition in
+the market segments we serve;
+–
+changes in government policy and regulation, as well as monetary,
+interest rate and other policies of central banks and other
+regulatory authorities in the principal markets in which we operate
+and the consequences thereof (including, without limitation,
+actions taken as a result of changes in government following
+national elections in the markets where the Group operates);
+continued volatility in trade and tariff policies, changes in tariff
+rates, including sector-specific levies imposed by various nations,
+including the US, which could further disrupt supply chains and
+reduce global trade growth; initiatives to change the size, scope of
+activities and interconnectedness of financial institutions in
+connection with the implementation of stricter regulation of
+financial institutions in key markets worldwide; revised capital and
+liquidity benchmarks, which could serve to deleverage bank
+balance sheets and lower returns available from the current
+business model and portfolio mix; changes to tax laws and tax
+rates applicable to HSBC, including the imposition of levies or
+taxes designed to change business mix and risk appetite; the
+practices, pricing or responsibilities of financial institutions serving
+their consumer markets; expropriation, nationalisation,
+confiscation of assets and changes in legislation relating to foreign
+ownership; the UK’s relationship with the EU, particularly with
+respect to the potential divergence of UK and EU law on the
+regulation of financial services; changes in government approach
+and regulatory treatment in relation to ESG disclosures and
+reporting requirements, and the current lack of a single
+standardised regulatory approach to ESG across all sectors and
+markets; changes in UK macroeconomic and fiscal policy, which
+may result in fluctuations in the value of the pound sterling;
+general changes in government policy (including, without
+limitation, actions taken as a result of changes in government
+following national elections in the markets where the Group
+operates) that may significantly influence investor decisions; the
+costs, effects and outcomes of regulatory reviews, actions or
+litigation, including any additional compliance requirements; and
+the effects of competition in the markets where we operate
+including increased competition from non-bank financial services
+companies; and
+–
+factors specific to HSBC, including our success in adequately
+identifying the risks we face, such as the incidence of loan losses
+or delinquency, and managing those risks (through account
+management, hedging and other techniques); our ability to
+achieve our financial, investment, capital and ESG ambitions,
+targets and commitments (including the positions set forth in our
+thermal coal phase-out policy and our energy policy and our
+targets to reduce our on-balance sheet financed emissions and,
+where applicable, facilitated emissions in our portfolio of selected
+high-emitting sectors), which may result in our failure to achieve
+any of the expected outcomes of our strategic priorities and may
+result in reputational risks; evolving regulatory requirements and
+the development of new technologies, including artificial
+intelligence, affecting how we manage risk, including model risk;
+model limitations or failure, including, without limitation, the
+impact that high inflationary pressures and interest rates have had
+on the performance and usage of financial models, which may
+require us to hold additional capital, incur losses and/or use
+compensating controls, such as judgemental post-model
+adjustments, to address model limitations; changes to the
+judgements, estimates and assumptions we base our financial
+statements on; changes in our ability to meet the requirements of
+regulatory stress tests; a reduction in the credit ratings assigned
+to us or any of our subsidiaries, which could increase the cost or
+decrease the availability of our funding and affect our liquidity
+HSBC Holdings plc
+Annual Report on Form 20-F
+Strategic report
+ESG review
+Financial review
+Risk review
+Corporate
+Governance Report
+Financial
+statements
+Additional
+information
+position and net interest margin; changes to the reliability and
+security of our data management, data privacy, information and
+technology infrastructure, including threats from cyber-attacks,
+which may impact our ability to service clients and may result in
+financial loss, business disruption and/or loss of customer services
+and data; the accuracy and effective use of data, including internal
+management information that may not have been independently
+verified; changes in insurance customer behaviour and insurance
+claim rates; our dependence on loan payments and dividends from
+subsidiaries to meet our obligations; changes in our reporting
+frameworks and accounting standards, which have had and may
+continue to have a material impact on the way we prepare our
+financial statements; our ability to successfully execute planned
+strategic acquisitions and disposals; our success in adequately
+integrating acquired businesses into our business; our ability to
+successfully execute and implement the announced strategic
+reorganisation of the Group; changes in our ability to manage third-
+party, fraud, financial crime and reputational risks inherent in our
+operations; employee misconduct, which may result in regulatory
+sanctions and/or reputational or financial harm; changes in skill
+requirements, ways of working and talent shortages, which may
+affect our ability to recruit and retain senior management and an
+inclusive and skilled workforce; and changes in our ability to
+develop sustainable finance and ESG-related products consistent
+with the evolving expectations of our regulators, and our capacity
+to measure the environmental and social impacts from our
+financing activity (including as a result of data limitations and
+changes in methodologies), which may affect our ability to achieve
+our ESG ambitions, targets and commitments, including our net
+zero ambition, our targets to reduce on-balance sheet financed
+emissions and, where applicable, facilitated emissions in our
+portfolio of selected high-emitting sectors and the positions set
+forth in our thermal coal phase-out policy and our energy policy,
+and increase the risk of greenwashing. Effective risk management
+depends on, among other things, our ability through stress testing
+and other techniques to prepare for events that cannot be
+captured by the statistical models it uses; our success in
+addressing operational, legal and regulatory, and litigation
+challenges; and other risks and uncertainties we identify in ‘Top
+and emerging risks’ on pages
+to
+.
+This Annual Report and Accounts 2025 contains a number of
+images, graphics, infographics, text boxes and illustrative case
+studies and credentials which aim to give a high-level overview of
+certain elements of our disclosures and to improve accessibility for
+readers. These images, graphics, infographics, text boxes and
+illustrative case studies and credentials are designed to be read
+within the context of the Form 20-F as a whole.
+The information, statements and opinions set out in this Form 20-F
+do not constitute a public offer for the purposes of any applicable
+law or an offer to sell or solicitation of any offer to purchase any
+securities or other financial instruments or any advice or
+recommendation in respect of such securities or other financial
+instruments.
+Additional cautionary statement regarding ESG data, metrics and forward-
+looking statements
+The Form 20-F contains a number of forward-looking statements (as
+defined above) with respect to HSBC’s ESG-related ambitions, targets
+and commitments, climate-related pathways, processes and plans, and
+the methodologies and scenarios we use, or intend to use, to assess
+our progress in relation to these (‘ESG-related forward-looking
+statements’).
+In preparing the ESG-related information contained in the Form 20-F,
+HSBC has made a number of key judgements, estimations and
+assumptions, and the processes and issues involved are complex. We
+have used ESG (including climate) data, models and methodologies that
+we consider, as of the date on which they were used, to be appropriate
+and suitable to understand and assess climate change risk and its
+impact, to analyse financed emissions and operational and supply chain
+emissions, to set ESG-related ambitions, targets and commitments and
+to evaluate the classification of sustainable finance and investments.
+However, these data, models and methodologies are often new, are
+rapidly evolving and are not of the same standard as those available in
+the context of other financial information, nor are they subject to the
+same or equivalent disclosure standards, historical reference points,
+benchmarks or globally accepted accounting principles. In particular, it
+is not possible to rely on historical data as a strong indicator of future
+trajectories in the case of climate change and its evolution. Outputs of
+models, processed data and methodologies are also likely to be
+affected by underlying data quality, which can be hard to assess and
+we expect industry guidance, market practice, and regulations in this
+field to continue to change. We also face challenges in relation to our
+ability to access data on a timely basis, lack of consistency and
+comparability between data that is available and our ability to collect
+and process relevant data. Consequently, the ESG-related forward-
+looking statements and ESG metrics disclosed in the Annual Report
+and Accounts 2025 carry an additional degree of inherent risk and
+uncertainty.
+Due to the unpredictable evolution of climate change and its future
+impact and the uncertainty of future policy and market response to
+ESG-related issues and the effectiveness of any such response, HSBC
+may have to re-evaluate its progress towards its ESG-related ambitions,
+targets and commitments in the future, update the methodologies it
+uses or alter its approach to ESG (including climate) analysis and may
+be required to amend, update and recalculate its ESG-related
+disclosures and assessments in the future, as market practice and data
+quality and availability develop.
+No assurance can be given by or on behalf of HSBC as to the likelihood
+of the achievement or reasonableness of any projections, estimates,
+forecasts, ambitions, targets, commitments, prospects or returns
+contained herein. Readers are cautioned that a number of factors, both
+external and those specific to HSBC, could cause actual achievements,
+results, performance or other future events or conditions to differ, in
+some cases materially, from those stated, implied and/or reflected in
+any ESG-related forward-looking statement or metric due to a variety of
+risks, uncertainties and other factors (including without limitation those
+referred to below):
+–
+Climate change projection risk: this includes, for example, the
+evolution of climate change and its impacts, changes in the scientific
+assessment of climate change impacts, transition pathways and
+future risk exposure and limitations of climate scenario forecasts;
+–
+ESG projection risk: ESG-related metrics are complex and are still
+subject to development. In addition, the scenarios employed in
+relation to them, and the models that analyse them, have limitations
+that are sensitive to key assumptions and parameters, which are
+themselves subject to some uncertainty, and cannot fully capture all
+of the potential effects of climate, policy and technology-driven
+outcomes;
+–
+Changes in the ESG regulatory landscape: this involves changes in
+government approach and regulatory treatment in relation to ESG
+disclosures and reporting requirements, and the current lack of a
+single standardised regulatory approach to ESG across all sectors and
+markets;
+–
+Variation in reporting standards: ESG reporting standards are still
+developing and are not standardised or comparable across all sectors
+and markets, and new reporting standards in relation to different ESG
+metrics are still emerging;
+–
+Data availability, accuracy, verifiability and data gaps: our disclosures
+are limited by the availability of high quality data in some areas and
+our own ability to timely collect and process such data as required.
+Where data is not available for all sectors or consistently year on year,
+there may be an impact to our data quality scores. We may not be
+able to fully mitigate financial reporting risks related to our climate
+HSBC Holdings plc
+Annual Report on Form 20-F
+Strategic report
+ESG review
+Financial review
+Risk review
+Corporate
+Governance Report
+Financial
+statements
+Additional
+information
+and ESG disclosures due to the limited quantity and consistency of
+available data. The accuracy and reliability of data is also impacted by
+the diverse range of internal and external data sources and data
+structures needed for climate-related reporting. While we expect our
+data quality scores to improve over time, as companies continue to
+expand their disclosures to meet growing regulatory and stakeholder
+expectations, there may be unexpected fluctuations within sectors
+year on year, and/or differences between the data quality scores
+between sectors. Any such changes in the availability and quality of
+data over time, or our ability to collect and process such data, could
+result in revisions to reported data going forward, including on
+financed emissions, meaning that such data may not be reconcilable
+or comparable year-on year;
+–
+Developing methodologies and scenarios: the methodologies and
+scenarios HSBC uses to assess financed emissions and set ESG-
+related ambitions, targets and commitments may develop over time
+in line with market practice, industry standards, regulation and/or
+developments in science, where applicable. Such developments
+could result in revisions to reported data, including on financed
+emissions or the classification of sustainable finance and
+investments, meaning that data outputs may not be reconcilable or
+comparable year-on year. Consequently, we might need to reassess
+our progress towards ESG-related ambitions, targets and
+commitments in the future; and
+–
+Risk management capabilities: global actions, including HSBC’s own
+actions, may not be effective in transitioning to net zero and in
+managing relevant ESG risks, including in particular climate, nature-
+related and human rights risks, each of which can impact HSBC both
+directly and indirectly through our customers, and which may result in
+potential financial and non-financial impacts to HSBC. In particular:
+–
+we may not be able to achieve our ESG-related ambitions, targets
+and commitments (including with respect to the positions set
+forth in our thermal coal phase-out policy and our energy policy,
+and our targets to reduce our on-balance sheet financed
+emissions and, where applicable, facilitated emissions in our
+portfolio of selected high-emitting sectors), which may result in
+our failure to achieve some or all of the expected outcomes of our
+strategic priorities and raise reputational concerns; and
+–
+we may not be able to develop sustainable finance and ESG-
+related products consistent with the evolving expectations of our
+regulators, and our capacity to measure the environmental and
+social impacts from our financing activity may diminish (including
+as a result of data and model limitations and changes in
+methodologies), which may affect our ability to achieve our ESG-
+related ambitions, targets and commitments, including our net
+zero ambition, our targets to reduce our on-balance sheet financed
+emissions and, where applicable, facilitated emissions in our
+portfolio of selected high-emitting sectors and the positions set
+forth in our thermal coal phase-out policy and energy policy, and
+increase the risk of greenwashing. We may face additional risks if
+we knowingly or unknowingly make inaccurate, unclear,
+misleading or unsubstantiated claims regarding sustainability to
+our stakeholders.
+Any forward-looking statements made by or on behalf of HSBC speak
+only as of the date they are made. HSBC expressly disclaims any
+obligation to revise or update these ESG forward-looking statements,
+other than as expressly required by applicable law.
+Written and/or oral ESG-related forward-looking statements may also
+be made in our periodic reports to the US Securities and Exchange
+Commission, summary financial statements to shareholders, proxy
+statements, offering circulars and prospectuses, press releases and
+other written materials, and in oral statements made by HSBC’s
+Directors, officers or employees to third parties, including financial
+analysts.
+Our data dictionaries and methodologies for preparing the above ESG-
+related metrics and third-party limited assurance reports can be found
+on: www.hsbc.com/who-we-are/esg-and-responsible-business/esg-
+reporting-centre.
+Certain defined terms
+Unless the context requires otherwise, ‘HSBC Holdings’ means HSBC
+Holdings plc and ‘HSBC’, the ‘Group’, ‘we’, ‘us’ and ‘our’ refer to HSBC
+Holdings together with its subsidiaries. Within this document the Hong
+Kong Special Administrative Region of the People’s Republic of China is
+referred to as ‘Hong Kong’.
+When used in the terms ‘shareholders’ equity’ and ‘total shareholders’
+equity’, ‘shareholders’ means holders of HSBC Holdings ordinary
+shares and those preference shares and capital securities issued by
+HSBC Holdings classified as equity. The abbreviations ‘$m’, ‘$bn’ and
+‘$tn’ represent millions, billions (thousands of millions) and trillions of
+US dollars, respectively.
+HSBC Holdings plc
+Annual Report on Form 20-F
+Strategic report
+ESG review
+Financial review
+Risk review
+Corporate
+Governance Report
+Financial
+statements
+Additional
+information
+Performance in 2025
+Our key performance indicators measure the progress we have
+made against our priorities for the benefit of all our stakeholders,
+and also inform remuneration outcomes across the Group.
+Financial performance
+indicators
+Ñ
+Read more on our financial performance in 2025
+on pages
+and
+.
+Ñ
+For an explanation of performance against our
+key Group financial targets, see page
+.
+Ñ
+To better align with market practice, from our
+2025 full-year results we no longer adjust the
+‘average tangible equity‘ for the post-tax impact
+of notable items in each period. Comparatives
+have been re-presented. This revision improved
+RoTE excluding notable items by 16 basis points
+(‘bps’) in 2025 (
+2024: (34)bps).
+Ñ
+For a reconciliation of alternative performance
+measures to their reported equivalents, see
+page
+.
+Return on average tangible equity
+(‘RoTE’)
+ø
+13.3%
+(2024:
+14.6%
+)
+Profit before tax
+$29.9bn
+(2024:
+$32.3bn
+)
+RoTE excluding notable items
+ø
+17.2%
+(2024:
+15.6%
+)
+Constant currency profit before tax
+excluding notable items
+ø
+$36.6bn
+(2024:
+$34.2bn
+)
+Operating expenses
+$36.4bn
+(2024: $
+33.0
+bn)
+Common equity tier 1 capital ratio
+14.9%
+(2024:
+14.9%
+)
+Target basis operating expenses
+ø
+$33.5bn
+(2024:
+$32.5bn
+)
+Dividend per share in respect of 2025
+$0.75
+(2024 dividend per share:
+$0.87
+, inclusive
+of a special dividend of $0.21 per share)
+Strategic performance
+indicators
+Ñ
+Read more on our strategy on pages
+to
+.
+Ñ
+Read more on our approach to ESG on page
+.
+Ñ
+Read more on our definition of sustainable
+finance and investment on page
+.
+Organisational simplification
+$1.2bn
+Annualised impact of cost saving actions taken
+during 2025
+Sustainable finance and investment
+$
+495.6
+bn
+Cumulative total provided and facilitated
+since 1 January 2020.
+(2024: $393.6bn)
+Grow our Wealth business
+$80bn
+Net new invested assets generated in 2025,
+of which
+$39bn
+were in Asia.
+(2024:
+$64bn
+generated, of which
+$47bn
+were in Asia)
+Link to remuneration
+Ñ
+For details of executive Directors’ pay and
+performance in 2025, see the Directors’
+Remuneration Report on page
+.
+Our remuneration policy supports the
+achievement of our strategic objectives by
+aligning reward with our long-term
+sustainable performance. This includes
+review of our performance against financial
+and non-financial metrics to determine overall
+variable pay for our colleagues and executive
+Directors.
+Key financial and strategic performance
+indicators included in the 2025 annual
+incentive and 2023-2025 long-term incentive
+scorecards of our executive Directors are
+highlighted by the following symbols:
+Annual incentive
+Long-term incentive
+HSBC Holdings plc
+Annual Report on Form 20-F
+Strategic report
+ESG review
+Financial review
+Risk review
+Corporate
+Governance Report
+Financial
+statements
+Additional
+information
+Highlights
+We are becoming a simple, more agile, focused bank, built on our core strengths.
+Financial performance (vs 2024)
+–
+Reported profit before tax decreased by
+$2.4bn
+to
+$29.9bn
+,
+m
+ainly due to a
+$4.9bn
+year-on-year net adverse impact from
+notable items.
+Profit after tax decreased
+by
+$1.9bn
+to
+$23.1bn
+.
+–
+In 2025, notable items included dilution and
+impairment losses of
+$2.1bn
+related to our
+associate Bank of Communications Co.,
+Limited (‘BoCom‘), reserve recycling losses
+of $1.5bn following the completion of the
+sale of our French retained portfolio of home
+and certain other loans, legal provisions of
+$1.4bn
+and restructuring and other related
+costs associated with our organisational
+simplification of
+$1.0bn
+.
+In 2024, notable
+items included net losses relating to our
+disposals in Canada and Argentina of $1.4bn.
+–
+Constant currency profit before tax
+excluding notable items increased by
+$2.4bn
+to
+$36.6bn
+,
+from a strong
+performance in Wealth in our International
+Wealth and Premier Banking (‘IWPB’) and
+Hong Kong businesses, and from Wholesale
+Transaction Banking in our Corporate and
+Institutional Banking (‘CIB’) business.
+This
+was partly offset by a rise in expected credit
+losses and other credit impairment charges
+(‘ECL’) and an increase in operating
+expenses due to planned investment and
+inflation.
+–
+RoTE in 2
+025 was
+13.3%
+, compared with
+14.6%
+in 2024. Excluding notable items,
+RoTE in 2025 was
+17.2%
+,
+a rise of 1.6
+percentage points compared with 2024.
+–
+Revenue of
+$68.3bn
+increased by
+$2.4bn
+or
+4%
+compared with 2024.
+The increase
+was primarily due to fee and other income
+growth in Wealth from Investment
+Distribution and Insurance, and in Wholesale
+Transaction Banking, particularly in Foreign
+Exchange in CIB.
+This was partly offset by
+the year-on-year impact of notable items,
+mainly relating to business disposals and a
+dilution loss related to BoCom.
+Constant
+currency revenue excluding notable items
+rose by
+$3.4bn
+to
+$71.0bn
+.
+–
+Net interest income (‘NII’) of
+$34.8bn
+was
+$2.1bn
+higher than 2024
+reflecting the
+benefit of the reinvestment of our structural
+hedge at higher yields, deposit balance
+growth and higher NII in Markets Treasury.
+In addition, the increase included
+the non-
+recurrence of a
+$0.2bn
+loss in 2024 on the
+early redemption of legacy securities.
+This
+was partly offset by the adverse year-on-
+year impact of $1.6bn from business
+disposals in Argentina and Canada, and
+margin compression on our deposits.
+The
+growth in NII of
+$2.1bn
+also reflected a
+benefit from lower funding costs associated
+with the trading book of
+$1.7bn
+.
+Banking
+net interest income (‘banking NII’), which
+excludes these funding costs, increased
+by
+$0.3bn
+to
+$44.1bn
+.
+–
+Net interest margin (‘NIM’) of
+1.59%
+was
+3bps higher,
+reflecting the reinvestment of
+our structural hedge at higher yields
+.
+–
+ECL were
+$3.9bn
+, an increase of
+$0.4bn
+compared with 2024,
+including charges in
+both periods related to the
+commercial real
+estate (‘CRE’)
+sectors in Hong Kong and
+mainland China.
+In 2025, the charge in this
+sector in Hong Kong of $0.7bn (2024:
+$0.1bn) reflected higher allowances for new
+defaulted exposures, the impact of an over-
+supply of non-residential properties that has
+put continued downward pressure on rental
+and capital values, and updates to our
+models used for ECL calculations.
+The 2025
+charge in the mainland China CRE sector
+was $0.2bn (2024: $0.4bn).
+ECL were 39
+bps of average gross loans, including
+loans and advances classified as held for
+sale.
+–
+Operating expenses increased by
+$3.4bn
+or
+10%
+to
+$36.4bn
+.
+The increase primarily
+reflected notable items in 2025 of $3.0bn,
+including legal provisions of
+$1.4bn
+,
+restructuring and other related costs
+associated with our organisational
+simplification of
+$1.0bn
+, and
+$0.5bn
+related
+to
+disposals, wind-downs, acquisitions and
+related costs.
+–
+Cost growth also reflected planned spend
+and investment in technology, higher
+performance-related pay and the impacts of
+inflation, partly offset by reductions related
+to our business disposals and the benefits of
+our organisational simplification.
+–
+Target basis operating expenses rose by
+3%
+,
+in line with our cost growth target.
+This
+increase primarily reflected higher planned
+spend and investment in technology, higher
+performance-related pay and the impact of
+inflation, partly offset by the benefits of our
+organisational simplification.
+–
+Customer lending balances rose by
+$57.7bn
+including favourable foreign
+currency translation differences.
+On a
+constant currency basis, lending balances
+rose by
+$17.6bn
+,
+mainly in our UK business
+reflecting growth in mortgage and
+commercial customer lending.
+–
+Customer accounts rose by
+$131.9bn
+,
+including favourable foreign currency
+translation differences.
+On a constant
+currency basis, customer accounts
+increased by
+$67.6bn
+,
+with growth in all our
+businesses, particularly our Hong Kong
+business segment.
+–
+Common equity tier 1 (‘
+CET1’) capital
+ratio remained at
+14.9%
+.
+This reflected an
+increase in risk-weighted assets (‘RWAs‘),
+which was offset by an increase in CET1
+capital through capital generation net of
+distributions.
+The increase in RWAs was
+mainly driven by foreign currency translation
+differences and asset size movements.
+–
+The Board has approved a
+fourth interim
+dividend of $0.45 per share, resulting in a
+total of $0.75 per share in respect of 2025.
+HSBC Holdings plc
+Annual Report on Form 20-F
+Strategic report
+ESG review
+Financial review
+Risk review
+Governance

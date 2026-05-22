@@ -1,0 +1,5422 @@
+Financial review
+The financial review gives detailed reporting of our financial performance at Group level as well as across our different global businesses and geographical regions.
+90 Financial summary
+110 Global businesses and geographical regions
+131 Reconciliation of alternative performance measures
+134 Other information
+Expanding opportunities beyond the branches
+Mainland China has Asia’s largest pool of wealth and is set to become the world’s biggest life insurance market by 2030. Pinnacle is therefore critical to our ambition to be one of Asia’s leading wealth managers. Colleagues run specialist seminars for our customers, using digital tablets to facilitate visiting them in their homes and offices, and are further supported by an award-winning HSBC River bespoke financial planning mobile app. We have nearly 700 digitally enabled wealth planners across five mainland cities, and are looking to accelerate the trajectory of our hiring towards a target of 3,000 planners, supported by the recent regulatory approval to take full ownership of our life insurance manufacturing joint venture.
+HSBC Holdings plc
+Financial summary
+Financial summary
+Page
+Use of alternative performance measures
+Future accounting developments
+Critical accounting estimates and judgements
+Consolidated income statement
+Income statement commentary
+Consolidated balance sheet
+Use of alternative performance measures
+Our reported results are prepared in accordance with IFRSs as detailed in the financial statements starting on page 336.
+To measure our performance, we supplement our IFRSs figures with non-IFRSs measures, which constitute alternative performance measures under European Securities and Markets Authority guidance and non-GAAP financial measures defined in and presented in accordance with US Securities and Exchange Commission rules and regulations. These measures include those derived from our reported results that eliminate factors that distort year-on-year comparisons. The ‘adjusted performance’ measure used throughout this report is described below. Definitions and calculations of other alternative performance measures are included in our ‘Reconciliation of alternative performance measures’ on page 131. All alternative performance measures are reconciled to the closest reported performance measure.
+The global business segmental results are presented on an adjusted basis in accordance with IFRS 8 ‘Operating Segments’ as detailed in Note 10 ‘Segmental analysis’ on page 369.
+Adjusted performance
+Adjusted performance is computed by adjusting reported results for the effects of foreign currency translation differences and significant items, which both distort year-on-year comparisons.
+We consider adjusted performance provides useful information for investors by aligning internal and external reporting, identifying and quantifying items management believes to be significant, and providing insight into how management assesses year-on-year performance.
+Significant items
+‘Significant items’ refers collectively to the items that management and investors would ordinarily identify and consider separately to improve the understanding of the underlying trends in the business.
+The tables on pages 110 to 113 and pages 122 to 127 detail the effects of significant items on each of our global business segments, geographical regions and selected countries/territories in 2021, 2020 and 2019.
+Foreign currency translation differences
+Foreign currency translation differences reflect the movements of the US dollar against most major currencies during 2021.
+We exclude them to derive constant currency data, allowing us to assess balance sheet and income statement performance on a like-for-like basis and better understand the underlying trends in the business.
+Foreign currency translation differences
+Foreign currency translation differences for 2021 are computed by retranslating into US dollars for non-US dollar branches, subsidiaries, joint ventures and associates:
+•
+the income statements for 2020 and 2019 at the average rates of exchange for 2021; and
+•
+the balance sheets at 31 December 2020 and 31 December 2019 at the prevailing rates of exchange on 31 December 2021.
+No adjustment has been made to the exchange rates used to translate foreign currency-denominated assets and liabilities into the functional currencies of any HSBC branches, subsidiaries, joint ventures or associates. The constant currency data of HSBC’s Argentinian subsidiaries have not been adjusted further for the impacts of hyperinflation.
+When reference is made to foreign currency translation differences in tables or commentaries, comparative data reported in the functional currencies of HSBC’s operations have been translated at the appropriate exchange rates applied in the current period on the basis described above.
+Future accounting developments
+IFRS 17 ‘Insurance Contracts’
+Critical accounting estimates and judgements
+The results of HSBC reflect the choice of accounting policies, assumptions and estimates that underlie the preparation of HSBC’s consolidated financial statements. The significant accounting policies, including the policies which include critical accounting estimates and judgements, are described in Note 1.2 on the financial statements. The accounting policies listed below are highlighted as they involve a high degree of uncertainty and have a material impact on the financial statements:
+•
+Impairment of amortised cost financial assets and financial assets measured at fair value through other comprehensive income (‘FVOCI’): The most significant judgements relate to defining what is considered to be a significant increase in credit risk, determining the lifetime and point of initial recognition of revolving facilities, and making assumptions and estimates to incorporate relevant information about past events, current conditions and forecasts of economic conditions. A high degree of uncertainty is involved in making estimations using assumptions that are highly subjective and very sensitive to the risk factors. See Note 1.2(i) on page 351.
+•
+Deferred tax assets: The most significant judgements relate to judgements made in respect of expected future profitability. See Note 1.2(l) on page 355.
+•
+Valuation of financial instruments: In determining the fair value of financial instruments a variety of valuation techniques are used, some of which feature significant unobservable inputs and are subject to substantial uncertainty. See Note 1.2(c) on page 349.
+•
+Impairment of interests in associates: Impairment testing involves significant judgement in determining the value in use, and in particular estimating the present values of cash flows expected to arise from continuing to hold the investment, based on a number of management assumptions. The most significant judgements relate to the impairment testing of our
+HSBC Holdings plc
+investment in Bank of Communications Co., Limited (‘BoCom’). See Note 1.2(a) on page 347.
+•
+Impairment of goodwill and non-financial assets: A high degree of uncertainty is involved in estimating the future cash flows of the cash-generating units (‘CGUs’) and the rates used to discount these cash flows. See Note 1.2(a) on page 347.
+•
+Provisions: Significant judgement may be required due to the high degree of uncertainty associated with determining whether a present obligation exists, and estimating the probability and amount of any outflows that may arise. See Note 1.2(m) on page 356.
+•
+Post-employment benefit plans: The calculation of the defined benefit pension obligation involves the determination of key assumptions including discount rate, inflation rate, pension payments and deferred pensions, pay and mortality. See Note 1.2(k) on page 355.
+Given the inherent uncertainties and the high level of subjectivity involved in the recognition or measurement of the items above, it is possible that the outcomes in the next financial year could differ from the expectations on which management’s estimates are based, resulting in the recognition and measurement of materially different amounts from those estimated by management in these financial statements.
+Consolidated income statement
+Summary consolidated income statement
+2021
+2020
+2019
+2018
+2017
+$m
+$m
+$m
+$m
+$m
+Net interest income
+Net fee income
+Net income from financial instruments held for trading or managed on a fair value basis
+7,744
+9,582
+9,531
+8,426
+Net income/(expense) from assets and liabilities of insurance businesses, including related derivatives, measured at fair value through profit or loss
+4,053
+2,081
+3,478
+2,836
+Change in fair value of designated debt and related derivatives
+(182)
+(97)
+Changes in fair value of other financial instruments mandatorily measured at fair value through profit or loss
+N/A
+Gains less losses from financial investments
+1,150
+Net insurance premium income
+9,779
+Other operating income/(expense)
+2,957
+Total operating income
+Net insurance claims and benefits paid and movement in liabilities to policyholders
+Net operating income before change in expected credit losses and other
+credit impairment charges/Loan impairment charges and other credit risk provisions
+Change in expected credit losses and other credit impairment charges
+N/A
+Loan impairment charges and other credit risk provisions
+N/A
+N/A
+N/A
+N/A
+Net operating income
+Total operating expenses excluding impairment of goodwill and other intangible assets
+Impairment of goodwill and other intangible assets
+(733)
+(37)
+(35)
+Operating profit
+7,180
+Share of profit in associates and joint ventures
+3,046
+1,597
+2,354
+2,536
+2,375
+Profit before tax
+8,777
+Tax expense
+Profit for the year
+6,099
+8,708
+Attributable to:
+– ordinary shareholders of the parent company
+3,898
+5,969
+9,683
+– preference shareholders of the parent company
+– other equity holders
+1,303
+1,241
+1,324
+1,029
+1,025
+– non-controlling interests
+1,325
+1,298
+1,081
+Profit for the year
+6,099
+8,708
+Five-year financial information
+2021
+2020
+2019
+2018
+2017
+$
+$
+$
+$
+$
+Basic earnings per share
+0.62
+0.19
+0.30
+0.63
+0.48
+Diluted earnings per share
+0.62
+0.19
+0.30
+0.63
+0.48
+Dividends per ordinary share (paid in the period)
+0.22
+—
+0.51
+0.51
+0.51
+%
+%
+%
+%
+%
+Dividend payout ratio
+40.3
+78.9
+100.0
+81.0
+106.3
+Post-tax return on average total assets
+0.5
+0.2
+0.3
+0.6
+0.5
+Return on average ordinary shareholders’ equity
+7.1
+2.3
+3.6
+7.7
+5.9
+Return on average tangible equity
+8.3
+3.1
+8.4
+8.6
+6.8
+Effective tax rate
+22.3
+30.5
+34.8
+24.5
+30.8
+1    The debt instruments, issued for funding purposes, are designated under the fair value option to reduce an accounting mismatch.
+2    Net operating income before change in expected credit losses and other credit impairment charges/Loan impairment charges and other credit risk provisions, also referred to as revenue.
+3    Includes an interim dividend of $0.07 per ordinary share in respect of the financial year ending 31 December 2021, paid in September 2021, and an interim dividend of $0.15 per ordinary share in respect of the financial year ending 31 December 2020, paid in April 2021.
+4    Dividend per ordinary share, in respect of the period, expressed as a percentage of basic earning per share.
+Unless stated otherwise, all tables in the
+Annual Report and Accounts 2021
+are presented on a reported basis.
+For a summary of our financial performance in 2021, see page 27.
+For further financial performance data for each global business and geographical region, see pages 110 to 113 and 120 to 130 respectively. The global business segmental results are presented on an adjusted basis in accordance with IFRS 8 ‘Operating Segments’, in Note 10: Segmental analysis on page 369.
+HSBC Holdings plc
+Financial summary
+Income statement commentary
+The following commentary compares Group financial performance for the year ended 2021 with 2020.
+Net interest income
+Year ended
+Quarter ended
+31 Dec
+31 Dec
+31 Dec
+31 Dec
+30 Sep
+31 Dec
+2021
+2020
+2019
+2021
+2021
+2020
+$m
+$m
+$m
+$m
+$m
+$m
+Interest income
+9,219
+9,010
+9,301
+Interest expense
+Net interest income
+6,781
+6,610
+6,619
+Average interest-earning assets
+%
+%
+%
+%
+%
+%
+Gross interest yield
+1.64
+2.00
+2.84
+1.62
+1.62
+1.71
+Less: gross interest payable
+Net interest spread
+1.11
+1.19
+1.36
+1.10
+1.09
+1.11
+Net interest margin
+1.20
+1.32
+1.58
+1.19
+1.19
+1.22
+1    Gross interest yield is the average annualised interest rate earned on average interest-earning assets (‘AIEA’). Gross interest payable is the average annualised interest cost as a percentage on average interest-bearing liabilities.
+2    Net interest spread is the difference between the average annualised interest rate earned on AIEA, net of amortised premiums and loan fees, and the average annualised interest rate payable on average interest-bearing funds.
+3    Net interest margin is net interest income expressed as an annualised percentage of AIEA.
+Summary of interest income by type of asset
+2021
+2020
+2019
+Average
+balance
+Interest
+income
+Yield
+Average
+balance
+Interest
+income
+Yield
+Average
+balance
+Interest
+income
+Yield
+$m
+$m
+%
+$m
+$m
+%
+$m
+$m
+%
+Short-term funds and loans and advances to banks
+1,105
+0.25
+1,264
+0.42
+2,411
+1.13
+Loans and advances to customers
+2.46
+2.81
+3.48
+Reverse repurchase agreements – non-trading
+1,019
+0.49
+1,819
+0.82
+4,690
+2.08
+Financial investments
+6,729
+1.53
+8,143
+1.76
+2.56
+Other interest-earning assets
+1,264
+2.38
+1,139
+1.83
+1,311
+2.88
+Total interest-earning assets
+1.64
+2.00
+2.84
+Summary of interest expense by type of liability
+2021
+2020
+2019
+Average
+balance
+Interest
+expense
+Cost
+Average
+balance
+Interest
+expense
+Cost
+Average
+balance
+Interest
+expense
+Cost
+$m
+$m
+%
+$m
+$m
+%
+$m
+$m
+%
+Deposits by banks
+0.26
+0.50
+1.34
+Customer accounts
+4,099
+0.30
+6,478
+0.52
+0.98
+Repurchase agreements – non-trading
+0.32
+0.77
+4,023
+2.50
+Debt securities in issue – non-trading
+3,603
+1.87
+4,944
+2.25
+6,522
+3.09
+Other interest-bearing liabilities
+1,436
+2.02
+1,463
+1.92
+1,748
+2.91
+Total interest-bearing liabilities
+9,699
+0.53
+0.81
+1.48
+1    Including interest-bearing bank deposits only.
+2    Including interest-bearing customer accounts only.
+Net interest income (‘NII’)
+Excluding the favourable effects of foreign currency translation differences, net interest income decreased by $1.8bn or 6.2%.
+Net interest margin (‘NIM’)
+for 2021 of 1.20% was 12 basis points (‘bps’) lower compared with 2020 as the reduction in the yield on AIEA of 36bps was partly offset by the fall in funding costs of average interest-bearing liabilities of 28bps. The decrease in NIM in 2021 included the adverse effects of foreign currency translation differences. Excluding this, NIM fell by 11bps.
+NIM for the fourth quarter of 2021 was 1.19%, down 3bps year-on-year, predominantly driven by a change in balance sheet composition towards lower yielding short-term funds and loans and advances to banks. NIM remained unchanged compared with the previous quarter.
+Interest income
+HSBC Holdings plc
+translation differences. Excluding these, interest income decreased by $6.5bn.
+Interest expense
+Interest expense of $2.4bn in the fourth quarter of 2021 was down $0.2bn year-on-year. The decline was predominantly driven by an improved funding mix, with additional funding from lower costing customer accounts, coupled with the impact of lower market interest rates. Compared with the previous quarter, the interest expense was materially unchanged.
+Net fee income
+In WPB, net fee income increased by $0.5bn. Fee income grew, mainly in Wealth, as improved market sentiment resulted in increased customer demand. This increase included higher fee income from funds under management, notably in Hong Kong, the UK and France, and from unit trusts in Asia. Cards income grew as spending increased compared with 2020. This also resulted in higher fee expense.
+In CMB, net fee income increased by $0.4bn. Fee income increased from credit facilities, as well as from trade products, as global trade volumes recovered during 2021. Income from account services and remittances also rose as customer activity increased.
+In GBM, net fee income increased by $0.3bn. This was driven by higher fee income from growth in corporate finance activity and in account services, which included higher activity from transaction banking clients. Fee income also increased in remittances, credit facilities, funds under management and global custody, reflecting a higher level of client activity compared with 2020.
+Net income from financial instruments held for trading or managed on a fair value basis
+The remaining reduction was mainly in GBM, as 2020 benefited from higher market volatility supporting a particularly strong performance within Global Foreign Exchange and Global Debt Markets, notably in the UK and the US.
+Net income from assets and liabilities of insurance businesses, including related derivatives, measured at fair value through profit or loss
+of $4.1bn, compared with $2.1bn in 2020. This increase primarily reflected favourable equity market performances in France and Hong Kong and higher gains on unit trust assets, supporting insurance and investment contracts. This compared with 2020, which was adversely impacted by the onset of the Covid-19 pandemic.
+This favourable movement resulted in a corresponding movement in liabilities to policyholders and the present value of in-force long-term insurance business (‘PVIF’) (see ‘Other operating income’ below). This reflected the extent to which the policyholders and
+shareholders respectively participate in the investment performance of the associated assets.
+Change in fair value of designated debt and related derivatives
+was $0.4bn adverse compared with 2020. These movements were driven by the widening of long-term interest rate curves between the periods, driven by the gradual recovery of major economies.
+All of our financial liabilities designated at fair value are fixed-rate, long-term debt issuances and are managed in conjunction with interest rate swaps as part of our interest rate management strategy. These liabilities are discussed further on page 98.
+Changes in fair value of other financial instruments mandatorily measured at fair value through profit or loss
+of $0.8bn was $0.3bn higher compared with 2020. This primarily reflected the impact of adverse movements in equity markets in the first half of 2020 following the onset of the Covid-19 pandemic, as well as from favourable equity market movements during 2021.
+Gains less losses from financial investments
+of $0.6bn were $0.1bn lower compared with 2020, primarily reflecting lower gains on the disposal of debt securities.
+Net insurance premium income
+of $10.9bn was $0.8bn higher than in 2020, primarily reflecting higher sales volumes, particularly in France, the UK and Singapore.
+Other operating income
+of $0.5bn was broadly unchanged compared with 2020, as a $0.3bn decrease in net favourable movements in PVIF was broadly offset by the gain on the sale of a property in Germany and the non-recurrence of revaluation losses on investment properties in Hong Kong in 2020.
+The change in PVIF included a net reduction of $0.7bn from assumption changes and experience variances, primarily reflecting increased interest rates and the effect of sharing higher investment returns with policyholders in Hong Kong and Singapore. These were partly offset by France where higher interest rates reduced the cost of guarantees. The net reduction due to assumption changes was partly offset by a $0.3bn increase in the value of new business written, primarily in Hong Kong.
+PVIF is presented in accordance with IFRS 4 ‘Insurance Contracts’. As set out in our
+Annual Report and Accounts 2020
+, IFRS 17 ‘Insurance Contracts’ is effective from 1 January 2023. Under IFRS 17, there will be no PVIF asset recognised. Instead, the estimated future profit will be included in the measurement of the insurance contract liability as the contractual service margin and gradually recognised in revenue as services are provided over the duration of the insurance contract.
+Net insurance claims and benefits paid and movement in liabilities to policyholders
+was $1.7bn higher, primarily due to higher returns on financial assets supporting contracts where the policyholder is subject to part or all of the investment risk and higher sales volumes, particularly in France and the UK.
+Changes in expected credit losses and other credit impairment charges (‘ECL’)
+were a net release of $0.9bn, compared with a charge of $8.8bn in 2020. The net release in 2021 reflected an improvement in the economic outlook, notably in the UK, partly offset by an increase in allowances in the fourth quarter, reflecting recent developments in China’s commercial real estate sector. This compared with the significant build-up of stage 1 and stage 2 allowances in 2020 due to the worsening economic outlook at the onset of the Covid-19 pandemic. The reduction in ECL also reflected historically low levels of stage 3 charges, although with some normalisation during the fourth quarter, as well as the non-recurrence of a significant charge in 2020 related to a corporate exposure in Singapore.
+For further details on the calculation of ECL, including the measurement uncertainties and significant judgements applied to such calculations, the impact of the economic scenarios and management judgemental adjustments, see pages 180 to 188.
+HSBC Holdings plc
+Financial summary
+Operating expenses – currency translation and significant items
+Year ended
+2021
+2020
+$m
+$m
+Significant items
+2,472
+3,095
+– customer redress programmes
+(54)
+– impairment of goodwill and other intangibles
+1,090
+– past service costs of guaranteed minimum pension benefits equalisation
+—
+– restructuring and other related costs
+1,836
+1,908
+– settlements and provisions in connection with legal and regulatory matters
+—
+– currency translation on significant items
+Currency translation
+Year ended 31 Dec
+2,472
+2,023
+Operating expenses
+Year ended
+2021
+2020
+$m
+$m
+Gross employee compensation and benefits
+Capitalised wages and salaries
+(870)
+Goodwill impairment
+Property and equipment
+5,145
+5,322
+Amortisation and impairment of intangibles
+1,438
+2,519
+UK bank levy
+Legal proceedings and regulatory matters
+Other operating expenses
+8,486
+7,383
+Total operating expenses (reported)
+Total significant items (including currency translation on significant items)
+Currency translation
+1,072
+Total operating expenses (adjusted)
+1 Other operating expenses includes professional fees, contractor costs, transaction taxes, marketing and travel. The increase was driven by the spend related to our cost reduction programme, as well as from the growth in investment in technology and regulatory programmes.
+Staff numbers (full-time equivalents)
+2021
+2020
+2019
+Global businesses
+Wealth and Personal Banking
+Commercial Banking
+Global Banking and Markets
+Corporate Centre
+At 31 Dec
+Operating expenses
+Share of profit in associates and joint ventures
+of $3.0bn was $1.4bn higher, primarily reflecting a higher share of profit from The Saudi British Bank (‘SABB’) due to the non-recurrence of our share of its goodwill impairment charge in 2020, and an increased share of profit from BoCom. Our share of profit also rose from Business Growth Fund in the UK due to a recovery in asset valuations relative to 2020.
+At 31 December 2021, we performed an impairment review of our investment in BoCom and concluded that it was not impaired, based on our value-in-use (‘VIU’) calculations. The excess of the VIU of BoCom and its carrying value has increased over the period, reflecting the impact of BoCom’s performance on the VIU.
+For more information, see Note 19: Interests in associates and joint ventures on page 387.
+Tax expense
+The effective tax rate for 2021 of 22.3% was lower than the 30.5% for 2020. The effective tax rate for 2021 was increased by the impact of substantively enacted legislation to increase the UK statutory tax rate from 1 April 2023. The 2020 effective tax rate was high, due mainly to the non-recognition of deferred tax on losses in the UK and France.
+HSBC Holdings plc
+2020 compared with 2019
+The following commentary compares Group financial performance for the year ended 2020 with 2019.
+Net interest income (‘NII’)
+Excluding the favourable impact of significant items and the adverse effects of foreign currency translation differences between 2020 and 2019, net interest income decreased by $2.7bn or 9%.
+Net interest margin (‘NIM’)
+for 2020 of 1.32% was
+26 basis points (‘bps’) lower compared with 2019 as the reduction in the yield on AIEA of 84bps was partly offset by the fall in funding costs of average interest-bearing liabilities of 67bps. The decrease in NIM in 2020 included the favourable impacts of significant items and the adverse effects of foreign currency translation differences. Excluding this, NIM fell by 25bps.
+NIM for the fourth quarter of 2020 was 1.22%, down 34bps year-on-year, and up 2bps compared with the previous quarter. The year-on-year decrease was mainly driven by Asia and caused by the impact of lower market interest rates. The increase compared with the previous quarter was driven by a reduction in funding costs of average interest-bearing liabilities of 8bps, which was partly offset by a reduction in the yield on AIEA of 5bps.
+Interest income
+Interest expense
+The year-on-year decrease was predominantly driven by the impact of lower market interest rates, partly offset by growth in interest-bearing customer accounts, which increased by $142.9bn. The small decrease compared with the previous quarter was mainly due to reduced funding costs on customer deposits and debt issuances.
+Net fee income
+of $11.9bn was $0.1bn lower, reflecting reductions in WPB and CMB, partly offset by an increase in GBM.
+In WPB, lower fee income reflected a reduction in account services, notably in the UK, due to lower customer activity. Income from credit cards also reduced, as customer spending activity fell across most markets, mainly in Hong Kong, the UK, MENA and the US. Fee income on unit trusts fell, mainly in Hong Kong. These decreases were partly offset by higher income from broking, primarily in Hong Kong, as volatility in the equity markets resulted in increased customer activity. Fee expenses fell as a result of reduced customer activity levels, mainly in cards.
+In CMB, trade-related fee income fell, reflecting the reduction in global trade activity, notably in Hong Kong and the UK. Income also fell in remittances due to lower client activity.
+In GBM, net fee income was higher, mainly from growth in underwriting fees in the US and the UK. Global custody and broking fees also rose as client activity and turnover of securities increased due to market volatility. These increases were partly offset by a reduction in fee income from credit facilities, notably in the UK, Hong Kong and the US.
+Net income from financial instruments held for trading or managed on a fair value basis
+The remaining reduction was primarily due to lower trading interest income, reflecting lower market rates. However, other trading income increased in GBM as elevated market volatility and wider spreads supported a strong performance in Global Debt Markets and Global Foreign Exchange.
+Net income from assets and liabilities of insurance businesses, including related derivatives, measured at fair value through profit or loss
+was a net income of $2.1bn, compared with a net income of $3.5bn in 2019. This decrease primarily reflected less favourable equity market performance, compared with 2019 in France and Hong Kong, due to the impact of the Covid-19 outbreak on the equity and unit trust assets supporting insurance and investment contracts. After large losses in the first quarter of 2020, there was a partial recovery in the remainder of the year, resulting in higher revenue in these subsequent quarters during 2020 compared with the equivalent quarters in 2019.
+This adverse movement resulted in a corresponding movement in liabilities to policyholders and the present value of in-force long-term insurance business (‘PVIF’) (see ‘Other operating income’ below). This reflected the extent to which the policyholders and shareholders respectively participate in the investment performance of the associated assets.
+Change in fair value of designated debt and related derivatives
+of $0.2bn was $0.1bn favourable compared with 2019. The movements were driven by the fall in interest rates between the periods, notably in US dollars and pounds sterling. The majority of our financial liabilities designated at fair value are fixed-rate, long-term debt issuances and are managed in conjunction with interest rate swaps as part of our interest rate management strategy.
+HSBC Holdings plc
+Financial summary
+Changes in fair value of other financial instruments mandatorily measured at fair value through profit or loss
+of $0.5bn was $0.4bn lower compared with 2019. This primarily reflected adverse movements in equity markets due to the impact of the Covid-19 outbreak.
+Gains less losses from financial investments
+of $0.7bn increased by $0.3bn, reflecting higher gains from the disposal of debt securities in Markets Treasury.
+Net insurance premium income
+of $10.1bn was $0.5bn lower than in 2019, reflecting lower new business volumes, particularly in France and Hong Kong, partly offset by lower reinsurance arrangements in Hong Kong.
+Other operating income
+The change in PVIF included a reduction of $0.8bn due to assumption changes and experience variances, mainly in Hong Kong and France due to the effect of interest rate changes on the valuation of liabilities under insurance contracts. In addition, the value of new business written fell by $0.4bn, primarily in Hong Kong, as sales volumes decreased.
+The reduction also reflected the non-recurrence of 2019 gains recognised in Argentina and Mexico.
+Net insurance claims and benefits paid and movement in liabilities to policyholders
+was $2.3bn lower, primarily due to lower returns on financial assets supporting contracts where the policyholder is subject to part or all of the investment risk. New business volumes were also lower, particularly in Hong Kong and France, partly offset by lower reinsurance arrangements in Hong Kong.
+Changes in expected credit losses and other credit impairment charges (‘ECL’)
+of $8.8bn were $6.1bn higher compared with 2019 with increases in all global businesses.
+The ECL charge in 2020 reflected a significant increase in stage 1 and stage 2 allowances, notably in the first half of the year, to reflect the deterioration in the forward economic outlook globally as a result of the Covid-19 outbreak. The economic outlook stabilised in the second half of 2020 and as a result stage 1 and stage 2 allowances were broadly unchanged at 31 December 2020, compared with 30 June 2020. Stage 3 charges also increased compared with 2019, largely against wholesale exposures, including a significant charge related to a CMB client in Singapore in the first quarter of 2020.
+Excluding currency translation differences, and based on the foreign exchange rates during 2020, ECL as a percentage of average gross loans and advances to customers was 0.81%, compared with 0.25% in 2019.
+The estimated impact of the Covid-19 outbreak was incorporated in the ECL through additional scenario analysis, which considered differing severity and duration assumptions relating to the global pandemic. These included probability-weighted shocks to annual GDP and consequential impacts on unemployment and other economic variables, with differing economic recovery assumptions. Given the severity of the macroeconomic projections, and the complexities of the government measures, which have never been modelled, additional judgemental adjustments have been made to our provisions.
+For further details on the calculation of ECL, including the measurement uncertainties and significant judgements applied to such calculations, the impact of alternative/additional scenarios and management judgemental adjustments, see pages 169 to 177 of the
+HSBC Holdings plc 20-F for the year ended 31 December 2020
+.
+Operating expenses
+•
+the non-recurrence of a $7.3bn impairment of goodwill in 2019, primarily related to lower long-term economic growth assumptions in GBM and CMB, and the planned reshaping of GBM. This compared with a $1.1bn impairment of goodwill and other intangibles in 2020, primarily capitalised software related to the businesses within HSBC Bank plc, and to a lesser extent our businesses in the US. These impairments reflected underperformance and a deterioration in the future forecasts of these businesses, and in the case of HSBC Bank plc substantially relating to prior periods; and
+•
+customer redress programme costs, which were a net release of $0.1bn in 2020, compared with charges of $1.3bn in 2019.
+This was partly offset by:
+•
+The reduction also included favourable currency translation differences between 2020 and 2019 of $0.2bn.
+During 2020, we reduced the number of employees expressed in full-time equivalent staff (‘FTE’) and contractors by 11,011. This included a 9,292 reduction in FTE to 226,059 at 31 December 2020, while the number of contractors reduced by 1,719 to 5,692 at 31 December 2020.
+Share of profit in associates and joint ventures
+At 31 December 2020, we performed an impairment review of our investment in BoCom and concluded that it was not impaired, based on our value-in-use (‘VIU’) calculations. However, the excess of the VIU of BoCom and its carrying value has reduced over the period, increasing the risk of impairment in the future.
+For more information on the key assumptions in our VIU calculation, including the sensitivity of the VIU to each key assumption, see Note 18 on the financial statements of the
+HSBC Holdings plc 20-F for the year ended
+31 December 2020
+.
+Tax expense
+Further details are provided in Note 7 on the financial statements of the
+HSBC Holdings plc 20-F for the year ended 31 December 2020
+.
+HSBC Holdings plc
+Consolidated balance sheet
+Five-year summary consolidated balance sheet
+2021
+2020
+2019
+2018
+2017
+$m
+$m
+$m
+$m
+$m
+Assets
+Cash and balances at central banks
+Trading assets
+Financial assets designated and otherwise mandatorily measured at fair value through profit or loss
+N/A
+Financial assets designated at fair value
+N/A
+N/A
+N/A
+N/A
+Derivatives
+Loans and advances to banks
+Loans and advances to customers
+Reverse repurchase agreements – non-trading
+Financial investments
+Other assets
+Total assets at 31 Dec
+Liabilities and equity
+Liabilities
+Deposits by banks
+Customer accounts
+Repurchase agreements – non-trading
+Trading liabilities
+Financial liabilities designated at fair value
+Derivatives
+Debt securities in issue
+Liabilities under insurance contracts
+Other liabilities
+Total liabilities at 31 Dec
+Equity
+Total shareholders’ equity
+Non-controlling interests
+8,527
+8,552
+8,713
+7,996
+7,621
+Total equity at 31 Dec
+Total liabilities and equity at 31 Dec
+1     Net of impairment allowances.
+A more detailed consolidated balance sheet is contained in the financial statements on page 338.
+Five-year selected financial information
+2021
+2020
+2019
+2018
+2017
+$m
+$m
+$m
+$m
+$m
+Called up share capital
+Capital resources
+Undated subordinated loan capital
+1,968
+1,970
+1,968
+1,969
+1,969
+Preferred securities and dated subordinated loan capital
+Risk-weighted assets
+Total shareholders’ equity
+Less: preference shares and other equity instruments
+Total ordinary shareholders’ equity
+Less: goodwill and intangible assets (net of tax)
+Tangible ordinary shareholders’ equity
+Financial statistics
+Loans and advances to customers as a percentage of customer accounts
+61.1%
+63.2%
+72.0%
+72.0%
+70.6%
+Average total shareholders’ equity to average total assets
+6.62%
+6.46%
+6.97%
+7.16%
+7.33%
+Net asset value per ordinary share at year-end ($)
+8.76
+8.62
+8.00
+8.13
+8.35
+Tangible net asset value per ordinary share at year-end ($)
+7.88
+7.75
+7.13
+7.01
+7.26
+Tangible net asset value per fully diluted share at year-end ($)
+7.84
+7.72
+7.11
+6.98
+7.22
+Number of $0.50 ordinary shares in issue (millions)
+Basic number of $0.50 ordinary shares outstanding (millions)
+Basic number of $0.50 ordinary shares outstanding and dilutive potential ordinary shares (millions)
+Closing foreign exchange translation rates to $:
+$1: £
+0.739
+0.732
+0.756
+0.783
+0.740
+$1: €
+0.880
+0.816
+0.890
+0.873
+0.834
+1     Capital resources are regulatory total capital, the calculation of which is set out on page 229.
+2     Including perpetual preferred securities, details of which can be found in Note 28: Subordinated liabilities on page 398.
+3     The definition of net asset value per ordinary share is total shareholders’ equity, less non-cumulative preference shares and capital securities, divided by the number of ordinary shares in issue, excluding own shares held by the company, including those purchased and held in treasury.
+4     The definition of tangible net asset value per ordinary share is total ordinary shareholder’s equity excluding goodwill, PVIF and other intangible assets (net of deferred tax), divided by the number of basic ordinary shares in issue, excluding own shares held by the company, including those purchased and held in treasury.
+HSBC Holdings plc
+Financial summary
+Balance sheet commentary compared with
+31 December 2020
+The decrease in total assets reflected lower derivative assets and a fall in financial investments, in part reflecting a redeployment of our commercial surplus into cash. Reported customer lending balances were $8bn higher, mainly from growth in mortgage balances.
+Reported loans and advances to customers as a percentage of customer accounts was 61.1%, which was lower compared with 63.2% at 31 December 2020. This was due to an increase in customer accounts as corporate customers continued to build up liquidity and personal customers grew their savings accounts.
+Assets
+Cash and balances at central banks
+increased by $99bn or 32%, mainly in the UK and the US, as we redeployed our commercial surplus to cash to increase liquidity for our clients and as a result of deposit inflows.
+Trading assets
+increased by $17bn or 7%, notably from an increase in equity securities held, particularly in Hong Kong and the US, largely driven by client demand. These were partly offset by a reduction of debt securities in the US.
+Derivative assets
+decreased by $111bn or 36%, primarily in the UK and France. This reflected adverse revaluation movements on interest rate contracts due to higher long-term yield curve rates in most major markets. Foreign exchange contracts also decreased as a result of foreign exchange rate movements in the UK and Hong Kong and lower client demand in the US. The decrease in derivative assets was consistent with the decrease in derivative liabilities, as the underlying risk is broadly matched.
+Loans and advances to customers
+The commentary below is on a constant currency basis.
+In GBM, lending of $207bn fell by $14bn, due to a reduction in other term lending mainly in the UK.
+Reverse repurchase agreements – non-trading
+increased by $11bn or 5%, primarily in Asia due to client demand. This was partly offset by the redeployment of our commercial surplus to cash in the US.
+There was also an increase in balances eligible for netting in the UK, resulting in an overall balance reduction.
+Financial investments
+decreased by $44bn or 9%, mainly as we reduced our holdings of debt securities and treasury bills through a combination of disposals and maturities. A notable portion of these funds was redeployed into cash as we managed our commercial surplus.
+Other assets
+decreased by $11bn due to lower cash collateral as derivative balances decreased, partly offset by an increase from the reclassification of loans and advances to customers to assets held for sale, reflecting our exit of mass market retail banking in the US.
+Liabilities
+Customer accounts
+Deposits by banks
+increased by $19bn or 23%, primarily in the UK, relating to the utilisation of a Bank of England scheme to provide loans to corporate customers during the year. There were also increases in Hong Kong and the US.
+Repurchase agreements – non-trading
+increased by $15bn or 13%, primarily in Hong Kong, as client demand increased.
+Derivative liabilities
+decreased by $112bn or 37%, which is consistent with the decrease in derivative assets, since the underlying risk is broadly matched.
+Other liabilities
+decreased by $4bn or 2% due to lower cash collateral as derivative balances decreased, partly offset by an increase from a reclassification of customer accounts to liabilities held for sale, reflecting our exit of mass market retail banking in the US.
+Equity
+Total shareholders’ equity,
+Risk-weighted assets
+•
+a $4.7bn asset size increase, mostly caused by CMB and WPB lending growth in Asia, while lending fell in GBM;
+•
+a $8.0bn reduction in RWAs due to changes in asset quality from favourable portfolio mix and credit migration, mostly in CMB and WPB in Asia and North America; and
+•
+a $3.0bn fall in RWAs due to changes in methodology and policy. This was primarily the result of risk parameter refinements in GBM and CMB, partly offset by higher market risk RWAs following our adoption of a Pillar 1 approach to the capitalisation of structural foreign exchange.
+HSBC Holdings plc
+Customer accounts by country/territory
+2021
+2020
+$m
+$m
+Europe
+– UK
+– France
+– Germany
+– Switzerland
+– other
+Asia
+– Hong Kong
+– Singapore
+– mainland China
+– Australia
+– India
+– Malaysia
+– Taiwan
+– Indonesia
+6,019
+5,198
+– other
+Middle East and North Africa (excluding Saudi Arabia)
+– United Arab Emirates
+– Turkey
+4,258
+3,987
+– Egypt
+6,699
+5,659
+– other
+North America
+– US
+– Canada
+– other
+8,573
+8,023
+Latin America
+– Mexico
+– other
+5,930
+5,258
+At 31 Dec
+1     At 31 December 2021, customer accounts of $8.8bn relating to the disposal of the US retail banking business met the criteria to be classified as held for sale and are reported within ‘Accruals, deferred income and other liabilities’ on the balance sheet. Refer to Note 36 on page 415 for further details.
+Loans and advances, deposits by currency
+At
+31 Dec 2021
+$m
+USD
+GBP
+HKD
+EUR
+CNY
+Others
+Total
+Loans and advances to banks
+3,991
+3,970
+6,545
+Loans and advances to customers
+Total loans and advances
+Deposits by banks
+2,757
+5,049
+Customer accounts
+Total deposits
+At
+31 Dec 2020
+$m
+USD
+GBP
+HKD
+EUR
+CNY
+Others
+Total
+Loans and advances to banks
+3,495
+7,155
+4,601
+6,063
+Loans and advances to customers
+Total loans and advances
+Deposits by banks
+7,856
+2,884
+4,904
+Customer accounts
+Total deposits
+HSBC Holdings plc
+Financial summary
+Average balance sheet
+Average balance sheet and net interest income
+Average balances and related interest are shown for the domestic operations of our principal commercial banks by geographical region. ‘Other operations’ comprise the operations of our principal commercial banking and consumer finance entities outside their domestic markets and all other banking operations, including investment banking balances and transactions.
+Average balances are based on daily averages for the principal areas of our banking activities with monthly or less frequent averages used elsewhere.
+Balances and transactions with fellow subsidiaries are reported gross in the principal commercial banking and consumer finance
+entities, and the elimination entries are included within ‘Other operations’.
+Net interest margin numbers are calculated by dividing net interest income as reported in the income statement by the average interest-earning assets from which interest income is reported within the ‘Net interest income’ line of the income statement. Total interest-earning assets include credit-impaired loans where the carrying amount has been adjusted as a result of impairment allowances. In accordance with IFRSs, we recognise interest income on credit-impaired assets after the carrying amount has been adjusted as a result of impairment. Fee income that forms an integral part of the effective interest rate of a financial instrument is recognised as an adjustment to the effective interest rate and recorded in ‘Interest income’.
+Assets
+2021
+2020
+Average
+balance
+Interest
+income
+Yield
+Average
+balance
+Interest
+income
+Yield
+$m
+$m
+%
+$m
+$m
+%
+Summary
+Interest-earning assets measured at amortised cost (itemised below)
+1.64
+2.00
+Trading assets and financial assets designated and otherwise mandatorily measured at fair value through profit or loss
+3,342
+1.95
+3,328
+1.76
+Expected credit losses provision
+N/A
+N/A
+N/A
+N/A
+Non-interest-earning assets
+N/A
+N/A
+N/A
+N/A
+Total assets and interest income
+1.31
+1.54
+Average yield on all interest-earning assets
+1.66
+1.98
+Short-term funds and loans and advances to banks
+Europe
+HSBC Bank plc
+0.10
+0.16
+HSBC UK Bank plc
+0.11
+0.18
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+0.58
+0.89
+MENA
+HSBC Bank Middle East Limited
+5,647
+0.60
+4,837
+1.12
+North America
+HSBC North America Holdings Inc.
+0.20
+0.36
+HSBC Bank Canada
+0.23
+8,953
+0.25
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+2,143
+3.97
+2,084
+4.99
+HSBC Argentina Holdings S.A.
+—
+—
+—
+—
+Other operations and intra-region eliminations
+1,112
+5.04
+1,677
+1.13
+At 31 Dec
+1,105
+0.25
+1,264
+0.42
+Loans and advances to customers
+Europe
+HSBC Bank plc
+2,226
+1.63
+2,685
+1.80
+HSBC UK Bank plc
+6,633
+2.48
+6,307
+2.61
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+2.17
+2.71
+MENA
+HSBC Bank Middle East Limited
+3.07
+3.70
+North America
+HSBC North America Holdings Inc.
+1,545
+2.82
+2,090
+3.14
+HSBC Bank Canada
+1,322
+2.55
+1,306
+2.81
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+1,849
+10.00
+1,898
+10.10
+HSBC Argentina Holdings S.A.
+1,529
+29.56
+1,619
+28.54
+Other operations and intra-region eliminations
+3.89
+4.07
+At 31 Dec
+2.46
+2.81
+Reverse repurchase agreements – banks
+Europe
+HSBC Bank plc
+0.33
+0.67
+HSBC UK Bank plc
+0.12
+—
+—
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+0.68
+0.90
+MENA
+HSBC Bank Middle East Limited
+2,021
+0.79
+1,573
+1.40
+North America
+HSBC North America Holdings Inc.
+0.06
+0.83
+HSBC Bank Canada
+1,499
+0.27
+0.72
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+1,214
+4.37
+1,755
+5.87
+HSBC Argentina Holdings S.A.
+34.80
+23.63
+Other operations and intra-region eliminations
+(63)
+0.91
+(73)
+0.97
+At 31 Dec
+0.68
+0.96
+HSBC Holdings plc
+Assets (continued)
+2021
+2020
+Average
+balance
+Interest
+income
+Yield
+Average
+balance
+Interest
+income
+Yield
+$m
+$m
+%
+$m
+$m
+%
+Reverse repurchase agreements – customers
+Europe
+HSBC Bank plc
+0.32
+0.56
+HSBC UK Bank plc
+4,103
+0.19
+3,004
+0.37
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+0.24
+0.61
+MENA
+HSBC Bank Middle East Limited
+0.48
+—
+—
+North America
+HSBC North America Holdings Inc.
+0.13
+0.79
+HSBC Bank Canada
+3,994
+0.33
+5,370
+0.80
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+4.97
+—
+—
+Other operations and intra-region eliminations
+—
+—
+(54)
+0.67
+At 31 Dec
+0.28
+0.66
+Financial investments
+Europe
+HSBC Bank plc
+1.12
+1.28
+HSBC UK Bank plc
+0.90
+0.71
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+4,001
+1.57
+4,653
+1.85
+MENA
+HSBC Bank Middle East Limited
+0.56
+9,918
+1.00
+North America
+HSBC North America Holdings Inc.
+1.52
+1.69
+HSBC Bank Canada
+0.63
+1.11
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+4,219
+5.29
+4,791
+5.13
+HSBC Argentina Holdings S.A.
+33.74
+34.55
+Other operations and intra-region eliminations
+1.80
+2.39
+At 31 Dec
+6,729
+1.53
+8,143
+1.76
+Other interest-earning assets
+Europe
+HSBC Bank plc
+2.17
+1.83
+HSBC UK Bank plc
+11.60
+1.26
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+8,566
+0.74
+8,661
+1.09
+MENA
+HSBC Bank Middle East Limited
+—
+—
+6.90
+North America
+HSBC North America Holdings Inc.
+4,869
+1.36
+8,001
+0.57
+HSBC Bank Canada
+0.48
+0.40
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+0.14
+1,062
+0.28
+HSBC Argentina Holdings S.A.
+Other operations and intra-region eliminations
+(55)
+0.72
+(142)
+1.32
+At 31 Dec
+1,264
+2.38
+1,139
+1.83
+Total interest-earning assets
+Europe
+HSBC Bank plc
+4,328
+0.89
+5,238
+1.10
+HSBC UK Bank plc
+6,975
+1.67
+6,665
+1.95
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+1.69
+2.14
+MENA
+HSBC Bank Middle East Limited
+1.91
+2.56
+North America
+HSBC North America Holdings Inc.
+2,415
+1.24
+3,635
+1.67
+HSBC Bank Canada
+1,447
+1.75
+1,613
+2.06
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+2,244
+8.17
+2,354
+8.17
+HSBC Argentina Holdings S.A.
+3,106
+1,131
+36.41
+2,877
+33.99
+Other operations and intra-region eliminations
+1,307
+3.66
+1,311
+5.14
+At 31 Dec
+1.64
+2.00
+Equity and liabilities
+2021
+2020
+Average
+balance
+Interest
+expense
+Cost
+Average
+balance
+Interest
+expense
+Cost
+$m
+$m
+%
+$m
+$m
+%
+Summary
+Interest-bearing liabilities measured at amortised cost (itemised below)
+9,699
+0.53
+0.81
+Trading liabilities and financial liabilities designated at fair value
+(excluding own debt issued)
+2,602
+1.82
+2,356
+1.72
+Non-interest bearing current accounts
+N/A
+N/A
+N/A
+N/A
+Total equity and other non-interest bearing liabilities
+N/A
+N/A
+N/A
+N/A
+Total equity and liabilities
+0.41
+0.56
+Average cost on all interest-bearing liabilities
+0.63
+0.88
+HSBC Holdings plc
+Financial summary
+Equity and liabilities (continued)
+2021
+2020
+Average
+balance
+Interest
+expense
+Cost
+Average
+balance
+Interest
+expense
+Cost
+$m
+$m
+%
+$m
+$m
+%
+Deposits by banks
+Europe
+HSBC Bank plc
+0.13
+0.32
+HSBC UK Bank plc
+3,273
+0.12
+—
+—
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+0.22
+0.40
+MENA
+HSBC Bank Middle East Limited
+2,738
+1.06
+2,998
+1.30
+North America
+HSBC North America Holdings Inc.
+8,124
+0.05
+7,174
+0.13
+HSBC Bank Canada
+—
+—
+0.11
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+6.68
+6.64
+HSBC Argentina Holdings S.A.
+26.32
+20.83
+Other operations and intra-region eliminations
+(22)
+0.14
+(30)
+0.21
+At 31 Dec
+0.26
+0.50
+Debt Securities in issue – non trading
+Europe
+HSBC Holdings plc
+2,748
+2.51
+3,101
+2.91
+HSBC Bank plc
+0.66
+1.06
+HSBC UK Bank plc
+2.34
+2.84
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+1.63
+2.07
+MENA
+HSBC Bank Middle East Limited
+3,165
+1.20
+3,214
+1.77
+North America
+HSBC North America Holdings Inc.
+1.70
+2.33
+HSBC Bank Canada
+1.81
+1.97
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+1,983
+6.40
+3,451
+6.14
+HSBC Argentina Holdings S.A.
+5.94
+17.39
+Other operations and intra-region eliminations
+1.99
+2.30
+At 31 Dec
+3,603
+1.87
+4,944
+2.25
+Customer accounts
+Europe
+HSBC Bank plc
+0.18
+0.33
+HSBC UK Bank plc
+0.06
+0.16
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+1,934
+0.28
+3,300
+0.51
+MENA
+HSBC Bank Middle East Limited
+9,234
+0.27
+0.79
+North America
+HSBC North America Holdings Inc.
+0.23
+0.58
+HSBC Bank Canada
+0.34
+0.91
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+2.33
+3.28
+HSBC Argentina Holdings S.A.
+2,910
+14.57
+2,596
+11.83
+Other operations and intra-region eliminations
+2.25
+1.86
+At 31 Dec
+4,099
+0.30
+6,478
+0.52
+Repurchase agreements – with banks
+Europe
+HSBC Bank plc
+0.13
+0.40
+HSBC UK Bank plc
+—
+—
+—
+—
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+0.65
+0.95
+MENA
+HSBC Bank Middle East Limited
+0.13
+0.30
+North America
+HSBC North America Holdings Inc.
+6,611
+0.06
+0.67
+HSBC Bank Canada
+0.56
+1,336
+1.57
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+5.00
+3.85
+HSBC Argentina Holdings S.A.
+11.11
+20.83
+Other operations and intra-region eliminations
+(6)
+0.06
+(75)
+0.62
+At 31 Dec
+0.44
+0.75
+Repurchase agreements – with customers
+Europe
+HSBC Bank plc
+0.16
+0.61
+HSBC UK Bank plc
+5,635
+0.02
+3,977
+0.05
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+0.40
+6,701
+0.55
+MENA
+HSBC Bank Middle East Limited
+—
+—
+—
+—
+—
+—
+North America
+HSBC North America Holdings Inc.
+0.02
+0.69
+HSBC Bank Canada
+3,742
+0.21
+2,852
+0.70
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+1,850
+4.32
+1,777
+6.02
+HSBC Argentina Holdings S.A.
+—
+—
+—
+—
+—
+—
+Other operations and intra-region eliminations
+At 31 Dec
+0.25
+0.78
+HSBC Holdings plc
+Equity and liabilities (continued)
+2021
+2020
+Average
+balance
+Interest
+expense
+Cost
+Average
+balance
+Interest
+expense
+Cost
+$m
+$m
+%
+$m
+$m
+%
+Other interest-bearing liabilities
+Europe
+HSBC Bank plc
+1,059
+2.09
+1,100
+1.81
+HSBC UK Bank plc
+2.51
+5.42
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+1.20
+1.28
+MENA
+HSBC Bank Middle East Limited
+10.00
+7.50
+North America
+HSBC North America Holdings Inc.
+9,549
+0.34
+7,289
+0.97
+HSBC Bank Canada
+2,149
+2.47
+1,960
+2.24
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+16.98
+16.36
+HSBC Argentina Holdings S.A.
+Other operations and intra-region eliminations
+(26)
+0.36
+At 31 Dec
+1,436
+2.02
+1,463
+1.92
+Total interest-bearing liabilities
+Europe
+HSBC Holdings plc
+2,749
+2.48
+3,104
+2.86
+HSBC Bank plc
+1,919
+0.48
+2,802
+0.70
+HSBC UK Bank plc
+0.18
+0.32
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+2,993
+0.37
+4,627
+0.61
+MENA
+HSBC Bank Middle East Limited
+0.60
+1.07
+North America
+HSBC North America Holdings Inc.
+0.38
+1,715
+0.90
+HSBC Bank Canada
+0.66
+1.16
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+3.12
+4.16
+HSBC Argentina Holdings S.A.
+3,056
+16.79
+2,828
+14.18
+Other operations and intra-region eliminations
+(925)
+1.11
+1.46
+At 31 Dec
+9,699
+0.53
+0.81
+1    This includes interest-bearing bank deposits only. See page 108 for an analysis of all bank deposits.
+2    This includes interest-bearing customer accounts only. See page 109 for an analysis of all customer accounts.
+Net interest margin
+2021
+2020
+2019
+%
+%
+%
+Europe
+HSBC Bank plc
+0.49
+0.51
+0.43
+HSBC UK Bank plc
+1.53
+1.71
+2.05
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+1.37
+1.62
+2.02
+MENA
+HSBC Bank Middle East Limited
+1.66
+2.07
+3.03
+North America
+HSBC North America Holdings Inc.
+0.93
+0.88
+0.98
+HSBC Bank Canada
+1.19
+1.03
+1.38
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+5.61
+4.82
+4.54
+HSBC Argentina Holdings S.A.
+19.93
+19.99
+20.88
+At 31 Dec
+1.20
+1.32
+1.58
+1    Net interest margin is calculated as net interest income divided by average interest-earning assets.
+Distribution of average total assets
+2021
+2020
+2019
+%
+%
+%
+Europe
+HSBC Bank plc
+30.0
+32.0
+32.0
+HSBC UK Bank plc
+14.0
+12.0
+12.0
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+42.0
+40.0
+40.0
+MENA
+HSBC Bank Middle East Limited
+2.0
+2.0
+1.0
+North America
+HSBC North America Holdings Inc.
+9.0
+11.0
+12.0
+HSBC Bank Canada
+3.0
+3.0
+3.0
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+1.0
+2.0
+2.0
+Other operations and intra-region eliminations
+(1.0)
+(2.0)
+(2.0)
+At 31 Dec
+100.0
+100.0
+100.0
+HSBC Holdings plc
+Financial summary
+Analysis of changes in net interest income and net interest expense
+The following tables allocate changes in net interest income and net interest expense between volume and rate for 2021 compared
+with 2020, and for 2020 compared with 2019. We isolate rate variances and allocate any change arising from both volume and rate/volume to volume.
+Interest income
+Increase/(decrease)
+in 2021 compared
+with 2020
+Increase/(decrease)
+in 2020 compared
+with 2019
+2021
+Volume
+Rate
+2020
+Volume
+Rate
+2019
+$m
+$m
+$m
+$m
+$m
+$m
+$m
+Short-term funds and loans and advances to banks
+Europe
+HSBC Bank plc
+(70)
+(244)
+HSBC UK Bank plc
+(44)
+(206)
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+(237)
+(558)
+1,147
+MENA
+HSBC Bank Middle East Limited
+(25)
+(35)
+North America
+HSBC North America Holdings Inc.
+(39)
+(250)
+HSBC Bank Canada
+(2)
+(2)
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+(21)
+(21)
+(55)
+Other operations and intra-region eliminations
+(29)
+(37)
+At 31 Dec
+1,105
+(507)
+1,264
+2,411
+Loans and advances to customers
+Europe
+HSBC Bank plc
+2,226
+(205)
+(254)
+2,685
+(18)
+(495)
+3,198
+HSBC UK Bank plc
+6,633
+(315)
+6,307
+(624)
+6,650
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+MENA
+HSBC Bank Middle East Limited
+(38)
+(134)
+(238)
+1,000
+North America
+HSBC North America Holdings Inc.
+1,545
+(332)
+(213)
+2,090
+(641)
+2,713
+HSBC Bank Canada
+1,322
+(121)
+1,306
+(378)
+1,585
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+1,849
+(30)
+(19)
+1,898
+(161)
+(289)
+2,348
+HSBC Argentina Holdings S.A.
+(27)
+(132)
+(58)
+Other operations and intra-region eliminations
+(3)
+(39)
+(353)
+1,169
+At 31 Dec
+Reverse repurchase agreements – with banks
+Europe
+HSBC Bank plc
+(123)
+(282)
+HSBC UK Bank plc
+—
+—
+—
+—
+—
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+(113)
+(454)
+MENA
+HSBC Bank Middle East Limited
+(10)
+(20)
+North America
+HSBC North America Holdings Inc.
+(1)
+(116)
+(50)
+(524)
+HSBC Bank Canada
+(1)
+(7)
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+(24)
+(26)
+(10)
+HSBC Argentina Holdings S.A.
+(8)
+Other operations and intra-region eliminations
+(63)
+(73)
+(26)
+(362)
+At 31 Dec
+(277)
+(901)
+1,801
+Reverse repurchase agreements – with customers
+Europe
+HSBC Bank plc
+(47)
+(124)
+(58)
+(317)
+HSBC UK Bank plc
+(5)
+(5)
+(20)
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+(74)
+(119)
+MENA
+HSBC Bank Middle East Limited
+—
+—
+—
+—
+—
+North America
+HSBC North America Holdings Inc.
+(29)
+(333)
+(31)
+1,861
+HSBC Bank Canada
+(5)
+(25)
+(3)
+(67)
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+—
+—
+—
+—
+Other operations and intra-region eliminations
+—
+—
+(54)
+(73)
+(9)
+At 31 Dec
+(70)
+(467)
+(59)
+2,889
+HSBC Holdings plc
+Interest income (continued)
+Increase/(decrease)
+in 2021 compared
+with 2020
+Increase/(decrease)
+in 2020 compared
+with 2019
+2021
+Volume
+Rate
+2020
+Volume
+Rate
+2019
+$m
+$m
+$m
+$m
+$m
+$m
+$m
+Financial investments
+Europe
+HSBC Bank plc
+(44)
+(105)
+(378)
+1,195
+HSBC UK Bank plc
+(114)
+(154)
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+4,001
+(705)
+4,653
+5,831
+MENA
+HSBC Bank Middle East Limited
+(44)
+(96)
+North America
+HSBC North America Holdings Inc.
+(148)
+(89)
+(352)
+1,202
+HSBC Bank Canada
+(27)
+(79)
+(29)
+(159)
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+(31)
+(117)
+(103)
+HSBC Argentina Holdings S.A.
+(2)
+(7)
+(20)
+(194)
+Other operations and intra-region eliminations
+(170)
+(182)
+At 31 Dec
+6,729
+(348)
+8,143
+Interest expense
+Increase/(decrease)
+in 2021 compared
+with 2020
+Increase/(decrease)
+in 2020 compared
+with 2019
+2021
+Volume
+Rate
+2020
+Volume
+Rate
+2019
+$m
+$m
+$m
+$m
+$m
+$m
+$m
+Deposits by banks
+Europe
+HSBC Bank plc
+(70)
+(152)
+HSBC UK Bank plc
+—
+—
+—
+(25)
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+—
+(56)
+(189)
+MENA
+HSBC Bank Middle East Limited
+(3)
+(7)
+(28)
+North America
+HSBC North America Holdings Inc.
+(6)
+(37)
+HSBC Bank Canada
+—
+—
+(1)
+—
+(1)
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+(13)
+—
+(34)
+HSBC Argentina Holdings S.A.
+(1)
+(8)
+(5)
+Other operations and intra-region eliminations
+(22)
+(2)
+(30)
+(3)
+(70)
+At 31 Dec
+(157)
+(441)
+Customer accounts
+Europe
+HSBC Bank plc
+(277)
+(853)
+1,428
+HSBC UK Bank plc
+(237)
+(471)
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+1,934
+3,300
+5,520
+MENA
+HSBC Bank Middle East Limited
+(3)
+(56)
+(61)
+North America
+HSBC North America Holdings Inc.
+(6)
+(303)
+(488)
+HSBC Bank Canada
+(269)
+(265)
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+(155)
+(12)
+(285)
+HSBC Argentina Holdings S.A.
+(29)
+(218)
+Other operations and intra-region eliminations
+(14)
+(217)
+At 31 Dec
+4,099
+6,478
+HSBC Holdings plc
+Financial summary
+Interest expense (continued)
+Increase/(decrease)
+in 2021 compared
+with 2020
+Increase/(decrease)
+in 2020 compared
+with 2019
+2021
+Volume
+Rate
+2020
+Volume
+Rate
+2019
+$m
+$m
+$m
+$m
+$m
+$m
+$m
+Repurchase agreements – with banks
+Europe
+HSBC Bank plc
+(57)
+(13)
+(212)
+HSBC UK Bank plc
+—
+—
+—
+—
+—
+(4)
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+(50)
+(244)
+MENA
+HSBC Bank Middle East Limited
+(1)
+(2)
+North America
+HSBC North America Holdings Inc.
+(2)
+(67)
+(31)
+(363)
+HSBC Bank Canada
+(6)
+(13)
+(10)
+(40)
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+(22)
+(119)
+(129)
+HSBC Argentina Holdings S.A.
+(2)
+(2)
+(1)
+(7)
+Other operations and intra-region eliminations
+(6)
+(75)
+(10)
+(524)
+At 31 Dec
+(121)
+(83)
+(626)
+1,000
+Repurchase agreements – with customers
+Europe
+HSBC Bank plc
+(6)
+(130)
+(66)
+(385)
+HSBC UK Bank plc
+—
+(1)
+(4)
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+(10)
+(8)
+(38)
+MENA
+HSBC Bank Middle East Limited
+—
+—
+—
+—
+—
+—
+—
+North America
+HSBC North America Holdings Inc.
+(4)
+(317)
+(113)
+2,043
+HSBC Bank Canada
+(14)
+(15)
+(43)
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+(30)
+(2)
+(78)
+HSBC Argentina Holdings S.A.
+—
+—
+—
+—
+—
+—
+—
+Other operations and intra-region eliminations
+(1)
+(1)
+—
+At 31 Dec
+(29)
+(458)
+(191)
+3,023
+Debt securities in issue – non trading
+Europe
+HSBC Holdings
+2,748
+(427)
+3,101
+(904)
+3,797
+HSBC Bank plc
+(95)
+(271)
+(17)
+(402)
+1,138
+HSBC UK Bank plc
+(75)
+Asia
+The Hongkong and Shanghai Banking Corporation Limited
+(10)
+(179)
+(429)
+1,202
+MENA
+HSBC Bank Middle East Limited
+(1)
+(18)
+(57)
+North America
+HSBC North America Holdings Inc.
+(166)
+(198)
+(38)
+(488)
+1,256
+HSBC Bank Canada
+(31)
+(23)
+(84)
+Latin America
+Grupo Financiero HSBC, S.A. de C.V.
+(94)
+(35)
+HSBC Argentina Holdings S.A.
+(4)
+(18)
+(21)
+(45)
+Other operations and intra-region eliminations
+(58)
+(118)
+At 31 Dec
+3,603
+(506)
+(835)
+4,944
+6,522
+.
+HSBC Holdings plc
+Loan maturity and interest sensitivity analysis
+At 31 December 2021, the analysis of loan maturity and interest sensitivity by loan type on a contractual repayment basis was as follows.
+Total
+$m
+Maturity of 1 year or less
+Loans and advances to banks
+Loans and advances to customers
+Maturity after 1 year but within 5 years
+Loans and advances to banks
+8,459
+Loans and advances to customers
+Interest rate sensitivity of loans and advances to banks
+Fixed interest rate
+5,710
+Variable interest rate
+2,749
+8,459
+Interest rate sensitivity of loans and advances to customers
+Fixed interest rate
+Variable interest rate
+Maturity after 5 years but within 15 years
+Loans and advances to banks
+Loans and advances to customers
+Interest rate sensitivity of loans and advances to banks
+Fixed interest rate
+Variable interest rate
+—
+Interest rate sensitivity of loans and advances to customers
+Fixed interest rate
+Variable interest rate
+Maturity after 15 years
+Loans and advances to banks
+—
+Loans and advances to customers
+Interest rate sensitivity of loans and advances to banks
+Fixed interest rate
+—
+Variable interest rate
+—
+—
+Interest rate sensitivity of loans and advances to customers
+Fixed interest rate
+Variable interest rate
+HSBC Holdings plc
+Financial summary
+Deposits
+The following tables summarise the average amount of bank deposits, customer deposits and certificates of deposit (‘CDs’) and other money market instruments (that are included within ‘Debt securities in issue’ in the balance sheet), together with the average interest rates paid thereon for each of the past two years.
+The geographical analysis of average deposits is based on the location of the office in which the deposits are recorded and excludes balances with HSBC companies.
+Deposits by banks
+2021
+2020
+Average
+balance
+Average
+rate
+Average
+balance
+Average
+rate
+$m
+%
+$m
+%
+Europe
+– demand and other – non-interest bearing
+5,443
+—
+5,100
+—
+– demand – interest bearing
+0.2
+0.2
+– time
+0.1
+0.5
+– other
+—
+—
+Asia
+– demand and other – non-interest bearing
+4,390
+—
+3,787
+—
+– demand – interest bearing
+0.2
+0.3
+– time
+5,770
+0.5
+6,623
+0.7
+– other
+—
+—
+—
+Middle East and North Africa
+1,631
+1,528
+– demand and other – non-interest bearing
+—
+—
+– demand – interest bearing
+0.2
+0.4
+– time
+1.3
+1.7
+– other
+—
+—
+North America
+6,337
+5,493
+– demand and other – non-interest bearing
+1,872
+—
+1,471
+—
+– demand – interest bearing
+4,391
+0.1
+3,617
+0.2
+– time
+—
+0.7
+– other
+—
+—
+—
+—
+Latin America
+1,005
+– demand and other – non-interest bearing
+—
+—
+– demand – interest bearing
+10.6
+9.9
+– time
+6.8
+6.7
+– other
+—
+—
+—
+—
+Total
+– demand and other – non-interest bearing
+—
+—
+– demand – interest bearing
+0.2
+0.3
+– time
+0.4
+0.8
+– other
+—
+—
+HSBC Holdings plc
+Customer accounts
+2021
+2020
+Average
+balance
+Average
+rate
+Average
+balance
+Average
+rate
+$m
+%
+$m
+%
+Europe
+– demand and other – non-interest bearing
+—
+—
+– demand – interest bearing
+0.1
+0.2
+– savings
+0.2
+0.5
+– time
+0.3
+0.6
+– other
+0.1
+0.2
+Asia
+– demand and other – non-interest bearing
+—
+—
+– demand – interest bearing
+0.1
+0.2
+– savings
+1.3
+1.6
+– time
+0.4
+1.1
+– other
+—
+14.0
+Middle East and North Africa
+– demand and other – non-interest bearing
+—
+—
+– demand – interest bearing
+8,868
+0.3
+7,837
+0.4
+– savings
+9,425
+4.0
+3.0
+– time
+—
+—
+North America
+– demand and other – non-interest bearing
+—
+—
+– demand – interest bearing
+0.2
+0.3
+– savings
+0.3
+0.8
+– time
+3,088
+0.3
+6,846
+1.3
+Latin America
+– demand and other – non-interest bearing
+5,835
+—
+5,285
+—
+– demand – interest bearing
+2.9
+3.1
+– savings
+2,884
+10.3
+2,746
+8.9
+– time
+6,896
+2.8
+6,911
+4.0
+Total
+– demand and other – non-interest bearing
+—
+—
+– demand – interest bearing
+0.1
+0.2
+– savings
+0.9
+1.3
+– time
+0.7
+1.2
+– other
+0.1
+0.3
+Net Charge-offs to average loans
+The following table provides the net charge-offs to average loans for loans and advances to banks and customers.
+Net charge-offs to average loans
+2021
+2020
+%
+%
+Loans and advances to banks
+0.00
+0.00
+Loans and advances to customers
+0.21
+0.25
+Allowances for credit losses to total loans are presented in Summary of credit risk (excluding debt instruments measured at FVOCI) by stage distribution and ECL coverage by industry sector at page 178.
+Estimate of uninsured deposits and uninsured time deposits
+HSBC provides deposit services to customers across the many countries in which we operate and are therefore subject to differing national and state deposit insurance regimes. Uninsured deposits are presented on an estimated basis using the same methodologies and assumptions inherent in our liquidity reporting requirements to our primary regulator, the Prudential Regulation Authority.
+The insured status of a deposit is determined on the basis of individual insurance limits enacted within local regulations.
+At 31 December 2021, the amount of uninsured deposit was $1.4tn (31 December 2020: $1.3tn).
+Uninsured time deposits are uninsured deposits which are subject to contractual maturity requirements prior to withdrawal. Amounts are presented on a residual contractual maturity basis and exclude overnight deposits where contractual requirements are imminently satisfied.
+Maturity analysis of uninsured time deposits
+At 31 Dec 2021
+3 months
+or less
+After 3 months
+but within
+6 months
+After 6 months
+but within
+12 months
+After
+12 months
+Total
+$m
+$m
+$m
+$m
+$m
+Uninsured time deposits
+8,989
+8,042
+HSBC Holdings plc
+Global businesses
+Global businesses and
+geographical regions
+Page
+Summary
+Reconciliation of reported and adjusted items – global businesses
+Reconciliation of reported and adjusted risk-weighted assets
+Supplementary tables for WPB and GBM
+Analysis of reported results by geographical regions
+Reconciliation of reported and adjusted items – geographical regions
+Analysis by country
+.
+Summary
+The Group Chief Executive, supported by the rest of the Group Executive Committee (‘GEC'), reviews operating activity on a number of bases, including by global business and geographical region. Our global businesses – Wealth and Personal Banking,
+Commerical Banking, and Global Banking and Markets – along with Corporate Centre are our reportable segments under IFRS 8 ‘Operating Segments’ and are presented below and in Note 10: Segmental analysis on page 369.
+Geographical information is classified by the location of the principal operations of the subsidiary or, for The Hongkong and Shanghai Banking Corporation Limited, HSBC Bank plc, HSBC UK Bank plc, HSBC Bank Middle East Limited and HSBC Bank USA, by the location of the branch responsible for reporting the results or providing funding.
+The expense of the UK bank levy is included in the Europe geographical region as HSBC regards the levy as a cost of being headquartered in the UK. From 2021, the UK bank levy was partially allocated to global businesses, which was previously retained in Corporate Centre. Comparative periods have not been re-presented.
+The results of geographical regions are presented on a reported basis on page 120 and an adjusted basis on page 122.
+Reconciliation of reported and adjusted items – global businesses
+Supplementary unaudited analysis of significant items by global business is presented below.
+2021
+Wealth and Personal Banking
+Commercial
+Banking
+Global
+Banking and
+Markets
+Corporate Centre
+Total
+$m
+$m
+$m
+$m
+$m
+Revenue
+Reported
+(584)
+Significant items
+(7)
+(16)
+– customer redress programmes
+(18)
+—
+—
+(11)
+– fair value movements on financial instruments
+—
+(1)
+– restructuring and other related costs
+(14)
+(77)
+Adjusted
+(437)
+ECL
+Reported
+Adjusted
+Operating expenses
+Reported
+Significant items
+1,271
+2,472
+– customer redress programmes
+—
+– impairment of goodwill and other intangibles
+—
+—
+—
+– restructuring and other related costs
+1,262
+1,836
+Adjusted
+Share of profit in associates and joint ventures
+Reported
+—
+3,011
+3,046
+Adjusted
+—
+3,011
+3,046
+Profit before tax
+Reported
+6,133
+6,677
+4,722
+1,374
+Significant items
+1,418
+3,010
+– revenue
+(7)
+(16)
+– operating expenses
+1,271
+2,472
+Adjusted
+7,048
+6,743
+5,333
+2,792
+Loans and advances to customers (net)
+Reported
+Adjusted
+Customer accounts
+Reported
+Adjusted
+1 Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue.
+2    Includes fair value movements on non-qualifying hedges and debt valuation adjustments on derivatives.
+3    Comprises losses associated with the RWA reduction commitments and gains relating to the business update in February 2020.
+HSBC Holdings plc
+Reconciliation of reported and adjusted items (continued)
+2020
+Wealth and Personal Banking
+Commercial
+Banking
+Global
+Banking and
+Markets
+Corporate
+Centre
+Total
+$m
+$m
+$m
+$m
+$m
+Revenue
+Reported
+Currency translation
+(28)
+1,393
+Significant items
+(401)
+(52)
+– customer redress programmes
+—
+—
+– disposals, acquisitions and investment in new businesses
+—
+—
+– fair value movements on financial instruments
+—
+(267)
+(264)
+– restructuring and other related costs
+—
+(138)
+– currency translation on significant items
+(2)
+Adjusted
+(287)
+ECL
+Reported
+Currency translation
+(150)
+(235)
+(80)
+—
+(465)
+Adjusted
+Operating expenses
+Reported
+Currency translation
+(432)
+(214)
+(451)
+Significant items
+1,463
+3,095
+– customer redress programmes
+(64)
+—
+(54)
+– impairment of goodwill and other intangibles
+1,090
+– past service costs of guaranteed minimum pension benefits equalisation
+—
+—
+—
+– restructuring and other related costs
+1,225
+1,908
+– settlements and provisions in connection with legal and regulatory matters
+—
+—
+– currency translation on significant items
+Adjusted
+(429)
+Share of profit in associates and joint ventures
+Reported
+(1)
+—
+1,592
+1,597
+Currency translation
+—
+—
+Significant items
+—
+—
+—
+– impairment of goodwill
+—
+—
+—
+– currency translation on significant items
+—
+—
+—
+—
+—
+Adjusted
+(1)
+—
+2,186
+2,192
+Profit/(loss) before tax
+Reported
+3,704
+1,639
+3,616
+(182)
+8,777
+Currency translation
+(21)
+(44)
+(75)
+(11)
+Significant items
+1,298
+1,524
+3,505
+– revenue
+(401)
+(52)
+– operating expenses
+1,463
+3,095
+– share of profit in associates and joint ventures
+—
+—
+—
+Adjusted
+4,130
+1,831
+4,839
+1,471
+Loans and advances to customers (net)
+Reported
+1,255
+Currency translation
+(24)
+Adjusted
+1,231
+Customer accounts
+Reported
+Currency translation
+(17)
+Adjusted
+1    Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue.
+2    Includes fair value movements on non-qualifying hedges and debt valuation adjustments on derivatives.
+3    Comprises losses associated with the RWA reduction commitments and gains relating to the business update in February 2020.
+5    In 2020, The Saudi British Bank ('SABB'), an associate of HSBC, impaired the goodwill that arose following the merger with Alawwal bank in 2019. HSBC's post-tax share of the goodwill impairment was $462m.
+HSBC Holdings plc
+Global businesses
+Reconciliation of reported and adjusted items (continued)
+2019
+Wealth and Personal Banking
+Commercial
+Banking
+Global
+Banking and
+Markets
+Corporate
+Centre
+Total
+$m
+$m
+$m
+$m
+$m
+Revenue
+Reported
+Currency translation
+1,010
+Significant items
+(999)
+(673)
+– customer redress programmes
+—
+– disposals, acquisitions and investment in new businesses
+—
+—
+(820)
+(768)
+– fair value movements on financial instruments
+(179)
+(84)
+– currency translation on significant items
+—
+(1)
+Adjusted
+(581)
+ECL
+Reported
+(162)
+Currency translation
+(2)
+Adjusted
+(155)
+Operating expenses
+Reported
+Currency translation
+(431)
+(184)
+(337)
+(29)
+(981)
+Significant items
+1,959
+3,061
+4,236
+9,767
+– costs of structural reform
+—
+– customer redress programmes
+1,264
+—
+—
+1,281
+– goodwill impairment
+2,956
+3,962
+—
+7,349
+– restructuring and other related costs
+– settlements and provisions in connection with legal and regulatory matters
+(69)
+—
+(61)
+– currency translation on significant items
+Adjusted
+(821)
+Share of profit in associates and joint ventures
+Reported
+—
+—
+2,299
+2,354
+Currency translation
+(1)
+Adjusted
+2,440
+2,496
+Profit before tax
+Reported
+6,819
+4,159
+1,427
+Currency translation
+(13)
+(26)
+Significant items
+2,189
+3,072
+4,321
+(488)
+9,094
+– revenue
+(999)
+(673)
+– operating expenses
+1,959
+3,061
+4,236
+9,767
+Adjusted
+8,995
+7,373
+5,237
+1,076
+Loans and advances to customers (net)
+Reported
+1,121
+Currency translation
+5,855
+2,611
+1,570
+Adjusted
+1,141
+Customer accounts
+Reported
+Currency translation
+4,645
+3,410
+2,738
+Adjusted
+1    Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue.
+2    Includes $0.8bn dilution gain following the merger of The Saudi British Bank (‘SABB’) with Alawwal bank.
+3    Includes fair value movements on non-qualifying hedges and debt valuation adjustments on derivatives.
+4    Comprises costs associated with preparations for the UK’s exit from the European Union.
+HSBC Holdings plc
+Reconciliation of reported and adjusted risk-weighted assets
+At 31 Dec 2021
+Wealth and Personal Banking
+Commercial
+Banking
+Global
+Banking and
+Markets
+Corporate Centre
+Total
+$bn
+$bn
+$bn
+$bn
+$bn
+Risk-weighted assets
+Reported
+178.3
+332.9
+236.2
+90.9
+838.3
+Adjusted
+178.3
+332.9
+236.2
+90.9
+838.3
+At 31 Dec 2020
+Risk-weighted assets
+Reported
+172.8
+327.7
+265.1
+91.9
+857.5
+Currency translation
+(2.7)
+(5.3)
+(4.1)
+(0.8)
+Adjusted
+170.1
+322.4
+261.0
+91.1
+844.6
+At 31 Dec 2019
+Risk-weighted assets
+Reported
+162.6
+325.9
+273.4
+81.5
+843.4
+Currency translation
+(0.3)
+1.5
+(0.6)
+0.1
+0.7
+Adjusted
+162.3
+327.4
+272.8
+81.6
+844.1
+1    Adjusted risk-weighted assets are calculated using reported risk-weighted assets adjusted for the effects of currency translation differences and significant items.
+Supplementary tables for WPB and GBM
+WPB adjusted performance by business unit
+A breakdown of WPB by business unit is presented below to reflect the basis of how the revenue performance of the business units is assessed and managed.
+WPB – summary (adjusted basis)
+Total
+WPB
+Consists of
+Banking
+operations
+Insurance manufacturing
+Global Private Banking
+Asset
+management
+$m
+$m
+$m
+$m
+$m
+2021
+Net operating income before change in expected credit losses and other credit impairment charges
+2,625
+1,826
+1,219
+– net interest income
+2,316
+(2)
+– net fee income/(expense)
+5,894
+4,405
+(620)
+1,176
+– other income
+2,018
+ECL
+(17)
+(1)
+Net operating income
+2,608
+1,840
+1,218
+Total operating expenses
+(589)
+(829)
+Operating profit
+7,014
+4,331
+2,019
+Share of profit in associates and joint ventures
+—
+—
+Profit before tax
+7,048
+4,347
+2,037
+2020
+Net operating income before change in expected credit losses and other credit impairment charges
+1,869
+1,789
+1,073
+– net interest income
+2,249
+(3)
+– net fee income/(expense)
+5,519
+4,175
+(527)
+1,028
+– other income
+1,582
+1,129
+ECL
+(67)
+(71)
+(1)
+Net operating income
+1,802
+1,718
+1,072
+Total operating expenses
+(486)
+(754)
+Operating profit
+4,123
+2,200
+1,316
+Share of profit in associates and joint ventures
+—
+—
+Profit before tax
+4,130
+2,206
+1,317
+HSBC Holdings plc
+Global businesses
+WPB – summary (adjusted basis) (continued)
+Total
+WPB
+Consists of
+Banking
+operations
+Insurance manufacturing
+Global Private Banking
+Asset
+management
+$m
+$m
+$m
+$m
+$m
+2019
+Net operating income before change in expected credit losses and other credit impairment charges
+2,663
+1,917
+1,052
+– net interest income
+2,179
+(7)
+– net fee income/(expense)
+5,753
+4,684
+(726)
+– other income
+2,567
+1,087
+1,210
+ECL
+(66)
+(24)
+—
+Net operating income
+2,597
+1,893
+1,052
+Total operating expenses
+(485)
+(773)
+Operating profit
+8,941
+6,137
+2,112
+Share of profit in associates and joint ventures
+—
+—
+Profit before tax
+8,995
+6,148
+2,155
+1    The results presented for insurance manufacturing operations are shown before elimination of inter-company transactions with HSBC non-insurance operations. These eliminations are presented within Banking operations.
+2    Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue. This differs from the WPB Life insurance manufacturing revenue shown in the managed view of adjusted revenue on page 31, which excludes the impact of Argentina hyperinflation and includes the effect of goodwill adjustments.
+3    Operating expenses in Global Private Banking in 2021 included a one-off charge of $0.1bn, which did not meet the criteria to be classified as a significant item.
+WPB insurance manufacturing adjusted results
+The following table shows the results of our insurance manufacturing operations by income statement line item. It shows the results of insurance manufacturing operations for WPB and for all global business segments in aggregate, and separately the insurance distribution income earned by HSBC bank channels.
+These results are prepared in accordance with current IFRSs which will change following adoption of IFRS 17 ‘Insurance Contracts’, effective from 1 January 2023. Further information about the adoption of IFRS 17 is provided on page 90.
+Adjusted results of insurance manufacturing operations and insurance distribution income earned by HSBC bank channels
+1, 2
+2021
+2020
+2019
+WPB
+All global businesses
+WPB
+All global businesses
+WPB
+All global businesses
+$m
+$m
+$m
+$m
+$m
+$m
+Net interest income
+2,316
+2,492
+2,249
+2,414
+2,179
+2,318
+Net fee income/(expense)
+(620)
+(652)
+(527)
+(564)
+(726)
+(750)
+– fee income
+– fee expense
+(725)
+(780)
+(638)
+(696)
+(834)
+(881)
+Net income/(expenses) from financial instruments held for trading or managed on a fair value basis
+—
+(107)
+(117)
+Net income/(expense) from assets and liabilities of insurance businesses, including related derivatives, measured at fair value through profit or loss
+4,061
+4,100
+2,066
+2,019
+3,671
+3,654
+Gains less losses from financial investments
+Net insurance premium income
+9,822
+Other operating income
+1,801
+1,814
+Of which: PVIF
+1,724
+1,769
+Total operating income
+Net insurance claims and benefits paid and movement in liabilities to policyholders
+Net operating income before change in expected credit losses and other credit impairment charges
+2,625
+2,761
+1,869
+1,973
+2,663
+2,741
+Change in expected credit losses and other credit impairment charges
+(17)
+(20)
+(67)
+(78)
+(66)
+(70)
+Net operating income
+2,608
+2,741
+1,802
+1,895
+2,597
+2,671
+Total operating expenses
+(589)
+(618)
+(486)
+(514)
+(485)
+(506)
+Operating profit
+2,019
+2,123
+1,316
+1,381
+2,112
+2,165
+Share of profit in associates and joint ventures
+Profit before tax of insurance manufacturing operations
+2,037
+2,141
+1,317
+1,382
+2,155
+2,208
+Annualised new business premiums of insurance manufacturing operations
+2,838
+2,892
+2,320
+2,384
+3,348
+3,427
+Insurance distribution income earned by HSBC bank channels
+1,057
+2    The results presented for insurance manufacturing operations are shown before elimination of inter-company transactions with HSBC non-insurance operations.
+3    Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue.
+HSBC Holdings plc
+Insurance manufacturing
+The following commentary, unless otherwise specified, relates to the ‘All global businesses’ results.
+HSBC recognises the present value of long-term in-force insurance contracts and investment contracts with discretionary participation features (‘PVIF’) as an asset on the balance sheet. The overall balance sheet equity, including PVIF, is therefore a measure of the embedded value in the insurance manufacturing entities, and the movement in this embedded value in the period drives the overall income statement result.
+Adjusted net operating income before change in expected credit losses and other credit impairment changes was $0.8bn or 40% higher than in 2020. This reflected the following:
+•
+‘Net income from assets and liabilities of insurance businesses, including related derivatives, measured at fair value through profit or loss’ of $4.1bn in 2021 compared with $2.0bn in 2020. This increase primarily reflected favourable equity market performance in France and Hong Kong and higher gains on unit trust assets, supporting insurance and investment contracts. This compared with 2020, which was adversely impacted by the onset of the Covid-19 pandemic.
+•
+This favourable movement resulted in a corresponding movement in liabilities to policyholders and PVIF (see ‘Other operating income’ below), to the extent to which policyholders and shareholders respectively participate in the investment performance of the associated assets.
+•
+Net insurance premium income of $11bn was $0.7bn higher than in 2020, primarily reflecting higher sales volumes particularly in France, the UK and Singapore.
+•
+•
+Net insurance claims and benefits paid and movement in liabilities to policyholders was $1.8bn higher, primarily due to higher returns on financial assets supporting contracts where the policyholder is subject to part or all of the investment risk and higher sales volumes, particularly in France and the UK.
+Adjusted operating expenses of $0.6bn increased by 20% compared with 2020, reflecting investments in core insurance functions and capabilities during the period.
+Annualised new business premiums (‘ANP’) is used to assess new insurance premium generation by the business. It is calculated as 100% of annualised first year regular premiums and 10% of single premiums, before reinsurance ceded. Higher ANP during the period reflected improved new business volumes, mainly in Hong Kong.
+WPB: Wealth adjusted revenue by geography
+The following table shows the adjusted revenue of our Wealth business by region. Our Wealth business comprises investment distribution, life insurance manufacturing, Global Private Banking and Asset Management.
+Wealth adjusted revenue by geography
+2021
+2020
+2019
+$m
+$m
+$m
+Europe
+2,381
+1,859
+2,402
+Asia
+5,780
+5,246
+5,587
+MENA
+North America
+Latin America
+Total
+9,123
+8,004
+8,923
+WPB: Wealth balances
+The following table shows the wealth balances, which include invested assets and wealth deposits. Invested assets comprise customer assets either managed by our Asset Management business or by external third-party investment managers, as well as self-directed investments by our customers.
+HSBC Holdings plc
+Global businesses
+WPB – reported wealth balances
+2021
+2020
+$bn
+$bn
+Global Private Banking invested assets
+– managed by Global Asset Management
+– external managers, direct securities and other
+Retail invested assets
+– managed by Global Asset Management
+– external managers, direct securities and other
+Asset Management third-party distribution
+Reported invested assets
+1,119
+1,050
+Wealth deposits (Premier, Jade and Global Private Banking)
+Total reported wealth balances
+1,670
+1,588
+1    Invested assets are not reported on the Group’s balance sheet, except where it is deemed that we are acting as principal rather than agent in our role as investment manager.
+2    Premier, Jade and Global Private Banking deposits, which include Prestige deposits in Hang Seng Bank, form part of the total WPB customer accounts balance of $859bn (2020: $835bn) on page 110.
+Asset Management: funds under management
+The following table shows the funds under management of our Asset Management business. Funds under management represents assets managed, either actively or passively, on behalf
+of our customers. Funds under management are not reported on the Group’s balance sheet, except where it is deemed that we are acting as principal rather than agent in our role as investment manager.
+Asset Management – reported funds under management
+2021
+2020
+$bn
+$bn
+Opening balance
+Net new invested assets
+Net market movements
+Foreign exchange and others
+(17)
+Closing balance
+Asset Management – reported funds under management by geography
+2021
+2020
+$bn
+$bn
+Europe
+Asia
+MENA
+North America
+Latin America
+Closing balance
+Global Private Banking: client assets
+Global Private Banking client assets comprises invested assets and deposits, which are translated at the rates of exchange applicable for their respective year-ends, with the effects of currency translation reported separately.
+Global Private Banking – reported client assets
+2021
+2020
+$bn
+$bn
+Opening balance
+Net new invested assets
+Increase/(decrease) in deposits
+Net market movements
+Foreign exchange and others
+(11)
+Closing Balance
+Global Private Banking – reported client assets by geography
+2021
+2020
+$bn
+$bn
+Europe
+Asia
+North America
+Closing balance
+1    Client assets are not reported on the Group’s balance sheet, except where it is deemed that we are acting as principal rather than agent in our role as investment manager. Customer deposits included in these client assets are on balance sheet.
+HSBC Holdings plc
+Retail invested assets
+The following table shows the invested assets of our retail customers. These comprise customer assets either managed by our Asset Management business or by external third-party
+investment managers as well as self-directed investments by our customers. Retail invested assets are not reported on the Group’s balance sheet, except where it is deemed that we are acting as principal rather than agent in our role as investment manager.
+Retail invested assets
+2021
+2020
+$bn
+$bn
+Opening balance
+Net new invested assets
+Net market movements
+Foreign exchange and others
+(4)
+Closing balance
+Retail invested assets by geography
+2021
+2020
+$bn
+$bn
+Europe
+Asia
+MENA
+North America
+Latin America
+Closing balance
+1    ‘Retail net new invested assets’ covers nine markets, comprising Hong Kong including Hang Seng Bank (Hong Kong), mainland China, Malaysia, Singapore, HSBC Bank UK, UAE, US, Canada and Mexico. The net new invested assets related to all other geographies is reported in ‘exchange and other’.
+WPB invested assets
+Net new invested assets represents the net customer inflows from retail invested assets, Asset Management third-party distribution and Global Private Banking invested assets. It excludes all
+customer deposits. The net new invested assets in the table below is non-additive from the tables above, as net new invested assets managed by Asset Management that is generated by retail clients or Global Private Banking will be recorded in both businesses.
+WPB: Invested assets
+2021
+2020
+$bn
+$bn
+Opening balance
+1,050
+Net new invested assets
+Net market movements
+Foreign exchange and others
+(28)
+Closing balance
+1,119
+1,050
+WPB: Net new invested assets by geography
+2021
+2020
+$bn
+$bn
+Europe
+Asia
+MENA
+—
+—
+North America
+Latin America
+Total
+GBM: Securities Services and Issuer Services
+Assets held in custody
+The growth was driven by Securities Services balances, from net client asset inflows, including increases from new client mandates, notably in Asia, the US and the UK, and favourable market movements. These increases were partly offset by the adverse impact of currency translation differences.
+Assets under administration
+The increase was mainly driven by Securities Services balances, from a net inflow of client assets, particularly in the UK and Hong Kong, and from favourable market movements.
+HSBC Holdings plc
+Global businesses
+Wealth and Personal Banking
+2020 compared with 2019
+Financial performance
+– Non-interest income fell by $0.4bn, driven by lower fee income earned on unsecured lending products primarily due to lower customer activity as a result of the Covid-19 outbreak.
+– In Global Private Banking, revenue was $0.1bn or 7% lower, as net interest income fell as a result of lower global interest rates, although investment revenue increased, reflecting market volatility and higher fees from advisory and discretionary mandates.
+– In investment distribution, revenue was $0.1bn or 2% lower, reflecting adverse market conditions, which resulted in lower mutual fund sales and a reduction in wealth insurance distribution. This was partly offset by higher brokerage fees from increased transaction volumes.
+Adjusted ECL of $3.0bn were $1.6bn higher than in 2019, reflecting the global impact of the Covid-19 outbreak on the forward economic outlook across all regions, notably in the UK.
+Commercial Banking
+2020 compared with 2019
+– In GTRF, revenue decreased by $0.1bn or 5% from lower lending balances and fees, notably in Hong Kong and the UK, reflecting a reduction in global trade volumes as a result of the Covid-19 outbreak. This was partly offset by wider margins in the UK and Latin America.
+– In ‘Markets products, Insurance and Investments and Other’, revenue was $0.4bn lower, reflecting the impact of lower interest rates on income earned on capital held in the business, a fall in revenue from Insurance, Investments and Markets products, as well as a reduction in revaluation gains on shares. In addition, 2019 included a disposal gain of $24m in Latin America.
+This was partly offset by:
+– In C&L, revenue increased by $0.2bn or 4%, reflecting growth in average balances driven by the uptake of government-backed lending schemes and from wider margins.
+Adjusted ECL of $5.0bn were $3.8bn higher than in 2019. The increase reflected the global impact of the Covid-19 outbreak on the forward economic outlook, mainly in the UK and Asia. There were also higher charges against specific customers in 2020, particularly in the oil and gas and wholesale trade sectors, including a significant charge related to a corporate exposure in Singapore in the first quarter of 2020.
+In 2020, we delivered around $13bn of RWA reductions as part of our transformation programme, which mitigated an increase from asset quality deterioration.
+HSBC Holdings plc
+Global Banking and Markets
+2020 compared with 2019
+31 December 2019.
+In Banking, revenue decreased $0.8bn or 11%.
+– In GTRF revenue was broadly in line with 2019, reflecting repricing initiatives in Asia and Latin America, offset by lower fees in Europe due to management actions taken to reduce RWAs.
+Revenue fell in Principal Investments by $0.2bn, reflecting revaluation losses incurred in the first quarter of 2020, mainly in Europe, as a result of the Covid-19 outbreak, which partly reversed in the remainder of the period.
+Adjusted ECL were $1.3bn, up $1.1bn compared with 2019 from charges relating to the impact of the Covid-19 outbreak on the forward economic outlook, particularly in Europe, MENA and North and Latin America.
+Corporate Centre
+2020 compared with 2019
+Adjusted profit before tax of $1.5bn was $0.4bn higher than in 2019.
+Adjusted revenue increased by $0.3bn, which included inter-segment eliminations, largely related to movements in own shares held by the global businesses, which offset an equivalent adverse movement in these businesses. In addition, certain funding costs that were retained in Corporate Centre during 2019 were allocated to global businesses with effect from 1 January 2020. Revenue in our legacy portfolios rose by $0.1bn due to the non-recurrence of portfolio losses in 2019.
+Adjusted operating expenses, which are stated after recovery of costs from our global businesses, decreased by $0.4bn due to a lower UK bank levy charge and a reduction in discretionary expenditure.
+Adjusted share of profit in associates and joint ventures decreased by $0.3bn, primarily due to the impact of falling interest rates and the Covid-19 outbreak.
+HSBC Holdings plc
+Geographical regions
+Analysis of reported results by geographical regions
+HSBC reported profit/(loss) before tax and balance sheet data
+2021
+Europe
+Asia
+MENA
+North America
+Latin America
+Intra-HSBC
+Total
+$m
+$m
+$m
+$m
+$m
+$m
+$m
+Net interest income
+6,454
+1,299
+2,845
+2,195
+1,100
+Net fee income
+3,882
+5,871
+2,056
+—
+Net income from financial instruments held for trading or managed on a fair value basis
+2,602
+3,643
+7,744
+Net income from assets and liabilities of insurance businesses, including related derivatives, measured at fair value through profit and loss
+1,670
+2,340
+—
+—
+(2)
+4,053
+Changes in fair value of other financial instruments mandatorily measured at fair value through profit or loss
+1,973
+(3)
+(3)
+Other income/(expense)
+3,523
+1,316
+(212)
+Net operating income before change in
+expected credit losses and other credit
+impairment charges
+2,560
+6,054
+3,058
+Change in expected credit losses and other credit
+impairment charges
+1,601
+(840)
+(203)
+—
+Net operating income
+2,692
+6,292
+2,855
+Total operating expenses excluding impairment of goodwill and other intangible assets
+7,987
+Impairment of goodwill and other intangible assets
+(95)
+(24)
+(8)
+(13)
+(593)
+—
+(733)
+Operating profit/(loss)
+3,511
+9,763
+1,148
+1,374
+—
+Share of profit/(loss) in associates and joint ventures
+2,486
+—
+—
+3,046
+Profit/(loss) before tax
+3,779
+1,423
+1,374
+—
+%
+%
+%
+%
+%
+%
+Share of HSBC’s profit before tax
+20.0
+64.8
+7.5
+7.3
+0.4
+100.0
+Cost efficiency ratio
+90.5
+58.8
+60.3
+81.2
+91.3
+69.9
+Balance sheet data
+$m
+$m
+$m
+$m
+$m
+$m
+$m
+Loans and advances to customers (net)
+—
+Total assets
+Customer accounts
+—
+Risk-weighted assets
+2020
+Net interest income
+5,695
+1,465
+2,836
+1,960
+1,304
+Net fee income
+3,499
+5,418
+1,795
+—
+Net income from financial instruments held for trading or managed on a fair value basis
+3,266
+4,273
+9,582
+Net income from assets and liabilities of insurance businesses, including related derivatives, measured at fair value through profit and loss
+1,699
+—
+—
+—
+2,081
+Changes in fair value of other financial instruments mandatorily measured at fair value through profit or loss
+1,747
+Other income/(expense)
+3,885
+1,197
+(95)
+Net operating income before change in expected credit losses and other credit impairment charges
+2,628
+6,375
+3,020
+Change in expected credit losses and other credit
+impairment charges
+(758)
+(900)
+—
+Net operating income
+1,870
+5,475
+1,896
+Total operating expenses excluding impairment of goodwill and other intangible assets
+6,935
+Impairment of goodwill and other intangible assets
+1,014
+(78)
+(65)
+(226)
+(5)
+—
+Operating profit/(loss)
+(42)
+—
+7,180
+Share of profit/(loss) in associates and joint ventures
+1,856
+(265)
+—
+—
+1,597
+Profit/(loss) before tax
+(37)
+—
+8,777
+%
+%
+%
+%
+%
+%
+Share of HSBC’s profit before tax
+146.2
+0.2
+1.9
+(0.4)
+100.0
+Cost efficiency ratio
+102.5
+50.7
+60.4
+83.2
+64.2
+68.3
+Balance sheet data
+$m
+$m
+$m
+$m
+$m
+$m
+$m
+Loans and advances to customers (net)
+—
+Total assets
+Customer accounts
+—
+Risk-weighted assets
+—
+HSBC Holdings plc
+HSBC reported profit/(loss) before tax and balance sheet data (continued)
+2019
+Europe
+Asia
+MENA
+North America
+Latin
+America
+Intra-HSBC/global impairment
+Total
+$m
+$m
+$m
+$m
+$m
+$m
+$m
+Net interest income
+5,601
+1,781
+3,241
+2,061
+1,171
+Net fee income
+3,668
+5,325
+1,804
+Net income from financial instruments held for trading or managed on a fair value basis
+3,785
+4,735
+(372)
+Net income/(expense) from assets and liabilities of insurance businesses, including related derivatives, measured at fair value through profit and loss
+1,656
+1,803
+—
+—
+3,478
+Changes in fair value of other financial instruments mandatorily measured at fair value through profit or loss
+1,516
+(805)
+Other income/(expense)
+1,830
+1,921
+(23)
+(908)
+Net operating income before loan impairment (charges)/recoveries and other credit risk provisions
+3,710
+6,587
+3,516
+Change in expected credit losses and other credit
+impairment (charges)/recoveries
+(938)
+(724)
+(117)
+(237)
+(740)
+—
+Net operating income
+3,593
+6,350
+2,776
+Total operating expenses excluding impairment of goodwill and other intangible assets
+6,190
+Impairment of goodwill and other intangible assets
+(13)
+(97)
+(433)
+(339)
+Operating profit/(loss)
+2,044
+Share of profit in associates and joint ventures
+(12)
+2,070
+—
+—
+2,354
+Profit/(loss) before tax
+2,327
+%
+%
+%
+%
+%
+%
+Share of HSBC’s profit before tax
+138.4
+17.4
+5.7
+3.0
+100.0
+Cost efficiency ratio
+120.5
+43.7
+41.8
+84.8
+67.9
+75.5
+Balance sheet data
+$m
+$m
+$m
+$m
+$m
+$m
+$m
+Loans and advances to customers (net)
+—
+Total assets
+Customer accounts
+—
+Risk-weighted assets
+—
+1    ‘Other income/(expense)’ in this context comprises where applicable net income/expense from other financial instruments designated at fair value, gains less losses from financial investments, dividend income, net insurance premium income and other operating income less net insurance claims and benefits paid and movement in liabilities to policyholders.
+2    Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue.
+3    Risk-weighted assets are non-additive across geographical regions due to market risk diversification effects within the Group.
+4    Includes the impact of goodwill impairment. As per Group accounting policy, HSBC’s cash-generating units are based on geographical regions subdivided by global business, except for Global Banking and Markets, for which goodwill is monitored on a global basis.
+HSBC Holdings plc
+Geographical regions
+Reconciliation of reported and adjusted items – geographical regions
+Reconciliation of reported and adjusted items
+2021
+Europe
+Asia
+MENA
+North
+America
+Latin
+America
+Total
+$m
+$m
+$m
+$m
+$m
+$m
+Revenue
+Reported
+2,560
+6,054
+3,058
+Significant items
+(164)
+—
+– customer redress programmes
+(11)
+—
+—
+—
+—
+(11)
+– fair value movements on financial instruments
+—
+—
+– restructuring and other related costs
+2,4
+(90)
+(175)
+—
+Adjusted
+2,560
+6,064
+3,063
+ECL
+Reported
+1,601
+(840)
+(203)
+Adjusted
+1,601
+(840)
+(203)
+Operating expenses
+Reported
+Significant items
+1,367
+2,472
+– customer redress programmes
+—
+—
+—
+—
+– impairment of goodwill and other intangibles
+—
+—
+—
+—
+– restructuring and other related costs
+1,318
+1,836
+Adjusted
+Share of profit in associates and joint ventures
+Reported
+2,486
+—
+3,046
+Adjusted
+2,486
+—
+3,046
+Profit before tax
+Reported
+3,779
+1,423
+1,374
+Significant items
+1,492
+3,010
+– revenue
+(164)
+—
+– operating expenses
+1,367
+2,472
+Adjusted
+5,271
+1,479
+1,816
+Loans and advances to customers (net)
+Reported
+Adjusted
+Customer accounts
+Reported
+Adjusted
+1    Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue.
+2    Amounts are non-additive across geographical regions due to inter-company transactions within the Group.
+3    Includes fair value movements on non-qualifying hedges and debt valuation adjustments on derivatives.
+4     Comprises losses associated with the RWA reduction commitments and gains relating to the business update in February 2020.
+HSBC Holdings plc
+Reconciliation of reported and adjusted items (continued)
+2021
+UK
+Hong
+Kong
+Mainland China
+US
+Mexico
+$m
+$m
+$m
+$m
+$m
+Revenue
+Reported
+3,734
+4,006
+2,341
+Significant items
+(18)
+(41)
+– customer redress programmes
+(11)
+—
+—
+—
+—
+– fair value movements on financial instruments
+—
+—
+– restructuring and other related costs
+(227)
+(41)
+Adjusted
+3,693
+4,020
+2,356
+ECL
+Reported
+1,645
+(608)
+(89)
+(224)
+Adjusted
+1,645
+(608)
+(89)
+(224)
+Operating expenses
+Reported
+Significant items
+1,193
+– customer redress programmes
+—
+—
+—
+—
+– restructuring and other related costs
+1,144
+Adjusted
+Share of profit in associates and joint ventures
+Reported
+2,461
+—
+Adjusted
+2,461
+—
+Profit before tax
+Reported
+3,519
+5,916
+3,333
+Significant items
+1,175
+(9)
+– revenue
+(18)
+(41)
+– operating expenses
+1,193
+Adjusted
+4,694
+6,204
+3,324
+Loans and advances to customers (net)
+Reported
+Adjusted
+Customer accounts
+Reported
+Adjusted
+1    Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue.
+2    Includes fair value movements on non-qualifying hedges and debt valuation adjustments on derivatives.
+3     Comprises losses associated with the RWA reduction commitments and gains relating to the business update in February 2020.
+HSBC Holdings plc
+Geographical regions
+Reconciliation of reported and adjusted items (continued)
+2020
+Europe
+Asia
+MENA
+North
+America
+Latin
+America
+Total
+$m
+$m
+$m
+$m
+$m
+$m
+Revenue
+Reported
+2,628
+6,375
+3,020
+Currency translation
+1,171
+(58)
+(69)
+1,393
+Significant items
+(233)
+(36)
+(1)
+—
+(52)
+– customer redress programmes
+—
+—
+—
+—
+– disposals, acquisitions and investment in new businesses
+—
+—
+—
+—
+– fair value movements on financial instruments
+(254)
+(5)
+—
+(2)
+(3)
+(264)
+– restructuring and other related costs
+2,4
+(9)
+(32)
+—
+—
+– currency translation on significant items
+(1)
+(1)
+Adjusted
+2,569
+6,526
+2,951
+ECL
+Reported
+(758)
+(900)
+Currency translation
+(337)
+(57)
+(24)
+(50)
+(465)
+Adjusted
+(755)
+(924)
+Operating expenses
+Reported
+Currency translation
+(198)
+(69)
+Significant items
+2,335
+3,095
+– customer redress programmes
+(54)
+—
+—
+—
+—
+(54)
+– impairment of goodwill and other intangibles
+—
+—
+1,090
+– past service costs of guaranteed minimum pension benefits equalisation
+—
+—
+—
+—
+– restructuring and other related costs
+2,5
+1,425
+1,908
+– settlements and provisions in connection with legal and regulatory matters
+—
+—
+—
+—
+– currency translation on significant items
+—
+(2)
+(10)
+Adjusted
+Share of profit/(loss) in associates and joint ventures
+Reported
+1,856
+(265)
+—
+1,597
+Currency translation
+—
+—
+—
+—
+Significant items
+—
+—
+—
+—
+– impairment of goodwill
+—
+—
+—
+—
+– currency translation on significant items
+—
+—
+—
+—
+—
+—
+Adjusted
+1,989
+—
+2,192
+Profit/(loss) before tax
+Reported
+(37)
+8,777
+Currency translation
+(166)
+(16)
+(58)
+(11)
+Significant items
+2,102
+3,505
+– revenue
+(233)
+(36)
+(1)
+—
+(52)
+– operating expenses
+2,335
+3,095
+– share of profit in associates and joint ventures
+—
+—
+—
+—
+Adjusted
+(14)
+Loans and advances to customers (net)
+Reported
+Currency translation
+(788)
+Adjusted
+Customer accounts
+Reported
+Currency translation
+Adjusted
+1    Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue.
+2     Amounts are non-additive across geographical regions due to inter-company transactions within the Group.
+3    Includes fair value movements on non-qualifying hedges and debt valuation adjustments on derivatives.
+4    Comprises losses associated with the RWA reduction commitments and gains relating to the business update in February 2020.
+6    In 2020, The Saudi British Bank ('SABB'), an associate of HSBC, impaired the goodwill that arose following the merger with Alawwal bank in 2019. HSBC's post-tax share of the goodwill impairment was $462m.
+HSBC Holdings plc
+Reconciliation of reported and adjusted items (continued)
+2020
+UK
+Hong
+Kong
+Mainland China
+US
+Mexico
+$m
+$m
+$m
+$m
+$m
+Revenue
+Reported
+3,088
+4,590
+2,234
+Currency translation
+1,048
+(29)
+—
+Significant items
+(180)
+(5)
+(11)
+– customer redress programmes
+—
+—
+—
+—
+– disposals, acquisitions and investment in new businesses
+—
+—
+—
+—
+– fair value movements on financial instruments
+(256)
+—
+(1)
+(2)
+(1)
+– restructuring and other related costs
+(4)
+(12)
+– currency translation on significant items
+(1)
+—
+—
+Adjusted
+3,303
+4,631
+2,347
+ECL
+Reported
+(824)
+(114)
+(622)
+Currency translation
+(306)
+(9)
+—
+(69)
+Adjusted
+(822)
+(123)
+(622)
+Operating expenses
+Reported
+Currency translation
+(875)
+(152)
+—
+(74)
+Significant items
+1,430
+– customer redress programmes
+(54)
+—
+—
+—
+—
+– impairment of goodwill and other intangibles
+—
+—
+—
+– past service costs of guaranteed minimum pension benefits equalisation
+—
+—
+—
+—
+– restructuring and other related costs
+– settlements and provisions in connection with legal and regulatory matters
+—
+—
+—
+—
+– currency translation on significant items
+(1)
+—
+—
+Adjusted
+Share of profit/(loss) in associates and joint ventures
+Reported
+(2)
+1,849
+—
+Currency translation
+—
+—
+—
+—
+Adjusted
+(2)
+1,981
+—
+Profit/(loss) before tax
+Reported
+8,207
+2,612
+(226)
+(187)
+Currency translation
+(133)
+(13)
+—
+(19)
+Significant items
+1,250
+– revenue
+(180)
+(5)
+(11)
+– operating expenses
+1,430
+Adjusted
+8,307
+2,818
+(175)
+Loans and advances to customers (net)
+Reported
+Currency translation
+1,278
+—
+(471)
+Adjusted
+Customer accounts
+Reported
+Currency translation
+1,575
+—
+(605)
+Adjusted
+1    Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue.
+2    Includes fair value movements on non-qualifying hedges and debt valuation adjustments on derivatives.
+3    Comprises losses associated with the RWA reduction commitments and gains relating to the business update in February 2020.
+HSBC Holdings plc
+Geographical regions
+Reconciliation of reported and adjusted items (continued)
+2019
+Europe
+Asia
+MENA
+North
+America
+Latin
+America
+Total
+$m
+$m
+$m
+$m
+$m
+$m
+Revenue
+Reported
+3,710
+6,587
+3,516
+Currency translation
+1,353
+(72)
+(666)
+1,010
+Significant items
+(827)
+(673)
+– customer redress programmes
+—
+—
+—
+—
+– disposals, acquisitions and investment in new businesses
+—
+—
+(828)
+(768)
+– fair value movements on financial investments
+(137)
+—
+(84)
+– currency translation on significant items
+—
+—
+—
+Adjusted
+2,811
+6,754
+2,860
+ECL
+Reported
+(938)
+(724)
+(117)
+(237)
+(740)
+Currency translation
+(69)
+(11)
+(4)
+Adjusted
+(735)
+(113)
+(241)
+(591)
+Operating expenses
+Reported
+2,6
+Currency translation
+(177)
+(61)
+(981)
+Significant items
+4,655
+9,767
+– costs of structural reform
+—
+—
+—
+– customer redress programmes
+1,281
+—
+—
+—
+—
+1,281
+– goodwill impairment
+2,522
+—
+7,349
+– restructuring and other related costs
+– settlements and provisions in connection with legal and regulatory matters
+(60)
+(1)
+—
+—
+—
+(61)
+– currency translation on significant items
+—
+—
+(8)
+Adjusted
+2,6
+Share of profit/(loss) in associates and joint ventures
+Reported
+(12)
+2,070
+—
+2,354
+Currency translation
+—
+—
+(1)
+Adjusted
+(11)
+2,212
+—
+2,496
+Profit/(loss) before tax
+Reported
+2,327
+Currency translation
+(9)
+(132)
+Significant items
+4,696
+(715)
+9,094
+– revenue
+(827)
+(673)
+– operating expenses
+4,655
+9,767
+Adjusted
+1,603
+1,413
+Loans and advances to customers (net)
+Reported
+Currency translation
+8,549
+4,264
+1,165
+Adjusted
+Customer accounts
+Reported
+Currency translation
+4,003
+1,183
+Adjusted
+1    Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue.
+2     Amounts are non-additive across geographical regions due to inter-company transactions within the Group.
+3    Includes $0.8bn dilution gain following the merger of The Saudi British Bank (‘SABB’) with Alawwal bank.
+4    Includes fair value movements on non-qualifying hedges and debt valuation adjustments on derivatives.
+5    Comprises costs associated with preparations for the UK’s exit from the European Union.
+6    Amounts are non-additive across geographical regions due to goodwill impairment recognised on the Global Banking and Markets cash-generating unit, which is monitored on a global basis.
+HSBC Holdings plc
+Reconciliation of reported and adjusted items (continued)
+2019
+UK
+Hong
+Kong
+Mainland China
+US
+Mexico
+$m
+$m
+$m
+$m
+$m
+Revenue
+Reported
+3,101
+4,638
+2,555
+Currency translation
+1,148
+—
+(129)
+Significant items
+– customer redress programmes
+—
+—
+—
+—
+– disposals, acquisitions and investment in new businesses
+—
+—
+—
+—
+– fair value movements on financial instruments
+(139)
+– currency translation on significant items
+—
+—
+—
+(1)
+Adjusted
+3,321
+4,704
+2,433
+ECL
+Reported
+(714)
+(459)
+(129)
+(170)
+(491)
+Currency translation
+(58)
+(3)
+(9)
+—
+Adjusted
+(772)
+(462)
+(138)
+(170)
+(466)
+Operating expenses
+Reported
+Currency translation
+(51)
+(153)
+—
+Significant items
+1,941
+– costs of structural reform
+—
+—
+—
+– customer redress programmes
+1,281
+—
+—
+—
+—
+– restructuring and other related costs
+– settlements and provisions in connection with legal and regulatory matters
+(1)
+—
+—
+—
+– currency translation on significant items
+—
+(1)
+Adjusted
+Share of profit in associates and joint ventures
+Reported
+(12)
+2,016
+—
+Currency translation
+—
+—
+(1)
+Adjusted
+(11)
+2,159
+—
+Profit/(loss) before tax
+Reported
+2,877
+Currency translation
+—
+(34)
+Significant items
+1,981
+– revenue
+– operating expenses
+1,941
+Adjusted
+3,085
+Loans and advances to customers (net)
+Reported
+Currency translation
+7,175
+(372)
+4,054
+—
+Adjusted
+Customer accounts
+Reported
+Currency translation
+9,935
+(606)
+4,622
+—
+Adjusted
+1    Net operating income before change in expected credit losses and other credit impairment charges, also referred to as revenue.
+2    Includes fair value movements on non-qualifying hedges and debt valuation adjustments on derivatives.
+3    Comprises costs associated with preparations for the UK’s exit from the European Union.
+HSBC Holdings plc
+Geographical regions
+Analysis by country
+Profit/(loss) before tax by country/territory within global businesses
+Wealth and
+Personal
+Banking
+Commercial Banking
+Global Banking and Markets
+Corporate
+Centre
+Total
+$m
+$m
+$m
+$m
+$m
+Europe
+1,817
+2,893
+(299)
+(632)
+3,779
+– UK
+1,511
+2,475
+(487)
+3,519
+– of which: HSBC UK Bank plc (ring-fenced bank)
+2,047
+2,929
+(318)
+4,785
+– of which: HSBC Bank plc (non-ring-fenced bank)
+(17)
+– of which: Holdings and other
+(712)
+(713)
+(834)
+– France
+(97)
+(133)
+– Germany
+– Switzerland
+—
+(12)
+– other
+(574)
+(274)
+Asia
+4,366
+2,364
+3,193
+2,326
+– Hong Kong
+4,076
+1,303
+(383)
+5,916
+– Australia
+(26)
+– India
+1,110
+– Indonesia
+(8)
+– mainland China
+(95)
+2,554
+3,333
+– Malaysia
+(23)
+(20)
+– Singapore
+(13)
+– Taiwan
+(5)
+– other
+(5)
+Middle East and North Africa
+1,423
+– Egypt
+(2)
+– UAE
+(61)
+– Saudi Arabia
+—
+– other
+(22)
+North America
+1,023
+(406)
+1,374
+– US
+(131)
+(337)
+– Canada
+(62)
+– other
+(7)
+Latin America
+(304)
+(103)
+– Mexico
+(46)
+– other
+(609)
+(57)
+(488)
+Year ended 31 Dec 2021
+6,133
+6,677
+4,722
+1,374
+1     UK includes results from the ultimate holding company, HSBC Holdings plc, and the separately incorporated group of service companies (‘ServCo Group’).
+2    Includes the impact of goodwill impairment of $587m. As per Group accounting policy, HSBC’s cash-generating units are based on geographical regions, subdivided by global business.
+HSBC Holdings plc
+Profit/(loss) before tax by country/territory within global businesses (continued)
+Wealth and
+Personal
+Banking
+Commercial
+Banking
+Global
+Banking
+and Markets
+Corporate
+Centre
+Total
+$m
+$m
+$m
+$m
+$m
+Europe
+(680)
+(529)
+– UK
+(357)
+(543)
+– of which: HSBC UK Bank plc (ring-fenced bank)
+(124)
+– of which: HSBC Bank plc (non-ring-fenced bank)
+(454)
+– of which: Holdings and other
+(579)
+(746)
+(829)
+(977)
+– France
+(340)
+(168)
+(347)
+(310)
+– Germany
+(15)
+– Switzerland
+(2)
+(4)
+—
+(10)
+(16)
+– other
+Asia
+5,031
+1,944
+4,002
+1,855
+– Hong Kong
+4,927
+1,787
+1,674
+(181)
+8,207
+– Australia
+(7)
+– India
+1,024
+– Indonesia
+(6)
+(14)
+(13)
+– mainland China
+(34)
+1,845
+2,612
+– Malaysia
+(55)
+– Singapore
+(644)
+(12)
+(372)
+– Taiwan
+(2)
+– other
+(42)
+Middle East and North Africa
+(15)
+(120)
+(324)
+– Egypt
+(1)
+– UAE
+(21)
+(210)
+(39)
+(168)
+– Saudi Arabia
+—
+(264)
+(217)
+– other
+(83)
+(20)
+North America
+(449)
+(461)
+– US
+(547)
+(391)
+(226)
+– Canada
+(67)
+– other
+(3)
+Latin America
+(183)
+(22)
+(65)
+(37)
+– Mexico
+(115)
+(106)
+(25)
+(187)
+– other
+(68)
+(40)
+Year ended 31 Dec 2020
+3,704
+1,639
+3,616
+(182)
+8,777
+1    UK includes results from the ultimate holding company, HSBC Holdings plc, and the separately incorporated group of service companies (‘ServCo Group’).
+HSBC Holdings plc
+Geographical regions
+Profit/(loss) before tax by country/territory within global businesses (continued)
+Wealth and Personal Banking
+Commercial
+Banking
+Global
+Banking
+and Markets
+Corporate
+Centre
+Total
+$m
+$m
+$m
+$m
+$m
+Europe
+(841)
+(997)
+– UK
+– of which: HSBC UK Bank plc (ring-fenced bank)
+(331)
+1,555
+1,307
+– of which: HSBC Bank plc (non-ring fenced bank)
+(186)
+(467)
+(130)
+– of which: Holdings and other
+(967)
+(929)
+– France
+(65)
+(74)
+– Germany
+– Switzerland
+(3)
+(6)
+– other
+Asia
+7,715
+4,519
+4,083
+2,151
+– Hong Kong
+7,220
+3,242
+1,729
+(142)
+– Australia
+(12)
+– India
+1,006
+– Indonesia
+– mainland China
+(73)
+2,121
+2,877
+– Malaysia
+(22)
+– Singapore
+(31)
+– Taiwan
+(4)
+– other
+Middle East and North Africa
+1,100
+2,327
+– Egypt
+– UAE
+(54)
+– Saudi Arabia
+(3)
+—
+1,145
+1,155
+– other
+(2)
+North America
+(573)
+(244)
+– US
+(277)
+(221)
+– Canada
+(22)
+– other
+(366)
+(1)
+(286)
+Latin America
+(103)
+(89)
+– Mexico
+(29)
+– other
+(47)
+(279)
+(60)
+(287)
+GBM goodwill impairment
+—
+—
+—
+Year ended 31 Dec 2019
+6,819
+4,159
+1,427
+1    UK includes results from the ultimate holding company, HSBC Holdings plc, and the separately incorporated group of service companies (‘ServCo Group’).
+2    Includes the impact of goodwill impairment. As per Group accounting policy, HSBC’s cash-generating units are based on geographical regions, subdivided by global business.
+HSBC Holdings plc
+Reconciliation of alternative performance measures
+Page
+Use of alternative performance measures
+Return on average ordinary shareholders’ equity and return on average tangible equity
+Net asset value and tangible net asset value per ordinary share
+Post-tax return and average total shareholders’ equity on average total assets
+Expected credit losses and other credit impairment charges as % of average gross loans and advances to customers
+Use of alternative performance measures
+Our reported results are prepared in accordance with IFRSs as detailed in our financial statements starting on page 336.
+As described on page 90, we use a combination of reported and alternative performance measures, including those derived from our reported results that eliminate factors that distort year-on-year comparisons. These are considered alternative performance measures (non-GAAP financial measures).
+The following information details the adjustments made to the reported results and the calculation of other alternative performance measures. All alternative performance measures are reconciled to the closest reported performance measure.
+Return on average ordinary shareholders’
+equity and return on average tangible equity
+Return on average ordinary shareholders’ equity (‘RoE’) is computed by taking profit attributable to the ordinary shareholders of the parent company (‘reported results’), divided by average ordinary shareholders’ equity (‘reported equity’) for the period. The adjustment to reported results and reported equity excludes amounts attributable to non-controlling interests and holders of preference shares and other equity instruments.
+Return on average tangible equity (‘RoTE’) is computed by adjusting reported results for the movements in the present value of in-force long-term insurance business (‘PVIF’) and for impairment of goodwill and other intangible assets (net of tax), divided by average reported equity adjusted for goodwill, intangibles and PVIF for the period.
+Return on average tangible equity excluding significant items is annualised profit attributable to ordinary shareholders, excluding changes in PVIF and significant items (net of tax), divided by average tangible shareholders’ equity excluding fair value of own debt, debt valuation adjustment (‘DVA’) and other adjustments for the period. Since 1 January 2021, the UK bank levy has no longer been excluded from the calculation of this measure. Comparative data have not been re-presented.
+We provide RoTE ratios in addition to RoE as a way of assessing our performance, which is closely aligned to our capital position.
+Return on average ordinary shareholders’ equity and return on average tangible equity
+2021
+2020
+2019
+$m
+$m
+$m
+Profit
+Profit attributable to the ordinary shareholders of the parent company
+3,898
+5,969
+Impairment of goodwill and other intangible assets (net of tax)
+1,036
+7,349
+Decrease/(increase) in PVIF (net of tax)
+(58)
+(253)
+Profit attributable to the ordinary shareholders, excluding goodwill, other
+intangible assets impairment and PVIF
+4,681
+Significant items (net of tax) and other adjustments
+2,086
+2,402
+2,251
+Profit attributable to the ordinary shareholders, excluding goodwill impairment, PVIF and significant items
+7,083
+Equity
+Average total shareholders’ equity
+Effect of average preference shares and other equity instruments
+Average ordinary shareholders’ equity
+Effect of goodwill, PVIF and other intangibles (net of deferred tax)
+Average tangible equity
+Fair value of own debt, DVA and other adjustments
+1,278
+1,032
+Average tangible equity excluding fair value of own debt, DVA and other adjustments
+%
+%
+%
+Ratio
+Return on average ordinary shareholders’ equity
+7.1
+2.3
+3.6
+Return on average tangible equity
+8.3
+3.1
+8.4
+Return on average tangible equity excluding significant items
+9.5
+4.7
+10.0
+1    Since 1 January 2021, the UK bank levy has no longer been excluded from the calculation of this measure. Comparative data have not been re-presented.
+HSBC Holdings plc
+Reconciliation of alternative performance measures
+The following table details the adjustments made to reported results by global business:
+Return on average tangible equity by global business
+Year ended 31 Dec 2021
+Wealth and
+Personal
+Banking
+Commercial
+Banking
+Global
+Banking and
+Markets
+Corporate
+Centre
+Total
+$m
+$m
+$m
+$m
+$m
+Profit before tax
+6,133
+6,677
+4,722
+1,374
+Tax expense
+Profit after tax
+4,593
+4,894
+3,702
+1,504
+Less attributable to: preference shareholders, other equity holders, non-controlling interests
+(735)
+(665)
+(618)
+(68)
+Profit attributable to ordinary shareholders of the parent company
+3,858
+4,229
+3,084
+1,436
+Increase in PVIF (net of tax)
+(65)
+—
+(58)
+Significant items (net of tax)
+1,269
+2,687
+Other adjustments
+(4)
+(3)
+Profit attributable to ordinary shareholders, excluding PVIF, significant items
+4,646
+4,280
+3,598
+2,719
+Average tangible shareholders’ equity excluding fair value of own debt, DVA and other adjustments
+Return on average tangible equity excluding significant items (%)
+15.2
+10.8
+8.6
+5.6
+9.5
+Year ended 31 Dec 2020
+Profit before tax
+3,704
+1,639
+3,616
+(182)
+8,777
+Tax expense
+(509)
+(661)
+(977)
+(531)
+Profit after tax
+3,195
+2,639
+(713)
+6,099
+Less attributable to: preference shareholders, other equity holders, non-controlling interests
+(736)
+(673)
+(784)
+(8)
+Profit attributable to ordinary shareholders of the parent company
+2,459
+1,855
+(721)
+3,898
+Increase in PVIF (net of tax)
+(242)
+(10)
+—
+(1)
+(253)
+Significant items (net of tax) and UK bank levy
+2,041
+3,397
+Other adjustments
+(14)
+(25)
+Profit attributable to ordinary shareholders, excluding PVIF, significant items and bank levy
+2,427
+2,788
+1,379
+7,083
+Average tangible shareholders’ equity excluding fair value of own debt, DVA and other adjustments
+Return on average tangible equity excluding significant items and UK bank levy (%)
+9.1
+1.3
+6.7
+3.1
+4.7
+1    Since 1 January 2021, the UK bank levy has no longer been excluded from the calculation of this measure. Comparative data have not been re-presented.
+Net asset value and tangible net asset value per ordinary share
+Net asset value per ordinary share is total shareholders' equity less non-cumulative preference shares and capital securities (‘total ordinary shareholders’ equity’), divided by the number of ordinary shares in issue excluding shares that the company has purchased and are held in treasury.
+Tangible net asset value per ordinary share is total ordinary shareholders’ equity excluding goodwill, PVIF and other intangible assets (net of deferred tax) (‘tangible ordinary shareholders’ equity’), divided by the number of basic ordinary shares in issue excluding shares that the company has purchased and are held in treasury.
+Net asset value and tangible net asset value per ordinary share
+2021
+2020
+2019
+$m
+$m
+$m
+Total shareholders’ equity
+Preference shares and other equity instruments
+Total ordinary shareholders’ equity
+Goodwill, PVIF and intangible assets (net of deferred tax)
+Tangible ordinary shareholders’ equity
+Basic number of $0.50 ordinary shares outstanding
+$
+$
+$
+Value per share
+Net asset value per ordinary share
+8.76
+8.62
+8.00
+Tangible net asset value per ordinary share
+7.88
+7.75
+7.13
+HSBC Holdings plc
+Post-tax return and average total shareholders’
+equity on average total assets
+Post-tax return on average total assets is profit after tax divided by average total assets for the period.
+Average total shareholders’ equity to average total assets is average total shareholders' equity divided by average total assets for the period.
+Post-tax return and average total shareholders’ equity on average total assets
+2021
+2020
+2019
+$m
+$m
+$m
+Profit after tax
+6,099
+8,708
+Average total shareholders’ equity
+Average total assets
+Ratio
+%
+%
+%
+Post-tax return on average total assets
+0.5
+0.2
+0.3
+Average total shareholders’ equity to average total assets
+6.62
+6.46
+6.97
+Expected credit losses and other credit impairment charges as % of average gross loans and advances to customers
+Expected credit losses and other credit impairment charges (‘ECL’) as % of average gross loans and advances to customers is the
+annualised adjusted ECL divided by adjusted average gross loans and advances to customers for the period.
+The adjusted numbers are derived by adjusting reported ECL and loans and advances to customers for the effects of foreign currency translation differences.
+Expected credit losses and other credit impairment charges as % of average gross loans and advances to customers
+2021
+2020
+2019
+$m
+$m
+$m
+Expected credit losses and other credit impairment charges (‘ECL’)
+Currency translation
+(465)
+Adjusted ECL
+Average gross loans and advances to customers
+Currency translation
+Average gross loans and advances to customers – at most recent balance sheet foreign exchange rates
+%
+%
+%
+Ratio
+Expected credit losses and other credit impairment charges as % of average gross loans and advances to customers
+0.87
+0.26
+HSBC Holdings plc
+Other information
+Other information
+Page
+Disclosure controls
+Management’s assessment of internal controls over financial reporting
+Regulation and supervision
+Disclosures pursuant to Section 13(r) of the Securities Exchange Act
+Disclosure controls
+The Group Chief Executive and Group Chief Financial Officer, with the assistance of other members of management, carried out an evaluation of the effectiveness of the design and operation of HSBC Holdings’ disclosure controls and procedures as at
+31 December 2021. Based upon that evaluation, the Group Chief Executive and Group Chief Financial Officer concluded that the disclosure controls and procedures at 31 December 2021 were effective to provide reasonable assurance that information required to be disclosed in the reports that the company files and submits under the US Securities Exchange Act of 1934, as amended, is recorded, processed, summarised and reported as and when required. There are inherent limitations to the effectiveness of any system of disclosure controls and procedures, including the possibility of human error and the circumvention or overriding of the controls and procedures. Accordingly, even effective disclosure controls and procedures can only provide reasonable assurance of achieving their control objectives.
+There have been no changes in HSBC Holdings’ internal control over financial reporting during the year ended 31 December 2021 that have materially affected, or are reasonably likely to materially affect, HSBC Holdings’ internal control over financial reporting.
+Management’s assessment of internal controls over financial reporting
+Management is responsible for establishing and maintaining an adequate internal control structure and procedures for financial reporting, and has completed an assessment of the effectiveness of the Group’s internal controls over financial reporting for the year ended 31 December 2021. In making the assessment, management used the framework for internal control evaluation contained in the Financial Reporting Council’s Guidance on Risk Management, Internal Control and Related Financial and Business Reporting (September 2014), as well as the criteria established by the Committee of Sponsoring Organizations of the Treadway Commission (‘COSO’) in ‘Internal Control-Integrated Framework (2013)’.
+Based on the assessment performed, management concluded that for the year ended 31 December 2021, the Group’s internal controls over financial reporting were effective.
+PricewaterhouseCoopers LLP, which has audited the consolidated financial statements of the Group for the year ended 31 December 2021, has also audited the effectiveness of the Group’s internal control over financial reporting under Auditing Standard No. 5 of the Public Company Accounting Oversight Board (United States) as stated in their report on page 334.
+Regulation and supervision
+The ordinary shares of HSBC Holdings are listed in London,
+Hong Kong, New York and Bermuda. As a result of the listing in London, HSBC Holdings is subject to the Listing Rules of the Financial Conduct Authority (‘FCA’). As a result of the listing in Hong Kong, HSBC Holdings is subject to The Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited (‘HKE’). In the US, where the listing is through an American Depositary Receipt Programme, shares are traded in the form of American Depositary Shares (‘ADS’), which are registered with the US Securities and Exchange Commission (‘SEC’). As a consequence of its US listing, HSBC Holdings is also subject to the reporting and other requirements of: the US Securities Act of 1933, as amended; the Securities Exchange Act of 1934, as amended; and the New York Stock Exchange’s (‘NYSE’) Listed Company Manual, in each case as applied to foreign private issuers. In Bermuda, HSBC Holdings is subject to the listing rules of the Bermuda Stock Exchange applicable to companies with secondary listings.
+A statement of our compliance with the provisions of the UK Corporate Governance Code issued by the Financial Reporting Council and with the Hong Kong Corporate Governance Code set out in Appendix 14 to the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited can be found in the ‘
